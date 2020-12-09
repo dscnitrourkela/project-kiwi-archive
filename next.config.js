@@ -1,2 +1,19 @@
-const withMDX = require('@next/mdx')({ extension: /\.mdx?$/ })
-module.exports = withMDX({ pageExtensions: ['js', 'jsx', 'mdx'] })
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/index.html',
+        permanent: true
+      }
+    ];
+  },
+  root: '/',
+  distDir: 'nextjs',
+  env: {
+    FIREBASE_PROJECT_ID: 'bizvoip-9f673'
+  },
+  experimental: {
+    sprFlushToDisk: false
+  }
+};
