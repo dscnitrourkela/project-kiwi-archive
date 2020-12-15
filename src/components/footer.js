@@ -1,24 +1,24 @@
-import React from 'react'
-import styled from '@emotion/styled'
-import { Box, Container, Image, Grid, Heading, Link, Text } from 'theme-ui'
-import theme from '@hackclub/theme'
-import Icon from './icon'
+import React from 'react';
+import styled from '@emotion/styled';
+import { Box, Container, Image, Grid, Heading, Link, Text } from 'theme-ui';
+import theme from '@hackclub/theme';
+import Icon from './icon';
 
 const Base = styled(Box)`
-  background: ${props =>
+  background: ${(props) =>
     props.dark
       ? `${theme.colors.darker} radial-gradient(${theme.colors.black} 1px, transparent 1px)`
       : `${theme.colors.snow} url('https://hackclub.com/pattern.svg') repeat`};
-  ${props =>
+  ${(props) =>
     props.dark &&
     `
       background-size: ${theme.space[4]}px ${theme.space[4]}px;
     `} @media print {
     display: none;
   }
-`
+`;
 
-const Logo = props => (
+const Logo = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="256"
@@ -34,7 +34,7 @@ const Logo = props => (
       clipRule="evenodd"
     />
   </svg>
-)
+);
 
 const Service = ({ href, icon, ...props }) => (
   <Link
@@ -45,7 +45,7 @@ const Service = ({ href, icon, ...props }) => (
     children={<Icon glyph={icon} />}
     {...props}
   />
-)
+);
 
 const Footer = ({ dark = false, children, ...props }) => (
   <Base
@@ -61,9 +61,10 @@ const Footer = ({ dark = false, children, ...props }) => (
       <Grid
         as="article"
         gap={[2, 4]}
-        columns={[2, 3, 4]}
+        // columns={[1]}
         sx={{
           px: 0,
+          justifyContent: 'center',
           a: {
             textDecoration: 'none',
             color: 'muted',
@@ -79,7 +80,7 @@ const Footer = ({ dark = false, children, ...props }) => (
           'a,p': { fontSize: 2 }
         }}
       >
-        <Box>
+        {/* <Box>
           <Heading as="h2" variant="subheadline" mb={3}>
             Hack Club
           </Heading>
@@ -89,8 +90,8 @@ const Footer = ({ dark = false, children, ...props }) => (
           <Link href="https://hackclub.com/philosophy/" children="Philosophy" />
           <Link href="https://hackclub.com/brand/" children="Branding" />
           <Link href="https://hackclub.com/press/" children="Press Inquiries" />
-        </Box>
-        <Box>
+        </Box> */}
+        {/* <Box>
           <Heading as="h2" variant="subheadline" mb={3}>
             Resources
           </Heading>
@@ -103,9 +104,12 @@ const Footer = ({ dark = false, children, ...props }) => (
           <Link href="https://hackathons.hackclub.com/" children="Hackathons" />
           <Link href="https://hackclub.com/bank/" children="Bank" />
           <Link href="https://hackclub.com/map/" children="Clubs Map" />
-        </Box>
+        </Box> */}
         <Box sx={{ gridColumn: ['span 2', 'span 1'] }}>
-          <Logo aria-label="Hack Club logo" width={128} height={45} />
+          {/* <Logo aria-label="Hack Club logo" width={128} height={45} /> */}
+          <Text variant="eyebrow" sx={{ textDecoration: 'underline' }}>
+            HackNITR
+          </Text>
           <Grid
             columns={[8, 4]}
             gap={2}
@@ -149,12 +153,12 @@ const Footer = ({ dark = false, children, ...props }) => (
           </Text>
         </Box>
       </Grid>
-      <Text as="p" variant="caption" sx={{ mt: 3 }}>
+      <Text as="p" variant="caption" sx={{ mt: 3, textAlign: 'center' }}>
         © {new Date().getFullYear()} Hack Club. 501(c)(3) nonprofit (EIN:
         81-2908499)
       </Text>
     </Container>
   </Base>
-)
+);
 
-export default Footer
+export default Footer;

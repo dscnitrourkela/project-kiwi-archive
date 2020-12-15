@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import styled from '@emotion/styled';
 import { css, keyframes } from '@emotion/core';
-import { Box, Container, Flex, Link, Text } from 'theme-ui';
+import { Box, Container, Flex, Text, Link } from 'theme-ui';
 import theme from '../lib/theme';
 import Icon from './icon';
 import Flag from './flag';
 import ScrollLock from 'react-scrolllock';
 import NextLink from 'next/link';
+import { Link as ScrollLink } from 'react-scroll';
 
 const rgbaBgColor = (props, opacity) =>
   `rgba(
@@ -142,14 +143,26 @@ const NavBar = styled(Box)`
 
 const Navigation = (props) => (
   <NavBar role="navigation" {...props}>
-    <NextLink href="/" passHref>
-      <Link children="About" />
-    </NextLink>
-    <Link href="/" children="Themes" />
-    <Link href="/" children="FAQ" />
-    <Link href="/" children="Prizes" />
-    <Link href="/" children="Sponsors" />
-    <Link href="/" children="Contact" />
+    <Link sx={{ cursor: 'pointer' }}>
+      <ScrollLink offset={-50} to="about-section" smooth children="About" />
+    </Link>
+    <Link sx={{ cursor: 'pointer' }}>
+      <ScrollLink offset={-50} to="themes-section" smooth children="Themes" />
+    </Link>
+    <Link sx={{ cursor: 'pointer' }}>
+      <ScrollLink offset={-50} to="faq-section" smooth children="FAQ" />
+    </Link>
+    <Link sx={{ cursor: 'pointer' }}>
+      <ScrollLink
+        offset={-50}
+        to="sponsors-section"
+        smooth
+        children="Sponsors"
+      />
+    </Link>
+    <Link sx={{ cursor: 'pointer' }}>
+      <ScrollLink offset={-50} to="contact-section" smooth children="Contact" />
+    </Link>
   </NavBar>
 );
 

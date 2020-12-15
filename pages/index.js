@@ -1,4 +1,4 @@
-import LandingScreen from '../src/screens/LandingScreen';
+import LandingScreen from '../src/screens/LandingScreen/index';
 
 export default function LandingPage() {
   return <LandingScreen />;

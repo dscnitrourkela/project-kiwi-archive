@@ -1,22 +1,7 @@
-import {
-  Box,
-  Button,
-  Card,
-  Container,
-  Grid,
-  Heading,
-  Image,
-  Link,
-  Text
-} from 'theme-ui';
-import Meta from '@hackclub/meta';
-import Head from 'next/head';
-import NextLink from 'next/link';
-import Nav from '../components/nav';
-import SlideDown from '../components/slide-down';
-import FadeIn from '../components/fade-in';
-import Icon from '../components/icon';
-import Footer from '../components/footer';
+import { Box, Container, Heading, Image } from 'theme-ui';
+
+import SlideDown from '../../components/slide-down';
+
 import { keyframes } from '@emotion/core';
 
 const floating = keyframes`
@@ -36,16 +21,10 @@ const twinkling = keyframes`
 
 const color = '#50E3C2';
 
-export default () => (
-  <>
-    <Meta
-      as={Head}
-      title="HackNITR"
-      description="HackNITR is the flagship Hackathon of NIT Rourkela."
-      image="https://cloud-9h1w4lj4d.vercel.app/2020-07-25_52g0nw40p2b00dh39mt93xq5ubku6yaj.jpeg"
-    />
-    <Nav color={color} dark />
+const HeroSection = () => {
+  return (
     <Box
+      id="hero-section"
       as="main"
       sx={{
         pt: [5, 6],
@@ -96,7 +75,7 @@ export default () => (
           HACKNITR 2.0
         </Heading>
         {/* <Text as="p" variant="subtitle">
-          HACKNITR is the flagship hackathon of NIT Rourkela.
+            HACKNITR is the flagship hackathon of NIT Rourkela.
         </Text> */}
         {/* <Text as="p" variant="subtitle">
           Join in Saturday at 8:30 PM ET on{' '}
@@ -124,11 +103,6 @@ export default () => (
           }
         }}
       >
-        {/* <Image
-          src="https://cloud-2oi5yv0i8.vercel.app/2020-07-24_gbetd0kafcxjp2e5hkv4w9u3m40pmmmt.png"
-          alt="Moon background"
-          width={512}
-        /> */}
         <Image
           src="/images/undraw2.svg"
           alt="Illustration of Orpheus with a moon"
@@ -140,7 +114,7 @@ export default () => (
         />
       </Container>
     </Box>
+  );
+};
 
-    <Footer dark />
-  </>
-);
+export default HeroSection;
