@@ -1,26 +1,19 @@
-import React from 'react';
-import '../styles/globals.css';
-import Root from '../src/redux/Root';
-import { ThemeProvider } from '@material-ui/core/styles';
-import { CssBaseline } from '@material-ui/core';
-import theme from '../src/config/theme';
+import * as React from 'react';
+import NextApp from 'next/app';
 
-function App({ Component, pageProps }) {
-  React.useEffect(() => {
-    // Remove the server-side injected CSS.
-    const jssStyles = document.querySelector('#jss-server-side');
-    if (jssStyles) {
-      jssStyles.parentElement.removeChild(jssStyles);
-    }
-  }, []);
-  return (
-    <Root>
+// import '@hackclub/theme/fonts/reg-bold.css'
+import theme from '@hackclub/theme';
+import { ThemeProvider } from 'theme-ui';
+import ColorSwitcher from '../components/color-switcher';
+
+export default class App extends NextApp {
+  render() {
+    const { Component, pageProps } = this.props;
+    return (
       <ThemeProvider theme={theme}>
-        <CssBaseline />
+        <ColorSwitcher />
         <Component {...pageProps} />
       </ThemeProvider>
-    </Root>
-  );
+    );
+  }
 }
-
-export default App;

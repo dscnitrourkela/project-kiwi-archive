@@ -1,7 +1,7 @@
-import { IconButton, useColorMode } from 'theme-ui';
+import { IconButton, useColorMode } from 'theme-ui'
 
 const ColorSwitcher = (props) => {
-  const [mode, setMode] = useColorMode();
+  const [mode, setMode] = useColorMode()
   return (
     <IconButton
       onClick={() => setMode(mode === 'dark' ? 'light' : 'dark')}
@@ -33,7 +33,7 @@ const ColorSwitcher = (props) => {
         <path d="M 16 0 A 16 16 0 0 0 16 32 z" />
       </svg>
     </IconButton>
-  );
-};
+  )
+}
 
-export default ColorSwitcher;
+export default ColorSwitcher
