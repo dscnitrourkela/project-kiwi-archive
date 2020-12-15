@@ -19,6 +19,7 @@ import Icon from '../components/icon';
 import Photo from '../components/photo';
 import Footer from '../components/footer';
 import { keyframes } from '@emotion/core';
+import theme from '../lib/theme';
 
 const floating = keyframes`
   from {
@@ -180,7 +181,8 @@ export default () => (
         color: 'white',
         height: '100vh',
         // width: '100vw',
-        position: 'relative'
+        position: 'relative',
+        backgroundColor: theme.colors.darker
       }}
     >
       <Container
@@ -282,7 +284,11 @@ export default () => (
         {/* <Text as="p" variant="eyebrow">
           HackNITR
         </Text> */}
-        <Heading as="h2" variant="title" sx={{ textAlign: 'center' }}>
+        <Heading
+          as="h2"
+          variant="title"
+          sx={{ my: [0, 4], textAlign: 'center' }}
+        >
           Themes
         </Heading>
         <Grid
@@ -310,8 +316,9 @@ export default () => (
             // href="https://apply.hackclub.com/"
             variant="interactive"
             sx={{
-              background:
-                'linear-gradient(32deg, rgba(24, 218, 255, 0.9) 0%, rgba(91, 255, 205, 0.9) 100%)',
+              // background:
+              //   'linear-gradient(32deg, rgba(24, 218, 255, 0.9) 0%, rgba(91, 255, 205, 0.9) 100%)',
+              background: theme.util.gx('#ffffff', '#111111'),
               color: '#095365'
             }}
           >
@@ -402,6 +409,305 @@ export default () => (
       </Container>
     </Box>
 
+    <Box
+      as="section"
+      sx={{
+        py: [4, 5, 6],
+        color: 'white',
+        backgroundColor: theme.colors.darker
+      }}
+    >
+      <Container
+        sx={{
+          // maxWidth: [null, 'copyUltra'],
+          svg: { filter: 'drop-shadow(0 2px 3px rgba(0,0,0,.125))' }
+        }}
+      >
+        <Box as="header" sx={{ textAlign: [null, 'center'], pb: [4, 5] }}>
+          <Heading as="h2" variant="title">
+            FAQ
+          </Heading>
+        </Box>
+        <Grid
+          columns={[2]}
+          gap={[4, 4]}
+          sx={{ alignItems: 'end', span: { color: 'white' } }}
+        >
+          <Box>
+            <Heading
+              as="h3"
+              variant="eyebrow"
+              mb={2}
+              sx={{ textTransform: 'none' }}
+            >
+              Aliqua nostrud dolore duis duis irure mollit?
+            </Heading>
+            <Text
+              as="p"
+              variant="lead"
+              sx={{ mt: 0, pb: 2, a: { variant: 'styles.a', color: 'blue' } }}
+            >
+              Cupidatat aliquip sunt deserunt amet cillum adipisicing ullamco
+              eiusmod eu nisi culpa. Et occaecat velit Lorem dolor cillum. Culpa
+              incididunt voluptate qui anim.
+            </Text>
+          </Box>
+          <Box>
+            <Heading
+              as="h3"
+              variant="eyebrow"
+              mb={2}
+              sx={{ textTransform: 'none' }}
+            >
+              Aliqua nostrud dolore duis duis irure mollit?
+            </Heading>
+            <Text
+              as="p"
+              variant="lead"
+              sx={{ mt: 0, pb: 2, a: { variant: 'styles.a', color: 'blue' } }}
+            >
+              Cupidatat aliquip sunt deserunt amet cillum adipisicing ullamco
+              eiusmod eu nisi culpa. Et occaecat velit Lorem dolor cillum. Culpa
+              incididunt voluptate qui anim.
+            </Text>
+          </Box>
+          <Box>
+            <Heading
+              as="h3"
+              variant="eyebrow"
+              mb={2}
+              sx={{ textTransform: 'none' }}
+            >
+              Aliqua nostrud dolore duis duis irure mollit?
+            </Heading>
+            <Text
+              as="p"
+              variant="lead"
+              sx={{ mt: 0, pb: 2, a: { variant: 'styles.a', color: 'blue' } }}
+            >
+              Cupidatat aliquip sunt deserunt amet cillum adipisicing ullamco
+              eiusmod eu nisi culpa. Et occaecat velit Lorem dolor cillum. Culpa
+              incididunt voluptate qui anim.
+            </Text>
+          </Box>
+          <Box>
+            <Heading
+              as="h3"
+              variant="eyebrow"
+              mb={2}
+              sx={{ textTransform: 'none' }}
+            >
+              Aliqua nostrud dolore duis duis irure mollit?
+            </Heading>
+            <Text
+              as="p"
+              variant="lead"
+              sx={{ mt: 0, pb: 2, a: { variant: 'styles.a', color: 'blue' } }}
+            >
+              Cupidatat aliquip sunt deserunt amet cillum adipisicing ullamco
+              eiusmod eu nisi culpa. Et occaecat velit Lorem dolor cillum. Culpa
+              incididunt voluptate qui anim.
+            </Text>
+          </Box>
+          <Box>
+            <Heading
+              as="h3"
+              variant="eyebrow"
+              mb={2}
+              sx={{ textTransform: 'none' }}
+            >
+              Aliqua nostrud dolore duis duis irure mollit?
+            </Heading>
+            <Text
+              as="p"
+              variant="lead"
+              sx={{ mt: 0, pb: 2, a: { variant: 'styles.a', color: 'blue' } }}
+            >
+              Cupidatat aliquip sunt deserunt amet cillum adipisicing ullamco
+              eiusmod eu nisi culpa. Et occaecat velit Lorem dolor cillum. Culpa
+              incididunt voluptate qui anim.
+            </Text>
+          </Box>
+          <Box>
+            <Heading
+              as="h3"
+              variant="eyebrow"
+              mb={2}
+              sx={{ textTransform: 'none' }}
+            >
+              Aliqua nostrud dolore duis duis irure mollit?
+            </Heading>
+            <Text
+              as="p"
+              variant="lead"
+              sx={{ mt: 0, pb: 2, a: { variant: 'styles.a', color: 'blue' } }}
+            >
+              Cupidatat aliquip sunt deserunt amet cillum adipisicing ullamco
+              eiusmod eu nisi culpa. Et occaecat velit Lorem dolor cillum. Culpa
+              incididunt voluptate qui anim.
+            </Text>
+          </Box>
+        </Grid>
+        <Feature
+          icon="welcome"
+          color="rgb(255,88,88)"
+          name="Have more question?"
+          desc={
+            <>
+              Feel free to reach out to us at{' '}
+              <a href="https://google.com">google.com</a>
+            </>
+          }
+          as="aside"
+          sx={{
+            display: 'grid',
+            gridGap: [0, 4],
+            gridTemplateColumns: [null, 'auto 1fr'],
+            alignItems: 'start',
+            justifyContent: 'start',
+            bg: 'rgba(255,88,88,0.125)',
+            mt: [4, 5],
+            p: [3, 4],
+            borderRadius: 'extra',
+            span: { transform: 'none', width: 'min-intrinsic' },
+            svg: { color: 'white' }
+          }}
+        />
+      </Container>
+    </Box>
+
+    <Box
+      as="section"
+      sx={{
+        // py: [4, 5],
+        color: 'white',
+        minHeight: '100vh',
+        // width: '100vw',
+        position: 'relative'
+      }}
+    >
+      <Container
+      // sx={{
+      //   position: 'absolute',
+      //   top: '50%',
+      //   left: '50%',
+      //   transform: 'translate(-50%, -50%)'
+      // }}
+      >
+        {/* <Text as="p" variant="eyebrow">
+          HackNITR
+        </Text> */}
+        <Heading
+          as="h2"
+          variant="title"
+          sx={{ my: [0, 4], textAlign: 'center' }}
+        >
+          Past Sponsors
+        </Heading>
+        <Grid
+          columns={[4]}
+          gap={[4, 4]}
+          sx={{ alignItems: 'end', span: { color: 'white' } }}
+        >
+          <Image
+            src="/images/github2.png"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+          <Image
+            src="/images/github2.png"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+          <Image
+            src="/images/github2.png"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+          <Image
+            src="/images/github2.png"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+        </Grid>
+      </Container>
+      <Container
+      // sx={{
+      //   position: 'absolute',
+      //   top: '50%',
+      //   left: '50%',
+      //   transform: 'translate(-50%, -50%)'
+      // }}
+      >
+        {/* <Text as="p" variant="eyebrow">
+          HackNITR
+        </Text> */}
+        <Heading
+          as="h2"
+          variant="title"
+          sx={{ my: [0, 4], textAlign: 'center' }}
+        >
+          Past Sponsors
+        </Heading>
+        <Grid
+          columns={[4]}
+          gap={[4, 4]}
+          sx={{ alignItems: 'end', span: { color: 'white' } }}
+        >
+          <Image
+            src="/images/github2.png"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+          <Image
+            src="/images/github2.png"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+          <Image
+            src="/images/github2.png"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+          <Image
+            src="/images/github2.png"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+        </Grid>
+      </Container>
+    </Box>
+    <Box
+      as="section"
+      sx={{
+        // py: [4, 5],
+        color: 'white',
+        minHeight: '100vh',
+        // width: '100vw',
+        position: 'relative',
+        backgroundColor: theme.colors.darker
+      }}
+    >
+      <Container
+        sx={{
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)'
+        }}
+      >
+        {/* <Text as="p" variant="eyebrow">
+          HackNITR
+        </Text> */}
+        <Heading
+          as="h2"
+          variant="title"
+          sx={{ my: [0, 4], textAlign: 'center' }}
+        >
+          Contact Us
+        </Heading>
+      </Container>
+    </Box>
     <Footer dark />
   </>
 );

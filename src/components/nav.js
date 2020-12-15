@@ -147,7 +147,7 @@ const Navigation = (props) => (
     </NextLink>
     <Link href="/" children="Themes" />
     <Link href="/" children="FAQ" />
-    <Link href="/" children="Prizes" />
+    {/* <Link href="/" children="Prizes" /> */}
     <Link href="/" children="Sponsors" />
     <Link href="/" children="Contact" />
   </NavBar>
