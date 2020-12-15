@@ -1,7 +1,8 @@
-import theme from '../lib/theme'
-import styled from '@emotion/styled'
-import { css, keyframes } from '@emotion/core'
-import Link from 'next/link'
+import theme from '../lib/theme';
+import styled from '@emotion/styled';
+import { css, keyframes } from '@emotion/core';
+// import Link from 'next/link';
+import { Link } from 'react-scroll';
 
 const waveFlag = keyframes`
   from {
@@ -10,7 +11,7 @@ const waveFlag = keyframes`
   to {
     transform: rotate(-5deg);
   }
-`
+`;
 
 const waveFlagScaled = keyframes`
   from {
@@ -19,9 +20,9 @@ const waveFlagScaled = keyframes`
   to {
     transform: scale(.875) rotate(-5deg);
   }
-`
+`;
 
-const scrolled = props =>
+const scrolled = (props) =>
   props.scrolled &&
   css`
     transform: scale(0.875);
@@ -30,7 +31,7 @@ const scrolled = props =>
     &:focus {
       animation: ${waveFlagScaled} 0.5s linear infinite alternate;
     }
-  `
+  `;
 
 const Base = styled('a')`
   background-image: url(https://assets.hackclub.com/flag-orpheus-top.svg);
@@ -55,12 +56,12 @@ const Base = styled('a')`
     animation: none !important;
   }
   ${scrolled};
-`
+`;
 
-const Flag = props => (
-  // <Link href="/" passHref>
-  <Base href="https://hackclub.com/" title="Homepage" {...props} />
+const Flag = (props) => (
+  // <Link to="hero" smooth>
+  <Base href="/" title="Homepage" {...props} />
   // </Link>
-)
+);
 
-export default Flag
+export default Flag;
