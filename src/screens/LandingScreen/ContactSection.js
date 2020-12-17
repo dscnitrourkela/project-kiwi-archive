@@ -11,7 +11,7 @@ const ContactSection = () => {
         color: 'white',
         minHeight: '100vh',
         height: 'fit-content',
-
+        backgroundColor: theme.colors.dark,
         // width: '100vw',
         display: 'flex',
         justifyContent: 'center',
