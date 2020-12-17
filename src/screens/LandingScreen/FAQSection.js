@@ -28,7 +28,8 @@ let data = [
                   eu fugiat nulla pariatur. Excepteur 
                   sint occaecat cupidatat non proident, 
                   sunt in culpa qui officia deserunt 
-                  mollit anim id est laborum.`
+                  mollit anim id est laborum.`,
+    height: '13rem'
   },
   {
     title: 'Irure magna proident et consequat velit ipsum eiusmod?',
@@ -44,23 +45,17 @@ let data = [
                   eu fugiat nulla pariatur. Excepteur 
                   sint occaecat cupidatat non proident, 
                   sunt in culpa qui officia deserunt 
-                  mollit anim id est laborum.`
+                  mollit anim id est laborum.`,
+    height: '13rem'
   },
   {
-    title: 'Culpa enim ex consectetur aliquip nisi.',
+    title: 'Culpa enim ex consectetur aliquip nisi?',
     content: `Lorem ipsum dolor sit amet, 
                   consectetur adipiscing elit, 
                   sed do eiusmod tempor incididunt 
                   ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam, quis 
-                  nostrud exercitation ullamco laboris 
-                  nisi ut aliquip ex ea commodo consequat. 
-                  Duis aute irure dolor in reprehenderit 
-                  in voluptate velit esse cillum dolore 
-                  eu fugiat nulla pariatur. Excepteur 
-                  sint occaecat cupidatat non proident, 
-                  sunt in culpa qui officia deserunt 
-                  mollit anim id est laborum.`
+                  Ut enim ad minim veniam.`,
+    height: '7rem'
   },
   {
     title: 'Ea aute anim culpa tempor dolore sit veniam excepteur?',
@@ -76,7 +71,8 @@ let data = [
                   eu fugiat nulla pariatur. Excepteur 
                   sint occaecat cupidatat non proident, 
                   sunt in culpa qui officia deserunt 
-                  mollit anim id est laborum.`
+                  mollit anim id est laborum.`,
+    height: '13rem'
   },
   {
     title: 'Nostrud fugiat consequat elit esse?',
@@ -92,7 +88,8 @@ let data = [
                   eu fugiat nulla pariatur. Excepteur 
                   sint occaecat cupidatat non proident, 
                   sunt in culpa qui officia deserunt 
-                  mollit anim id est laborum.`
+                  mollit anim id est laborum.`,
+    height: '13rem'
   }
 ];
 
@@ -123,126 +120,6 @@ const FAQSection = () => {
             FAQ
           </Heading>
         </Box>
-        {/* <Grid
-          columns={[2]}
-          gap={[4, 4]}
-          sx={{ alignItems: 'end', span: { color: 'white' } }}
-        >
-          <Box>
-            <Heading
-              as="h3"
-              variant="eyebrow"
-              mb={2}
-              sx={{ textTransform: 'none' }}
-            >
-              Aliqua nostrud dolore duis duis irure mollit?
-            </Heading>
-            <Text
-              as="p"
-              variant="lead"
-              sx={{ mt: 0, pb: 2, a: { variant: 'styles.a', color: 'blue' } }}
-            >
-              Cupidatat aliquip sunt deserunt amet cillum adipisicing ullamco
-              eiusmod eu nisi culpa. Et occaecat velit Lorem dolor cillum. Culpa
-              incididunt voluptate qui anim.
-            </Text>
-          </Box>
-          <Box>
-            <Heading
-              as="h3"
-              variant="eyebrow"
-              mb={2}
-              sx={{ textTransform: 'none' }}
-            >
-              Aliqua nostrud dolore duis duis irure mollit?
-            </Heading>
-            <Text
-              as="p"
-              variant="lead"
-              sx={{ mt: 0, pb: 2, a: { variant: 'styles.a', color: 'blue' } }}
-            >
-              Cupidatat aliquip sunt deserunt amet cillum adipisicing ullamco
-              eiusmod eu nisi culpa. Et occaecat velit Lorem dolor cillum. Culpa
-              incididunt voluptate qui anim.
-            </Text>
-          </Box>
-          <Box>
-            <Heading
-              as="h3"
-              variant="eyebrow"
-              mb={2}
-              sx={{ textTransform: 'none' }}
-            >
-              Aliqua nostrud dolore duis duis irure mollit?
-            </Heading>
-            <Text
-              as="p"
-              variant="lead"
-              sx={{ mt: 0, pb: 2, a: { variant: 'styles.a', color: 'blue' } }}
-            >
-              Cupidatat aliquip sunt deserunt amet cillum adipisicing ullamco
-              eiusmod eu nisi culpa. Et occaecat velit Lorem dolor cillum. Culpa
-              incididunt voluptate qui anim.
-            </Text>
-          </Box>
-          <Box>
-            <Heading
-              as="h3"
-              variant="eyebrow"
-              mb={2}
-              sx={{ textTransform: 'none' }}
-            >
-              Aliqua nostrud dolore duis duis irure mollit?
-            </Heading>
-            <Text
-              as="p"
-              variant="lead"
-              sx={{ mt: 0, pb: 2, a: { variant: 'styles.a', color: 'blue' } }}
-            >
-              Cupidatat aliquip sunt deserunt amet cillum adipisicing ullamco
-              eiusmod eu nisi culpa. Et occaecat velit Lorem dolor cillum. Culpa
-              incididunt voluptate qui anim.
-            </Text>
-          </Box>
-          <Box>
-            <Heading
-              as="h3"
-              variant="eyebrow"
-              mb={2}
-              sx={{ textTransform: 'none' }}
-            >
-              Aliqua nostrud dolore duis duis irure mollit?
-            </Heading>
-            <Text
-              as="p"
-              variant="lead"
-              sx={{ mt: 0, pb: 2, a: { variant: 'styles.a', color: 'blue' } }}
-            >
-              Cupidatat aliquip sunt deserunt amet cillum adipisicing ullamco
-              eiusmod eu nisi culpa. Et occaecat velit Lorem dolor cillum. Culpa
-              incididunt voluptate qui anim.
-            </Text>
-          </Box>
-          <Box>
-            <Heading
-              as="h3"
-              variant="eyebrow"
-              mb={2}
-              sx={{ textTransform: 'none' }}
-            >
-              Aliqua nostrud dolore duis duis irure mollit?
-            </Heading>
-            <Text
-              as="p"
-              variant="lead"
-              sx={{ mt: 0, pb: 2, a: { variant: 'styles.a', color: 'blue' } }}
-            >
-              Cupidatat aliquip sunt deserunt amet cillum adipisicing ullamco
-              eiusmod eu nisi culpa. Et occaecat velit Lorem dolor cillum. Culpa
-              incididunt voluptate qui anim.
-            </Text>
-          </Box>
-        </Grid> */}
         <Accordion data={data} />
         <Feature
           icon="welcome"

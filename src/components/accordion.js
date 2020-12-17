@@ -22,6 +22,7 @@ const Accordion = ({ data }) => {
       tempItems.push({
         title: item.title,
         content: item.content,
+        height: item.height,
         open: false
       });
     });
@@ -30,7 +31,7 @@ const Accordion = ({ data }) => {
   }, []);
 
   const clickItem = (item) => {
-    console.log(item);
+    console.log(item.height);
     const newAccordion = items.slice();
     const index = newAccordion.indexOf(item);
 
@@ -50,7 +51,7 @@ const Accordion = ({ data }) => {
         // width={512}
       />
       <div>
-        {items.map((i) => (
+        {items.map((i, index) => (
           <>
             <div key={items.indexOf(i)}>
               <div
@@ -75,6 +76,7 @@ const Accordion = ({ data }) => {
                 </Text>
               </div>
               <div
+                id={index}
                 style={
                   i.open
                     ? {
@@ -85,22 +87,21 @@ const Accordion = ({ data }) => {
                         zIndex: 1000,
                         textAlign: 'left',
                         marginTop: '0px',
-                        height: 'fit-content',
+                        height: i.height,
                         transition:
                           'all 800ms cubic-bezier(0.08, 1.09, 0.32, 1.275)'
                       }
                     : {
-                        height: '100px',
+                        height: i.height,
                         width: '100%',
                         color: 'white',
-                        // fontSize: '14px',
                         textAlign: 'center',
                         position: 'relative',
                         zIndex: 1000,
-                        marginTop: '-100px',
+                        marginTop: `-${i.height}`,
                         textAlign: 'left',
                         transition:
-                          'all 200ms cubic-bezier(0.6, -0.28, 0.735, 0.045)'
+                          'all 800ms cubic-bezier(0.6, -0.28, 0.735, 0.045)'
                       }
                 }
               >
