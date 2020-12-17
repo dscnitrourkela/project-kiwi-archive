@@ -11,6 +11,90 @@ import {
 } from 'theme-ui';
 import theme from '../../lib/theme';
 import Feature from '../../components/feature';
+import Accordion from '../../components/accordion';
+
+let data = [
+  {
+    title: 'Commodo ullamco veniam ut officia sunt irure?',
+    content: `Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt 
+                  ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis 
+                  nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore 
+                  eu fugiat nulla pariatur. Excepteur 
+                  sint occaecat cupidatat non proident, 
+                  sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum.`
+  },
+  {
+    title: 'Irure magna proident et consequat velit ipsum eiusmod?',
+    content: `Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt 
+                  ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis 
+                  nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore 
+                  eu fugiat nulla pariatur. Excepteur 
+                  sint occaecat cupidatat non proident, 
+                  sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum.`
+  },
+  {
+    title: 'Culpa enim ex consectetur aliquip nisi.',
+    content: `Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt 
+                  ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis 
+                  nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore 
+                  eu fugiat nulla pariatur. Excepteur 
+                  sint occaecat cupidatat non proident, 
+                  sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum.`
+  },
+  {
+    title: 'Ea aute anim culpa tempor dolore sit veniam excepteur?',
+    content: `Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt 
+                  ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis 
+                  nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore 
+                  eu fugiat nulla pariatur. Excepteur 
+                  sint occaecat cupidatat non proident, 
+                  sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum.`
+  },
+  {
+    title: 'Nostrud fugiat consequat elit esse?',
+    content: `Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt 
+                  ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis 
+                  nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore 
+                  eu fugiat nulla pariatur. Excepteur 
+                  sint occaecat cupidatat non proident, 
+                  sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum.`
+  }
+];
 
 const FAQSection = () => {
   return (
@@ -39,7 +123,7 @@ const FAQSection = () => {
             FAQ
           </Heading>
         </Box>
-        <Grid
+        {/* <Grid
           columns={[2]}
           gap={[4, 4]}
           sx={{ alignItems: 'end', span: { color: 'white' } }}
@@ -158,7 +242,8 @@ const FAQSection = () => {
               incididunt voluptate qui anim.
             </Text>
           </Box>
-        </Grid>
+        </Grid> */}
+        <Accordion data={data} />
         <Feature
           icon="welcome"
           color="rgb(255,88,88)"
