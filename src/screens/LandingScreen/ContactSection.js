@@ -1,4 +1,5 @@
 import { Box, Container, Text, Heading } from 'theme-ui';
+import HubspotForm from 'react-hubspot-form'
 import theme from '../../lib/theme';
 
 const ContactSection = () => {
@@ -34,9 +35,19 @@ const ContactSection = () => {
               bg: 'rgb(255, 212, 64)'
             }}
           >
-            Contact
+            Contact Us
           </Text>
         </Heading>
+
+        <div style={{ margin: "3% 18%", width: "20vw"}}>
+          <HubspotForm
+          portalId='8898157'
+          formId='63a673ca-c337-4699-bcfc-c11262ce3622'
+          onSubmit={() => console.log('Submit!')}
+          onReady={(form) => console.log('Form ready!')}
+          loading={<div>Loading...</div>}
+          />
+      </div>
       </Container>
     </Box>
   );
