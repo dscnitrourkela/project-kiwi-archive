@@ -44,7 +44,7 @@ const SponsorsSection = () => {
           </Text>
         </Heading>
         <Grid
-          columns={[2]}
+          columns={[null, 2]}
           gap={[6, 6]}
           sx={{ alignItems: 'center', span: { color: 'white' } }}
         >

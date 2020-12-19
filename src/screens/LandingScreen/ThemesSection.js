@@ -34,6 +34,7 @@ const ThemesSection = () => {
           columns={[null, 3]}
           sx={{
             textAlign: 'left',
+            mt: [4],
             '> a, > div': {
               borderRadius: 'extra',
               boxShadow: 'elevated',
