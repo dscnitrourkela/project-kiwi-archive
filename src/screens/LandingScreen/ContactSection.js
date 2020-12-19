@@ -1,5 +1,5 @@
-import { Box, Container, Text, Heading } from 'theme-ui';
-import HubspotForm from 'react-hubspot-form'
+import { Box, Container, Text, Heading, Grid, Image } from 'theme-ui';
+import HubspotForm from 'react-hubspot-form';
 import theme from '../../lib/theme';
 
 const ContactSection = () => {
@@ -38,16 +38,30 @@ const ContactSection = () => {
             Contact Us
           </Text>
         </Heading>
-
-        <div style={{ margin: "3% 18%", width: "20vw"}}>
-          <HubspotForm
-          portalId='8898157'
-          formId='63a673ca-c337-4699-bcfc-c11262ce3622'
-          onSubmit={() => console.log('Submit!')}
-          onReady={(form) => console.log('Form ready!')}
-          loading={<div>Loading...</div>}
-          />
-      </div>
+        <Grid
+          columns={[2]}
+          gap={4}
+          sx={{
+            alignItems: 'center',
+            justifyItems: 'center',
+            marginTop: '4rem',
+            span: { color: 'white' }
+          }}
+        >
+          <Image src="/images/undrawPost.svg" sx={{ height: '512px' }} />
+          <div style={{ width: '100%' }}>
+            <HubspotForm
+              style={{
+                width: '100%'
+              }}
+              portalId="8898157"
+              formId="63a673ca-c337-4699-bcfc-c11262ce3622"
+              onSubmit={() => console.log('Submit!')}
+              // onReady={(form) => console.log('Form ready!')}
+              loading={<div>Loading...</div>}
+            />
+          </div>
+        </Grid>
       </Container>
     </Box>
   );
