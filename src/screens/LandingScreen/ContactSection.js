@@ -40,7 +40,7 @@ const ContactSection = () => {
         </Heading>
         <Grid
           columns={[null, 2]}
-          gap={4}
+          // gap={4}
           sx={{
             alignItems: 'center',
             justifyItems: 'center',
@@ -49,18 +49,19 @@ const ContactSection = () => {
           }}
         >
           <Image src="/images/undrawPost.svg" sx={{ height: '512px' }} />
-          <div style={{ width: '100%' }}>
-            <HubspotForm
-              style={{
-                width: '100%'
-              }}
-              portalId="8898157"
-              formId="63a673ca-c337-4699-bcfc-c11262ce3622"
-              onSubmit={() => console.log('Submit!')}
-              // onReady={(form) => console.log('Form ready!')}
-              loading={<div>Loading...</div>}
-            />
-          </div>
+          <Box
+            sx={{ display: 'flex', justifyContent: 'center', width: '100%' }}
+          >
+            <Box>
+              <HubspotForm
+                portalId="8898157"
+                formId="63a673ca-c337-4699-bcfc-c11262ce3622"
+                onSubmit={() => console.log('Submit!')}
+                // onReady={(form) => console.log('Form ready!')}
+                loading={<div>Loading...</div>}
+              />
+            </Box>
+          </Box>
         </Grid>
       </Container>
     </Box>

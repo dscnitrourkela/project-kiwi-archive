@@ -110,7 +110,7 @@ const FAQSection = () => {
         </Box>
         <Grid
           columns={[null, 2]}
-          gap={[6, 6]}
+          gap={[4, 6]}
           sx={{ alignItems: 'center', span: { color: 'white' } }}
         >
           <Image

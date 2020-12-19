@@ -147,9 +147,9 @@ const Footer = ({ dark = false, children, ...props }) => (
             <Service href="mailto:team@hackclub.com" icon="email" />
           </Grid>
           <Text my={2}>
-            <Link href="tel:1-855-625-HACK">1-855-625-HACK</Link>
-            <br />
-            <Text as="span" color="muted" children="(call toll-free)" />
+            <Link href="/coc.html" target="_blank">
+              THE CODE
+            </Link>
           </Text>
         </Box>
       </Grid>
