@@ -25,11 +25,8 @@ let data = [
                   nisi ut aliquip ex ea commodo consequat. 
                   Duis aute irure dolor in reprehenderit 
                   in voluptate velit esse cillum dolore 
-                  eu fugiat nulla pariatur. Excepteur 
-                  sint occaecat cupidatat non proident, 
-                  sunt in culpa qui officia deserunt 
-                  mollit anim id est laborum.`,
-    height: '13rem'
+                  eu fugiat nulla pariatur.`,
+    height: '200px'
   },
   {
     title: 'Irure magna proident et consequat velit ipsum eiusmod?',
@@ -42,11 +39,8 @@ let data = [
                   nisi ut aliquip ex ea commodo consequat. 
                   Duis aute irure dolor in reprehenderit 
                   in voluptate velit esse cillum dolore 
-                  eu fugiat nulla pariatur. Excepteur 
-                  sint occaecat cupidatat non proident, 
-                  sunt in culpa qui officia deserunt 
-                  mollit anim id est laborum.`,
-    height: '13rem'
+                  eu fugiat nulla pariatur.`,
+    height: '200px'
   },
   {
     title: 'Culpa enim ex consectetur aliquip nisi?',
@@ -55,7 +49,7 @@ let data = [
                   sed do eiusmod tempor incididunt 
                   ut labore et dolore magna aliqua. 
                   Ut enim ad minim veniam.`,
-    height: '7rem'
+    height: '100px'
   },
   {
     title: 'Ea aute anim culpa tempor dolore sit veniam excepteur?',
@@ -68,11 +62,8 @@ let data = [
                   nisi ut aliquip ex ea commodo consequat. 
                   Duis aute irure dolor in reprehenderit 
                   in voluptate velit esse cillum dolore 
-                  eu fugiat nulla pariatur. Excepteur 
-                  sint occaecat cupidatat non proident, 
-                  sunt in culpa qui officia deserunt 
-                  mollit anim id est laborum.`,
-    height: '13rem'
+                  eu fugiat nulla pariatur.`,
+    height: '200px'
   },
   {
     title: 'Nostrud fugiat consequat elit esse?',
@@ -85,11 +76,8 @@ let data = [
                   nisi ut aliquip ex ea commodo consequat. 
                   Duis aute irure dolor in reprehenderit 
                   in voluptate velit esse cillum dolore 
-                  eu fugiat nulla pariatur. Excepteur 
-                  sint occaecat cupidatat non proident, 
-                  sunt in culpa qui officia deserunt 
-                  mollit anim id est laborum.`,
-    height: '13rem'
+                  eu fugiat nulla pariatur.`,
+    height: '200px'
   }
 ];
 
@@ -115,12 +103,23 @@ const FAQSection = () => {
           svg: { filter: 'drop-shadow(0 2px 3px rgba(0,0,0,.125))' }
         }}
       >
-        <Box as="header" sx={{ textAlign: [null, 'center'], pb: [4, 5] }}>
+        <Box as="header" sx={{ textAlign: ['center'], pb: [4, 5] }}>
           <Heading as="h2" variant="title">
             FAQ
           </Heading>
         </Box>
-        <Accordion data={data} />
+        <Grid
+          columns={[null, 2]}
+          gap={[6, 6]}
+          sx={{ alignItems: 'center', span: { color: 'white' } }}
+        >
+          <Image
+            src="/images/image2.svg"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+          <Accordion data={data} />
+        </Grid>
         <Feature
           icon="welcome"
           color="rgb(255,88,88)"

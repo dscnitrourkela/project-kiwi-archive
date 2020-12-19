@@ -42,9 +42,9 @@ const PastSponsorsSection = () => {
           </Text>
         </Heading>
         <Grid
-          columns={[4]}
+          columns={[2, 4]}
           gap={[4, 4]}
-          sx={{ alignItems: 'center', span: { color: 'white' } }}
+          sx={{ alignItems: 'center', mt: [4], span: { color: 'white' } }}
         >
           <Image
             src="/images/github.png"

@@ -39,7 +39,7 @@ const ContactSection = () => {
           </Text>
         </Heading>
         <Grid
-          columns={[2]}
+          columns={[null, 2]}
           gap={4}
           sx={{
             alignItems: 'center',
