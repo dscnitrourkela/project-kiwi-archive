@@ -22,7 +22,7 @@ const AboutSection = () => {
     >
       <Container>
         <Text as="p" variant="eyebrow" sx={{ textAlign: ['center', 'left'] }}>
-          HackNITR
+          HackNITR 2.0
         </Text>
         <Heading
           as="h2"
