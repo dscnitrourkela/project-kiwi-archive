@@ -148,7 +148,7 @@ const Navigation = (props) => (
         to="about-section"
         smooth
         children="About"
-        style={{ color: '#fafafa' }}
+        style={{ color: '#fafafa', cursor: 'pointer' }}
       />
     </Link>
     <Link sx={{ cursor: 'pointer' }}>
@@ -157,7 +157,7 @@ const Navigation = (props) => (
         to="themes-section"
         smooth
         children="Themes"
-        style={{ color: '#fafafa' }}
+        style={{ color: '#fafafa', cursor: 'pointer' }}
       />
     </Link>
     <Link sx={{ cursor: 'pointer' }}>
@@ -166,7 +166,7 @@ const Navigation = (props) => (
         to="faq-section"
         smooth
         children="FAQ"
-        style={{ color: '#fafafa' }}
+        style={{ color: '#fafafa', cursor: 'pointer' }}
       />
     </Link>
     <Link sx={{ cursor: 'pointer' }}>
@@ -175,7 +175,7 @@ const Navigation = (props) => (
         to="sponsors-section"
         smooth
         children="Sponsors"
-        style={{ color: '#fafafa' }}
+        style={{ color: '#fafafa', cursor: 'pointer' }}
       />
     </Link>
     <Link sx={{ cursor: 'pointer', color: theme.colors.primary }}>
@@ -184,7 +184,7 @@ const Navigation = (props) => (
         to="contact-section"
         smooth
         children="Contact"
-        style={{ color: '#fafafa' }}
+        style={{ color: '#fafafa', cursor: 'pointer' }}
       />
     </Link>
   </NavBar>

@@ -41,7 +41,7 @@ const Service = ({ href, icon, ...props }) => (
     target="_blank"
     rel="noopener"
     href={href}
-    title={`Hack Club on ${icon}`}
+    title={`HackNITR on ${icon}`}
     children={<Icon glyph={icon} />}
     {...props}
   />
@@ -129,7 +129,7 @@ const Footer = ({ dark = false, children, ...props }) => (
             }}
           >
             <Service href="/slack" icon="slack-fill" target="_self" />
-            <Service href="https://twitter.com/hackclub" icon="twitter" />
+            <Service href="https://twitter.com/hacknitr" icon="twitter" />
             <Service href="https://github.com/hackclub" icon="github" />
             <Service href="https://figma.com/@hackclub" icon="figma" />
             <Service
