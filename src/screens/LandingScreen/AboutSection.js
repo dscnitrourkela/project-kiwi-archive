@@ -1,4 +1,5 @@
 import { Box, Button, Container, Grid, Heading, Text } from 'theme-ui';
+import { Link } from 'react-scroll';
 import theme from '../../lib/theme';
 
 const AboutSection = () => {
@@ -20,17 +21,25 @@ const AboutSection = () => {
       }}
     >
       <Container>
-        <Text as="p" variant="eyebrow">
+        <Text as="p" variant="eyebrow" sx={{ textAlign: ['center', 'left'] }}>
           HackNITR
         </Text>
-        <Heading as="h2" variant="title">
+        <Heading
+          as="h2"
+          variant="title"
+          sx={{
+            lineHeight: 1.25,
+            letterSpacing: '1px',
+            textAlign: ['center', 'left']
+          }}
+        >
           Flagship hackathon of{' '}
           <Text
             as="span"
             sx={{
               borderRadius: 'default',
               px: 2,
-              mx: [-2, 0],
+              mx: [0, 0],
               whiteSpace: 'nowrap',
               color: '#5d114c',
               bg: 'rgb(255, 212, 64)'
@@ -72,15 +81,10 @@ const AboutSection = () => {
             DSC NIT Rourkela. An unique opportunity to bring out your ideas and
             technological skills to win awesome prizes and swags.
           </Text>
-          <Button
-            as="a"
-            variant="ctaLg"
-            href="/"
-            target="_blank"
-            rel="noopener"
-            sx={{ justifySelf: 'center' }}
-          >
-            Register now
+          <Button variant="ctaLg" rel="noopener" sx={{ justifySelf: 'center' }}>
+            <Link to="contact-section" smooth offset={-50}>
+              Subscribe for updates
+            </Link>
           </Button>
         </Grid>
       </Container>

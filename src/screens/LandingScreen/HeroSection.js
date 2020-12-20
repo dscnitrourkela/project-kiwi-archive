@@ -1,4 +1,5 @@
-import { Box, Container, Heading, Image } from 'theme-ui';
+import { Box, Container, Heading, Image, Button } from 'theme-ui';
+import theme from '../../lib/theme';
 
 import SlideDown from '../../components/slide-down';
 
@@ -19,7 +20,7 @@ const twinkling = keyframes`
   to { background-position: -10000px 5000px; }
 `;
 
-const color = '#50E3C2';
+const color = theme.colors.primary;
 
 const HeroSection = () => {
   return (
@@ -113,6 +114,17 @@ const HeroSection = () => {
           }}
         />
       </Container>
+      {/* <Button
+        as="a"
+        variant="ctaLg"
+        href="/"
+        target="_blank"
+        rel="noopener"
+        sx={{ justifySelf: 'end' }}
+        style={{ zIndex: 1500 }}
+      >
+        Register now
+      </Button> */}
     </Box>
   );
 };

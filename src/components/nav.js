@@ -6,7 +6,6 @@ import theme from '../lib/theme';
 import Icon from './icon';
 import Flag from './flag';
 import ScrollLock from 'react-scrolllock';
-import NextLink from 'next/link';
 import { Link as ScrollLink } from 'react-scroll';
 
 const rgbaBgColor = (props, opacity) =>
@@ -144,13 +143,31 @@ const NavBar = styled(Box)`
 const Navigation = (props) => (
   <NavBar role="navigation" {...props}>
     <Link sx={{ cursor: 'pointer' }}>
-      <ScrollLink offset={-50} to="about-section" smooth children="About" />
+      <ScrollLink
+        offset={-50}
+        to="about-section"
+        smooth
+        children="About"
+        style={{ color: '#fafafa' }}
+      />
     </Link>
     <Link sx={{ cursor: 'pointer' }}>
-      <ScrollLink offset={-50} to="themes-section" smooth children="Themes" />
+      <ScrollLink
+        offset={-50}
+        to="themes-section"
+        smooth
+        children="Themes"
+        style={{ color: '#fafafa' }}
+      />
     </Link>
     <Link sx={{ cursor: 'pointer' }}>
-      <ScrollLink offset={-50} to="faq-section" smooth children="FAQ" />
+      <ScrollLink
+        offset={-50}
+        to="faq-section"
+        smooth
+        children="FAQ"
+        style={{ color: '#fafafa' }}
+      />
     </Link>
     <Link sx={{ cursor: 'pointer' }}>
       <ScrollLink
@@ -158,10 +175,17 @@ const Navigation = (props) => (
         to="sponsors-section"
         smooth
         children="Sponsors"
+        style={{ color: '#fafafa' }}
       />
     </Link>
-    <Link sx={{ cursor: 'pointer' }}>
-      <ScrollLink offset={-50} to="contact-section" smooth children="Contact" />
+    <Link sx={{ cursor: 'pointer', color: theme.colors.primary }}>
+      <ScrollLink
+        offset={-50}
+        to="contact-section"
+        smooth
+        children="Contact"
+        style={{ color: '#fafafa' }}
+      />
     </Link>
   </NavBar>
 );
