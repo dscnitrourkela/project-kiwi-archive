@@ -34,7 +34,7 @@ const scrolled = (props) =>
   `;
 
 const Base = styled('a')`
-  background-image: url(https://assets.hackclub.com/flag-orpheus-top.svg);
+  background-image: url();
   background-repeat: no-repeat;
   background-position: top left;
   background-size: contain;

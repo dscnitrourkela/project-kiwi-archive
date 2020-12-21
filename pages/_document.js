@@ -10,7 +10,8 @@ export default class extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head></Head>
+        <Head>
+        </Head>
         <body>
           <InitializeColorMode />
           <Main />

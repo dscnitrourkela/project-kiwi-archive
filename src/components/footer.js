@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import { Box, Container, Image, Grid, Heading, Link, Text } from 'theme-ui';
 import theme from '@hackclub/theme';
 import Icon from './icon';
+import { faUnderline } from '@fortawesome/free-solid-svg-icons';
 
 const Base = styled(Box)`
   background: ${(props) =>
@@ -50,23 +51,24 @@ const Service = ({ href, icon, ...props }) => (
 const Footer = ({ dark = false, children, ...props }) => (
   <Base
     color={dark ? 'muted' : 'slate'}
-    py={[4, 5]}
+    py={[4, 3]}
     dark={dark}
     sx={{ textAlign: 'left' }}
     as="footer"
     {...props}
   >
     {children}
+    
     <Container px={[3, null, 4]}>
       <Grid
         as="article"
         gap={[2, 4]}
-        // columns={[1]}
+        columns={[null, 3]}
         sx={{
           px: 0,
           justifyContent: 'center',
           a: {
-            textDecoration: 'none',
+            
             color: 'muted',
             transition: '0.125s color ease-in-out',
             ':hover,:focus': { color: 'slate' }
@@ -80,53 +82,43 @@ const Footer = ({ dark = false, children, ...props }) => (
           'a,p': { fontSize: 2 }
         }}
       >
-        {/* <Box>
-          <Heading as="h2" variant="subheadline" mb={3}>
-            Hack Club
-          </Heading>
-          <Link href="https://hackclub.com/slack/" children="Slack" />
-          <Link href="https://hackclub.com/donate/" children="Donate" />
-          <Link href="https://hackclub.com/team/" children="Team" />
-          <Link href="https://hackclub.com/philosophy/" children="Philosophy" />
-          <Link href="https://hackclub.com/brand/" children="Branding" />
-          <Link href="https://hackclub.com/press/" children="Press Inquiries" />
-        </Box> */}
-        {/* <Box>
-          <Heading as="h2" variant="subheadline" mb={3}>
-            Resources
-          </Heading>
-          <Link
-            href="https://hackclub.com/conduct/"
-            children="Code of Conduct"
-          />
-          <Link href="https://events.hackclub.com/" children="Events" />
-          <Link href="https://workshops.hackclub.com/" children="Workshops" />
-          <Link href="https://hackathons.hackclub.com/" children="Hackathons" />
-          <Link href="https://hackclub.com/bank/" children="Bank" />
-          <Link href="https://hackclub.com/map/" children="Clubs Map" />
-        </Box> */}
-        <Box sx={{ gridColumn: ['span 2', 'span 1'] }}>
-          {/* <Logo aria-label="Hack Club logo" width={128} height={45} /> */}
-          <Text variant="eyebrow" sx={{ textDecoration: 'underline' }}>
-            HackNITR
-          </Text>
+
+        {/* ABOUT US SECTION */}
+        <Box>
+        <Heading>About Us</Heading>
+          <Text>We are a group of coding aficionado university students, hosting this hackathon as a clarion call to the brightest minds to come together and hack out the problems we face in the community we all comprise of by collaboration and innovation. Here's to a better future!</Text>
+          <Grid gap={2} columns={[2, '1fr,1fr']} sx={{mt: 2}}>
+            <Link href="/codeofconduct.html" target="_blank">
+            Code Of Conduct
+            </Link>
+            <Link href="/privacypolicy.html" target="_blank">
+            Privacy Policy
+            </Link>
+          </Grid>
+        </Box>
+
+        <Box sx={{alignItems: 'center', justifyContent: 'center', }}>
+          <Heading>HackNITR</Heading>
+          <Box sx={{ gridColumn: ['span 2', 'span 1'] }}>
           <Grid
-            columns={[8, 4]}
-            gap={2}
-            sx={{
-              alignItems: 'center',
-              ml: -1,
-              my: 3,
-              maxWidth: [null, 192],
-              svg: { fill: 'currentColor', width: 32, height: 32 },
-              a: {
-                lineHeight: 0,
-                mb: 0,
-                transition:
-                  'transform .125s ease-in-out, color .125s ease-in-out',
-                ':hover,:focus': { transform: 'scale(1.125)' }
-              }
-            }}
+          columns={[8, 4]}
+          gap={2}
+          sx={{
+            alignItems: 'center',
+            justifyContent: 'center',
+            justifyItems: 'center',
+            ml: 0,
+            my: 3,
+            maxWidth: [null, 192],
+            svg: { fill: 'currentColor', width: 32, height: 32 },
+            a: {
+              lineHeight: 0,
+              mb: 0,
+              transition:
+                'transform .125s ease-in-out, color .125s ease-in-out',
+              ':hover,:focus': { transform: 'scale(1.125)' }
+            }
+          }}
           >
             <Service href="/slack" icon="slack-fill" target="_self" />
             <Service href="https://twitter.com/hacknitr" icon="twitter" />
@@ -146,16 +138,73 @@ const Footer = ({ dark = false, children, ...props }) => (
             />
             <Service href="mailto:team@hackclub.com" icon="email" />
           </Grid>
-          <Text my={2}>
-            <Link href="/coc.html" target="_blank">
-              THE CODE
-            </Link>
-          </Text>
+          <Heading sx={{fontSize: '7px'}}>Address</Heading>
+          <Text>Student Activity Centre, Sector 1, National Institute of Technology, Rourkela.
+          Odisha-India
+          PIN:769008</Text>
+          </Box>
         </Box>
+
+        <Box>
+          <Heading>About NIT Rourkela</Heading>
+          <Box sx={{display: 'flex'}}>
+          <Image
+            src="https://2020.hacknitr.tech/img/logo/nitr.png"
+            alt="Illustration of Orpheus with a moon"
+            sx={{
+              width: '100%',
+              height: '100%'
+            }}
+          />
+          <Text sx={{pl: 1}}>
+          A premier institute of higher learning recognized as an Institute of National Importance by the National Institutes of Technology Act, 2007.
+          </Text>
+          </Box>
+        </Box>
+
       </Grid>
-      <Text as="p" variant="caption" sx={{ mt: 3, textAlign: 'center' }}>
-        © {new Date().getFullYear()} Hack Club. 501(c)(3) nonprofit (EIN:
-        81-2908499)
+
+      {/* Club Logos */}
+      <Grid sx={{marginTop: '1rem', mt: 5}} gap={2} columns={[2, 4]}>
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <Image
+            src="/images/dsclogo1.png"
+            alt=""
+            sx={{
+              width: '100%'
+            }}
+          />
+        </div>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <Image
+            src="/images/hackclub1.png"
+            alt=""
+            sx={{
+              width: '70%'
+            }}
+          />
+            </div>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <Image
+            src="/images/githubce.png"
+            alt=""
+            sx={{
+              width: '70%'
+            }}
+          />
+            </div>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <Image
+            src="/images/opencode1.png"
+            alt=""
+            sx={{
+              width: '45%'
+            }}
+          />
+            </div>
+      </Grid>
+      <Text as="p" variant="caption" sx={{ mt: 5, textAlign: 'center' }}>
+         Made with <Link href="https://theme.hackclub.com/" target='_blank'>Hack Club Theme</Link>. Remixed by HackNITR
       </Text>
     </Container>
   </Base>

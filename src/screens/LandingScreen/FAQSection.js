@@ -15,21 +15,12 @@ import Accordion from '../../components/accordion';
 
 let data = [
   {
-    title: 'Commodo ullamco veniam ut officia sunt irure?',
-    content: `Lorem ipsum dolor sit amet, 
-                  consectetur adipiscing elit, 
-                  sed do eiusmod tempor incididunt 
-                  ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam, quis 
-                  nostrud exercitation ullamco laboris 
-                  nisi ut aliquip ex ea commodo consequat. 
-                  Duis aute irure dolor in reprehenderit 
-                  in voluptate velit esse cillum dolore 
-                  eu fugiat nulla pariatur.`,
+    title: 'Who can participate?',
+    content: `Everyone is welcome to apply, any student developer, designer, professionals or creative individuals, who are passionate about creating to join. If you can innovate, you are eligible.`,
     height: '200px'
   },
   {
-    title: 'Irure magna proident et consequat velit ipsum eiusmod?',
+    title: 'When will the applications open?',
     content: `Lorem ipsum dolor sit amet, 
                   consectetur adipiscing elit, 
                   sed do eiusmod tempor incididunt 
@@ -127,7 +118,7 @@ const FAQSection = () => {
           desc={
             <>
               Feel free to reach out to us at{' '}
-              <a href="https://google.com">google.com</a>
+              <a href="https://google.com">organiser@hacknitr.tech</a>
             </>
           }
           as="aside"

@@ -47,22 +47,52 @@ const PastSponsorsSection = () => {
           sx={{ alignItems: 'center', mt: [4], span: { color: 'white' } }}
         >
           <Image
-            src="/images/github.png"
+            src="/images/past.png"
             alt="Illustration of Orpheus with a moon"
             // width={512}
           />
           <Image
-            src="/images/github.png"
+            src="/images/past1.png"
             alt="Illustration of Orpheus with a moon"
             // width={512}
           />
           <Image
-            src="/images/hackerio.png"
+            src="/images/past2.png"
             alt="Illustration of Orpheus with a moon"
             // width={512}
           />
           <Image
-            src="/images/invision.png"
+            src="/images/past3.png"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+          <Image
+            src="/images/past4.png"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+          <Image
+            src="/images/past5.png"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+          <Image
+            src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1449831500/fk7egptpbsmzfndtpvvp.png"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+          <Image
+            src="https://cdn.worldvectorlogo.com/logos/digitalocean-2.svg"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+          <Image
+            src="/images/past6.png"
+            alt="Illustration of Orpheus with a moon"
+            // width={512}
+          />
+          <Image
+            src="/images/past7.jpg"
             alt="Illustration of Orpheus with a moon"
             // width={512}
           />

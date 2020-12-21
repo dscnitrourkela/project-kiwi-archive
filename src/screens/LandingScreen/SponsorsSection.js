@@ -49,52 +49,7 @@ const SponsorsSection = () => {
           sx={{ alignItems: 'center', span: { color: 'white' } }}
         >
           <Image
-            src="/images/github.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/devfolio.svg"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
+            src="https://cdn.worldvectorlogo.com/logos/sticker-mule.svg"
             alt="Illustration of Orpheus with a moon"
             // width={512}
           />
