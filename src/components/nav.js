@@ -142,7 +142,7 @@ const NavBar = styled(Box)`
   }
 `;
 
-const Navigation = ({ muted, handleMute, ...props }) => (
+const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
   <NavBar role="navigation" {...props}>
     <ScrollLink
       offset={-50}
@@ -151,6 +151,7 @@ const Navigation = ({ muted, handleMute, ...props }) => (
       children="About"
       style={{ cursor: 'pointer' }}
       className="navLink"
+      onClick={handleToggle}
     />
 
     <ScrollLink
@@ -160,6 +161,7 @@ const Navigation = ({ muted, handleMute, ...props }) => (
       children="Participate"
       style={{ cursor: 'pointer' }}
       className="navLink"
+      onClick={handleToggle}
     />
 
     <ScrollLink
@@ -169,6 +171,7 @@ const Navigation = ({ muted, handleMute, ...props }) => (
       children="FAQ"
       style={{ cursor: 'pointer' }}
       className="navLink"
+      onClick={handleToggle}
     />
 
     <ScrollLink
@@ -178,6 +181,7 @@ const Navigation = ({ muted, handleMute, ...props }) => (
       children="Sponsors"
       style={{ cursor: 'pointer' }}
       className="navLink"
+      onClick={handleToggle}
     />
 
     <ScrollLink
@@ -187,6 +191,7 @@ const Navigation = ({ muted, handleMute, ...props }) => (
       children="Contact"
       style={{ cursor: 'pointer' }}
       className="navLink"
+      onClick={handleToggle}
     />
     {props.music && (
       <Link style={{ cursor: 'pointer' }}>
@@ -262,6 +267,10 @@ class Header extends Component {
     this.setState({ muted: !muted });
   };
 
+  handleClickToggle = () => {
+    this.setState((state) => ({ toggled: false }));
+  };
+
   render() {
     const { color, fixed, bgColor, dark, ...props } = this.props;
     const { mobile, scrolled, toggled, muted } = this.state;
@@ -297,6 +306,7 @@ class Header extends Component {
             muted={muted}
             handleMute={this.handleMute}
             music={true}
+            handleToggle={this.handleClickToggle}
           />
           <ToggleContainer color={toggleColor} onClick={this.handleToggleMenu}>
             <Icon glyph={toggled ? 'view-close' : 'menu'} />
@@ -309,6 +319,7 @@ class Header extends Component {
           toggled={toggled}
           color={baseColor}
           dark={dark}
+          handleToggle={this.handleClickToggle}
           music={false}
         />
         {toggled && <ScrollLock />}
