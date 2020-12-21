@@ -7,6 +7,7 @@ import Icon from './icon';
 import Flag from './flag';
 import ScrollLock from 'react-scrolllock';
 import { Link as ScrollLink } from 'react-scroll';
+import Music from './music';
 
 const rgbaBgColor = (props, opacity) =>
   `rgba(
@@ -123,7 +124,7 @@ const layout = (props) =>
           font-size: ${theme.fontSizes[1]}px;
           text-transform: uppercase;
           &:hover {
-            color: ${theme.colors[hoverColor(props.color)]};
+            color: #777777};
           }
         }
       `;
@@ -134,59 +135,64 @@ const NavBar = styled(Box)`
     margin-left: ${theme.space[3]}px;
     padding: ${theme.space[3]}px;
     text-decoration: none;
+    align-items: center;
     @media (min-width: 56em) {
       color: ${(props) => theme.colors[props.color] || props.color};
     }
   }
 `;
 
-const Navigation = (props) => (
+const Navigation = ({ muted, handleMute, ...props }) => (
   <NavBar role="navigation" {...props}>
-    <Link sx={{ cursor: 'pointer' }}>
-      <ScrollLink
-        offset={-50}
-        to="about-section"
-        smooth
-        children="About"
-        style={{ color: '#fafafa', cursor: 'pointer' }}
-      />
-    </Link>
-    <Link sx={{ cursor: 'pointer' }}>
-      <ScrollLink
-        offset={-50}
-        to="themes-section"
-        smooth
-        children="Participate"
-        style={{ color: '#fafafa', cursor: 'pointer' }}
-      />
-    </Link>
-    <Link sx={{ cursor: 'pointer' }}>
-      <ScrollLink
-        offset={-50}
-        to="faq-section"
-        smooth
-        children="FAQ"
-        style={{ color: '#fafafa', cursor: 'pointer' }}
-      />
-    </Link>
-    <Link sx={{ cursor: 'pointer' }}>
-      <ScrollLink
-        offset={-50}
-        to="sponsors-section"
-        smooth
-        children="Sponsors"
-        style={{ color: '#fafafa', cursor: 'pointer' }}
-      />
-    </Link>
-    <Link sx={{ cursor: 'pointer', color: theme.colors.primary }}>
-      <ScrollLink
-        offset={-50}
-        to="contact-section"
-        smooth
-        children="Contact"
-        style={{ color: '#fafafa', cursor: 'pointer' }}
-      />
-    </Link>
+    <ScrollLink
+      offset={-50}
+      to="about-section"
+      smooth
+      children="About"
+      style={{ cursor: 'pointer' }}
+      className="navLink"
+    />
+
+    <ScrollLink
+      offset={-50}
+      to="themes-section"
+      smooth
+      children="Participate"
+      style={{ cursor: 'pointer' }}
+      className="navLink"
+    />
+
+    <ScrollLink
+      offset={-50}
+      to="faq-section"
+      smooth
+      children="FAQ"
+      style={{ cursor: 'pointer' }}
+      className="navLink"
+    />
+
+    <ScrollLink
+      offset={-50}
+      to="sponsors-section"
+      smooth
+      children="Sponsors"
+      style={{ cursor: 'pointer' }}
+      className="navLink"
+    />
+
+    <ScrollLink
+      offset={-50}
+      to="contact-section"
+      smooth
+      children="Contact"
+      style={{ cursor: 'pointer' }}
+      className="navLink"
+    />
+    {props.music && (
+      <Link style={{ cursor: 'pointer' }}>
+        <Music muted={muted} handleMute={handleMute} />
+      </Link>
+    )}
   </NavBar>
 );
 
@@ -207,7 +213,8 @@ const ToggleContainer = styled(Flex)`
 class Header extends Component {
   state = {
     scrolled: false,
-    toggled: false
+    toggled: false,
+    muted: false
   };
 
   static defaultProps = {
@@ -250,9 +257,14 @@ class Header extends Component {
     this.setState((state) => ({ toggled: !state.toggled }));
   };
 
+  handleMute = () => {
+    const { muted } = this.state;
+    this.setState({ muted: !muted });
+  };
+
   render() {
     const { color, fixed, bgColor, dark, ...props } = this.props;
-    const { mobile, scrolled, toggled } = this.state;
+    const { mobile, scrolled, toggled, muted } = this.state;
     const baseColor = dark
       ? color || 'white'
       : color === 'white' && scrolled
@@ -282,6 +294,9 @@ class Header extends Component {
             aria-hidden={!!mobile}
             color={baseColor}
             dark={dark}
+            muted={muted}
+            handleMute={this.handleMute}
+            music={true}
           />
           <ToggleContainer color={toggleColor} onClick={this.handleToggleMenu}>
             <Icon glyph={toggled ? 'view-close' : 'menu'} />
@@ -294,6 +309,7 @@ class Header extends Component {
           toggled={toggled}
           color={baseColor}
           dark={dark}
+          music={false}
         />
         {toggled && <ScrollLock />}
       </Root>
