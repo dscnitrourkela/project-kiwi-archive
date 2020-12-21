@@ -10,7 +10,9 @@ export default class extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head></Head>
+        <Head>
+          <title>HACKNITR</title>
+        </Head>
         <body>
           <InitializeColorMode />
           <Main />
