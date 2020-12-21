@@ -5,7 +5,7 @@ export default function LandingPage() {
   return (
     <>
       <Head>
-        <title>HACKNITR</title>
+        <title>HACKNITR 2.0</title>
       </Head>
       <LandingScreen />
     </>

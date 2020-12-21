@@ -11,7 +11,6 @@ export default class extends Document {
     return (
       <Html lang="en">
         <Head>
-          <title>HACKNITR</title>
         </Head>
         <body>
           <InitializeColorMode />
