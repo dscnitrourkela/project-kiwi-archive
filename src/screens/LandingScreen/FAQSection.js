@@ -16,8 +16,7 @@ import Accordion from '../../components/accordion';
 let data = [
   {
     title: 'Who can participate?',
-    content: `Everyone is welcome to apply, any student developer, designer, professionals or creative individuals, who are passionate about creating to join. If you can innovate, you are eligible.`,
-    height: '200px'
+    content: `Everyone is welcome to apply, any student developer, designer, professionals or creative individuals, who are passionate about creating to join. If you can innovate, you are eligible.`
   },
   {
     title: 'When will the applications open?',
@@ -30,8 +29,7 @@ let data = [
                   nisi ut aliquip ex ea commodo consequat. 
                   Duis aute irure dolor in reprehenderit 
                   in voluptate velit esse cillum dolore 
-                  eu fugiat nulla pariatur.`,
-    height: '200px'
+                  eu fugiat nulla pariatur.`
   },
   {
     title: 'Culpa enim ex consectetur aliquip nisi?',
@@ -39,8 +37,7 @@ let data = [
                   consectetur adipiscing elit, 
                   sed do eiusmod tempor incididunt 
                   ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam.`,
-    height: '100px'
+                  Ut enim ad minim veniam.`
   },
   {
     title: 'Ea aute anim culpa tempor dolore sit veniam excepteur?',
@@ -53,8 +50,7 @@ let data = [
                   nisi ut aliquip ex ea commodo consequat. 
                   Duis aute irure dolor in reprehenderit 
                   in voluptate velit esse cillum dolore 
-                  eu fugiat nulla pariatur.`,
-    height: '200px'
+                  eu fugiat nulla pariatur.`
   },
   {
     title: 'Nostrud fugiat consequat elit esse?',
@@ -67,8 +63,7 @@ let data = [
                   nisi ut aliquip ex ea commodo consequat. 
                   Duis aute irure dolor in reprehenderit 
                   in voluptate velit esse cillum dolore 
-                  eu fugiat nulla pariatur.`,
-    height: '200px'
+                  eu fugiat nulla pariatur.`
   }
 ];
 

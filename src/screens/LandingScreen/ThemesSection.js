@@ -31,7 +31,7 @@ const ThemesSection = () => {
           pt={[3, 4]}
           pb={[4, 5]}
           gap={[4, 3, 4]}
-          columns={[null, 3]}
+          columns={[null, 2, 3]}
           sx={{
             textAlign: 'left',
             mt: [4],
@@ -53,7 +53,8 @@ const ThemesSection = () => {
             sx={{
               background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
               color: 'white',
-              svg: { color: '#fb558e' }
+              svg: { color: '#fb558e' },
+              minHeight: '20rem'
             }}
           >
             <Feature
@@ -67,9 +68,11 @@ const ThemesSection = () => {
           <Card
             variant="interactive"
             sx={{
-              backgroundImage: 'url("../../public/images/schwags.jpeg")',
+              backgroundImage: 'url("/images/schwags.jpeg")',
+              backgroundSize: 'cover',
               color: '#5d114c',
-              svg: { color: 'rgb(255,88,88)' }
+              svg: { color: 'rgb(255,88,88)' },
+              minHeight: '20rem'
             }}
           >
           </Card>
@@ -77,9 +80,10 @@ const ThemesSection = () => {
           <Card
             variant="interactive"
             sx={{
-              background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
+              background: 'linear-gradient(-32deg, #FF8C36 14%, #F1C40E 82%)',
               color: 'white',
-              svg: { color: '#fb558e' }
+              svg: { color: '#fb558e' },
+              minHeight: '20rem'
             }}
           >
             <Feature
@@ -98,7 +102,7 @@ const ThemesSection = () => {
               backgroundSize: 'cover',
               color: 'white',
               svg: { color: '#fb558e' },
-              overflow: 'hidden'
+              minHeight: '20rem'
             }}
           >
           </Card>
@@ -106,9 +110,10 @@ const ThemesSection = () => {
           <Card
             variant="interactive"
             sx={{
-              background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
+              background: 'linear-gradient(-32deg, #358EDA 14%, #33D6A6 82%)',
               color: 'white',
-              svg: { color: '#fb558e' }
+              svg: { color: '#fb558e' },
+              minHeight: '20rem'
             }}
           >
             <Feature
@@ -126,7 +131,8 @@ const ThemesSection = () => {
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               color: 'white',
-              svg: { color: '#fb558e' }
+              svg: { color: '#fb558e' },
+              minHeight: '20rem'
             }}
           >
 
