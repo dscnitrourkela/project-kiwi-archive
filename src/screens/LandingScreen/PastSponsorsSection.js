@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Heading, Image, Text } from 'theme-ui';
+import { Box, Container, Grid, Heading, Image, Text, Link } from 'theme-ui';
 import theme from '../../lib/theme';
 import Feature from '../../components/feature';
 
@@ -44,48 +44,71 @@ const PastSponsorsSection = () => {
         <Grid
           columns={[2, 4]}
           gap={[4, 4]}
-          sx={{ alignItems: 'center', justifyContent: 'center', justifyItems: 'center', alignContent: 'center', mt: [4], span: { color: 'white' } }}
+          sx={{
+            mt: 4,
+            alignItems: 'center',
+            justifyContent: 'center',
+            justifyItems: 'center',
+            alignContent: 'center',
+            span: { color: 'white' }
+          }}
         >
-          <Image
-            src="/images/past.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/past1.png"
-            alt="Illustration of Orpheus with a moon"
-            sx={{maxHeight: '10rem'}}
-          />
-          <Image
-            src="/images/past3.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/past4.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/past5.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1449831500/fk7egptpbsmzfndtpvvp.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="https://cdn.worldvectorlogo.com/logos/digitalocean-2.svg"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/past6.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
+          <Link href="https://devfolio.co/" target="_blank">
+            <Image
+              src="/images/past.png"
+              alt="Illustration of Orpheus with a moon"
+              // width={512}
+            />
+          </Link>
+          <Link href="https://www.jetbrains.com/" target="_blank">
+            <Image
+              src="/images/past1.png"
+              alt="Illustration of Orpheus with a moon"
+              sx={{ maxHeight: '10rem' }}
+            />
+          </Link>
+          <Link href="https://www.wolfram.com/language/" target="_blank">
+            <Image
+              src="/images/past3.png"
+              alt="Illustration of Orpheus with a moon"
+              // width={512}
+            />
+          </Link>
+          <Link href="https://matic.network/" target="_blank">
+            <Image
+              src="/images/past4.png"
+              alt="Illustration of Orpheus with a moon"
+              // width={512}
+            />
+          </Link>
+          <Link href="https://foldapp.com/" target="_blank">
+            <Image
+              src="/images/past5.png"
+              alt="Illustration of Orpheus with a moon"
+              // width={512}
+            />
+          </Link>
+          <Link href="https://www.creative-tim.com/" target="_blank">
+            <Image
+              src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1449831500/fk7egptpbsmzfndtpvvp.png"
+              alt="Illustration of Orpheus with a moon"
+              // width={512}
+            />
+          </Link>
+          <Link href="https://www.digitalocean.com/" target="_blank">
+            <Image
+              src="https://cdn.worldvectorlogo.com/logos/digitalocean-2.svg"
+              alt="Illustration of Orpheus with a moon"
+              // width={512}
+            />
+          </Link>
+          <Link href="https://www.noticebard.com/" target="_blank">
+            <Image
+              src="/images/past6.png"
+              alt="Illustration of Orpheus with a moon"
+              // width={512}
+            />
+          </Link>
         </Grid>
       </Container>
     </Box>

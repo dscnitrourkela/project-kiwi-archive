@@ -1,15 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {
-  Box,
-  Button,
-  Container,
-  Grid,
-  Heading,
-  Image,
-  Link,
-  Text,
-  Divider
-} from 'theme-ui';
+import { Box, Text, Divider } from 'theme-ui';
 import theme from '../lib/theme';
 
 import { Accordion, Card } from 'react-bootstrap';
@@ -33,7 +23,7 @@ const Accordion2 = ({ data }) => {
     <div>
       <Accordion>
         {items.map((i, index) => (
-          <>
+          <div key={index}>
             <Box>
               <Accordion.Toggle
                 eventKey={`${index}`}
@@ -60,8 +50,8 @@ const Accordion2 = ({ data }) => {
                 </Text>
               </Accordion.Collapse>
             </Box>
-            <Divider sx={{ borderColor: theme.colors.slate, my: [2] }} />{' '}
-          </>
+            <Divider sx={{ borderColor: theme.colors.slate, my: [2] }} />
+          </div>
         ))}
       </Accordion>
     </div>

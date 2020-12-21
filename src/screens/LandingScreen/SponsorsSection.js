@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Heading, Image, Text } from 'theme-ui';
+import { Box, Container, Grid, Heading, Image, Text, Link } from 'theme-ui';
 import theme from '../../lib/theme';
 import Feature from '../../components/feature';
 
@@ -46,16 +46,21 @@ const SponsorsSection = () => {
         <Grid
           columns={[null, null]}
           gap={[6, 6]}
-          sx={{ alignItems: 'center', span: { color: 'white' } }}
+          sx={{ alignItems: 'center', span: { color: 'white' }, mt: 4 }}
         >
-          <Image
-            src="https://cdn.worldvectorlogo.com/logos/sticker-mule.svg"
-            alt="Illustration of Orpheus with a moon"
-            sx={{
-              maxHeight: '15rem',
-              justifySelf: 'center'
-            }}
-          />
+          <Link
+            href="https://www.stickermule.com/"
+            target="_blank"
+            sx={{ justifySelf: 'center' }}
+          >
+            <Image
+              src="https://cdn.worldvectorlogo.com/logos/sticker-mule.svg"
+              alt="Sticker Mule Logo"
+              sx={{
+                maxHeight: '15rem'
+              }}
+            />
+          </Link>
         </Grid>
       </Container>
     </Box>

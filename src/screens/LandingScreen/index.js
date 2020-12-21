@@ -9,7 +9,7 @@ import PastSponsorsSection from './PastSponsorsSection';
 import ContactSection from './ContactSection';
 import HeroSection from './HeroSection';
 
-const color = '#50E3C2';
+const color = '#f6f6f6';
 
 const LandingScreen = () => {
   return (
