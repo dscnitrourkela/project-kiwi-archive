@@ -4,6 +4,8 @@ import { Box, Container, Image, Grid, Heading, Link, Text } from 'theme-ui';
 import theme from '@hackclub/theme';
 import Icon from './icon';
 import { faUnderline } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 const Base = styled(Box)`
   background: ${(props) =>
@@ -62,7 +64,7 @@ const Footer = ({ dark = false, children, ...props }) => (
     <Container px={[3, null, 4]}>
       <Grid
         as="article"
-        gap={[2, 4]}
+        gap={5}
         columns={[null, 3]}
         sx={{
           px: 0,
@@ -120,23 +122,16 @@ const Footer = ({ dark = false, children, ...props }) => (
             }
           }}
           >
-            <Service href="/slack" icon="slack-fill" target="_self" />
             <Service href="https://twitter.com/hacknitr" icon="twitter" />
-            <Service href="https://github.com/hackclub" icon="github" />
-            <Service href="https://figma.com/@hackclub" icon="figma" />
             <Service
-              href="https://www.facebook.com/Hack-Club-741805665870458"
+              href="https://www.facebook.com/hacknitr/"
               icon="facebook"
             />
             <Service
-              href="https://www.youtube.com/c/HackClubHQ"
-              icon="youtube"
-            />
-            <Service
-              href="https://www.instagram.com/starthackclub"
+              href="https://www.instagram.com/hacknitr"
               icon="instagram"
             />
-            <Service href="mailto:team@hackclub.com" icon="email" />
+            <Service href="mailto:organiser@hacknitr.tech" icon="email" />
           </Grid>
           <Heading sx={{fontSize: '7px'}}>Address</Heading>
           <Text>Student Activity Centre, Sector 1, National Institute of Technology, Rourkela.
@@ -156,7 +151,7 @@ const Footer = ({ dark = false, children, ...props }) => (
               height: '100%'
             }}
           />
-          <Text sx={{pl: 1}}>
+          <Text sx={{pl: 2}}>
           A premier institute of higher learning recognized as an Institute of National Importance by the National Institutes of Technology Act, 2007.
           </Text>
           </Box>

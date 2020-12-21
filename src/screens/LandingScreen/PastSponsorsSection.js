@@ -54,12 +54,7 @@ const PastSponsorsSection = () => {
           <Image
             src="/images/past1.png"
             alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/past2.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
+            sx={{maxHeight: '10rem'}}
           />
           <Image
             src="/images/past3.png"
@@ -88,11 +83,6 @@ const PastSponsorsSection = () => {
           />
           <Image
             src="/images/past6.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/past7.jpg"
             alt="Illustration of Orpheus with a moon"
             // width={512}
           />

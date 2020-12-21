@@ -19,51 +19,20 @@ let data = [
     content: `Everyone is welcome to apply, any student developer, designer, professionals or creative individuals, who are passionate about creating to join. If you can innovate, you are eligible.`
   },
   {
+    title: 'How does the application process work?',
+    content: `We're looking for people who can innovate and build solutions to real-world problems. Tell us why you want to be a part of HackNITR, any accomplishments you're proud of or anything else which could strengthen your application. Applications open in mid January.`
+  },
+  {
+    title: 'Can we apply as a team?',
+    content: `Yes! No one likes to be a loner. You can join or create a team once you've started an individual application. You can form team of up to 3 people. Most people aim to have a mix of people with both design and developer skills.`
+  },
+  {
+    title: 'What if I don\'t have a team or idea?',
+    content: `Interest in learning and working with technology is much more important. We'll have a team formation and ideation events geared towards helping you find people to work with. Just fill out the application form.`
+  },
+  {
     title: 'When will the applications open?',
-    content: `Lorem ipsum dolor sit amet, 
-                  consectetur adipiscing elit, 
-                  sed do eiusmod tempor incididunt 
-                  ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam, quis 
-                  nostrud exercitation ullamco laboris 
-                  nisi ut aliquip ex ea commodo consequat. 
-                  Duis aute irure dolor in reprehenderit 
-                  in voluptate velit esse cillum dolore 
-                  eu fugiat nulla pariatur.`
-  },
-  {
-    title: 'Culpa enim ex consectetur aliquip nisi?',
-    content: `Lorem ipsum dolor sit amet, 
-                  consectetur adipiscing elit, 
-                  sed do eiusmod tempor incididunt 
-                  ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam.`
-  },
-  {
-    title: 'Ea aute anim culpa tempor dolore sit veniam excepteur?',
-    content: `Lorem ipsum dolor sit amet, 
-                  consectetur adipiscing elit, 
-                  sed do eiusmod tempor incididunt 
-                  ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam, quis 
-                  nostrud exercitation ullamco laboris 
-                  nisi ut aliquip ex ea commodo consequat. 
-                  Duis aute irure dolor in reprehenderit 
-                  in voluptate velit esse cillum dolore 
-                  eu fugiat nulla pariatur.`
-  },
-  {
-    title: 'Nostrud fugiat consequat elit esse?',
-    content: `Lorem ipsum dolor sit amet, 
-                  consectetur adipiscing elit, 
-                  sed do eiusmod tempor incididunt 
-                  ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam, quis 
-                  nostrud exercitation ullamco laboris 
-                  nisi ut aliquip ex ea commodo consequat. 
-                  Duis aute irure dolor in reprehenderit 
-                  in voluptate velit esse cillum dolore 
-                  eu fugiat nulla pariatur.`
+    content: `Applications will start soon on our website. Please subscribe below to stay updated.`
   }
 ];
 

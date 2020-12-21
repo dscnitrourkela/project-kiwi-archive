@@ -98,7 +98,7 @@ const ThemesSection = () => {
             variant="interactive"
             sx={{
               // background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
-              backgroundImage: 'url("https://techcrunch.com/wp-content/uploads/2019/06/Hackathon-team-diverse.jpg")',
+              backgroundImage: 'url("/images/image1.jpeg")',
               backgroundSize: 'cover',
               color: 'white',
               svg: { color: '#fb558e' },
@@ -127,7 +127,7 @@ const ThemesSection = () => {
           <Card
             variant="interactive"
             sx={{
-              backgroundImage: 'url("https://peerbits-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/technology-stack-for-web-application-main.jpg")',
+              backgroundImage: 'url("/images/image2.jpeg")',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               color: 'white',

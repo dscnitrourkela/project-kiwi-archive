@@ -44,14 +44,17 @@ const SponsorsSection = () => {
           </Text>
         </Heading>
         <Grid
-          columns={[null, 2]}
+          columns={[null, null]}
           gap={[6, 6]}
           sx={{ alignItems: 'center', span: { color: 'white' } }}
         >
           <Image
             src="https://cdn.worldvectorlogo.com/logos/sticker-mule.svg"
             alt="Illustration of Orpheus with a moon"
-            // width={512}
+            sx={{
+              maxHeight: '15rem',
+              justifySelf: 'center'
+            }}
           />
         </Grid>
       </Container>
