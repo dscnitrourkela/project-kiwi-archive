@@ -44,59 +44,17 @@ const SponsorsSection = () => {
           </Text>
         </Heading>
         <Grid
-          columns={[null, 2]}
+          columns={[null, null]}
           gap={[6, 6]}
           sx={{ alignItems: 'center', span: { color: 'white' } }}
         >
           <Image
-            src="/images/github.png"
+            src="https://cdn.worldvectorlogo.com/logos/sticker-mule.svg"
             alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/devfolio.svg"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
-          />
-          <Image
-            src="/images/hackerio.png"
-            alt="Illustration of Orpheus with a moon"
-            // width={512}
+            sx={{
+              maxHeight: '15rem',
+              justifySelf: 'center'
+            }}
           />
         </Grid>
       </Container>

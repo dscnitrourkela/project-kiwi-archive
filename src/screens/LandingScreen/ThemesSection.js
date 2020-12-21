@@ -1,4 +1,4 @@
-import { Box, Card, Container, Grid, Heading } from 'theme-ui';
+import { Box, Card, Container, Grid, Heading, Image } from 'theme-ui';
 import theme from '../../lib/theme';
 import Feature from '../../components/feature';
 
@@ -25,13 +25,13 @@ const ThemesSection = () => {
           variant="title"
           sx={{ my: [0, 4], textAlign: 'center' }}
         >
-          Themes
+          Why Participate in HackNITR 2.0 ?
         </Heading>
         <Grid
           pt={[3, 4]}
           pb={[4, 5]}
           gap={[4, 3, 4]}
-          columns={[null, 3]}
+          columns={[null, 2, 3]}
           sx={{
             textAlign: 'left',
             mt: [4],
@@ -48,99 +48,94 @@ const ThemesSection = () => {
             svg: { fill: 'currentColor' }
           }}
         >
-          <Card
-            // as="a"
-            // href="https://apply.hackclub.com/"
+        <Card
             variant="interactive"
             sx={{
-              // background:
-              //   'linear-gradient(32deg, rgba(24, 218, 255, 0.9) 0%, rgba(91, 255, 205, 0.9) 100%)',
-              background: theme.util.gx('#ffffff', '#111111'),
-              color: '#095365'
+              background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
+              color: 'white',
+              svg: { color: '#fb558e' },
+              minHeight: '20rem'
             }}
           >
             <Feature
-              icon="send"
+              icon="code"
               color="white"
-              name="1. Application"
-              desc="Start by telling us about your club & who’s leading it."
+              name="Build for community."
+              desc="Find solutions and build for the social good."
             />
           </Card>
+
           <Card
             variant="interactive"
             sx={{
-              background:
-                'linear-gradient(to bottom, rgba(255, 212, 64, 0.9) 0%, rgba(255, 88, 88, 0.9) 100%)',
+              backgroundImage: 'url("/images/schwags.jpeg")',
+              backgroundSize: 'cover',
               color: '#5d114c',
-              svg: { color: 'rgb(255,88,88)' }
+              svg: { color: 'rgb(255,88,88)' },
+              minHeight: '20rem'
             }}
           >
-            <Feature
-              icon="emoji"
-              color="white"
-              name="2. Onboarding call"
-              desc="Hop on a quick Zoom with someone from Hack Club HQ."
-            />
           </Card>
+
           <Card
             variant="interactive"
             sx={{
-              background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
+              background: 'linear-gradient(-32deg, #FF8C36 14%, #F1C40E 82%)',
               color: 'white',
-              svg: { color: '#fb558e' }
+              svg: { color: '#fb558e' },
+              minHeight: '20rem'
+            }}
+          >
+            <Feature
+              icon="idea"
+              color="white"
+              name="Innovate with new technologies"
+              desc="Execute your tech stack with amazing projects"
+            />
+          </Card>
+
+          <Card
+            variant="interactive"
+            sx={{
+              // background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
+              backgroundImage: 'url("/images/image1.jpeg")',
+              backgroundSize: 'cover',
+              color: 'white',
+              svg: { color: '#fb558e' },
+              minHeight: '20rem'
+            }}
+          >
+          </Card>
+
+          <Card
+            variant="interactive"
+            sx={{
+              background: 'linear-gradient(-32deg, #358EDA 14%, #33D6A6 82%)',
+              color: 'white',
+              svg: { color: '#fb558e' },
+              minHeight: '20rem'
             }}
           >
             <Feature
               icon="event-check"
               color="white"
-              name="3. First meeting"
-              desc="Schedule your club’s first meeting & get going!"
+              name="Awesome schwags"
+              desc="Participate and get a chance to win prizes "
             />
           </Card>
+
           <Card
             variant="interactive"
             sx={{
-              background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
+              backgroundImage: 'url("/images/image2.jpeg")',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
               color: 'white',
-              svg: { color: '#fb558e' }
+              svg: { color: '#fb558e' },
+              minHeight: '20rem'
             }}
           >
-            <Feature
-              icon="event-check"
-              color="white"
-              name="3. First meeting"
-              desc="Schedule your club’s first meeting & get going!"
-            />
-          </Card>
-          <Card
-            variant="interactive"
-            sx={{
-              background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
-              color: 'white',
-              svg: { color: '#fb558e' }
-            }}
-          >
-            <Feature
-              icon="event-check"
-              color="white"
-              name="3. First meeting"
-              desc="Schedule your club’s first meeting & get going!"
-            />
-          </Card>
-          <Card
-            variant="interactive"
-            sx={{
-              background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
-              color: 'white',
-              svg: { color: '#fb558e' }
-            }}
-          >
-            <Feature
-              icon="event-check"
-              color="white"
-              name="3. First meeting"
-              desc="Schedule your club’s first meeting & get going!"
-            />
+
           </Card>
         </Grid>
       </Container>

@@ -12,7 +12,8 @@ const middlewares = [thunk]
 const store = createStore(
   reducers,
   initialState,
-  composeWithDevTools(applyMiddleware(...middlewares))
+  // composeWithDevTools(applyMiddleware(...middlewares))
+  applyMiddleware(...middlewares)
 )
 
 const Root = ({ initialState = {}, children }) => {

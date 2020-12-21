@@ -156,7 +156,7 @@ const Navigation = (props) => (
         offset={-50}
         to="themes-section"
         smooth
-        children="Themes"
+        children="Participate"
         style={{ color: '#fafafa', cursor: 'pointer' }}
       />
     </Link>
