@@ -82,7 +82,7 @@ const FAQSection = () => {
           desc={
             <>
               Feel free to reach out to us at{' '}
-              <a href="https://google.com">organiser@hacknitr.tech</a>
+              <a href="mailto:organiser@hacknitr.tech">organiser@hacknitr.tech</a>
             </>
           }
           as="aside"
