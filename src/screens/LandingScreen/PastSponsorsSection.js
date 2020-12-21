@@ -44,7 +44,7 @@ const PastSponsorsSection = () => {
         <Grid
           columns={[2, 4]}
           gap={[4, 4]}
-          sx={{ alignItems: 'center', mt: [4], span: { color: 'white' } }}
+          sx={{ alignItems: 'center', justifyContent: 'center', justifyItems: 'center', alignContent: 'center', mt: [4], span: { color: 'white' } }}
         >
           <Image
             src="/images/past.png"

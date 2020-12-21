@@ -1,5 +1,13 @@
+import Head from 'next/head';
 import LandingScreen from '../src/screens/LandingScreen/index';
 
 export default function LandingPage() {
-  return <LandingScreen />;
+  return (
+    <>
+      <Head>
+        <title>HACKNITR</title>
+      </Head>
+      <LandingScreen />
+    </>
+  );
 }
