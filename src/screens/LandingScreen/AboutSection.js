@@ -78,7 +78,7 @@ const AboutSection = () => {
           </Text> */}
           <Text as="p" variant="lead" sx={{ mt: 0, textAlign: 'center' }}>
             HackNITR 2.0 is one of a kind Hackathon brought to you by OpenCode and
-            DSC NIT Rourkela. An unique opportunity to bring out your ideas and
+            DSC NIT Rourkela. A unique opportunity to bring out your ideas and
             technological skills to win awesome prizes and swags.
           </Text>
           <Button variant="ctaLg" rel="noopener" sx={{ justifySelf: 'center' }}>
