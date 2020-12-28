@@ -109,6 +109,48 @@ const PastSponsorsSection = () => {
               // width={512}
             />
           </Link>
+          <Link href="https://www.hackerearth.com/" target="_blank">
+            <Image
+              src="/images/hackerearth.png"
+              alt="Illustration of Orpheus with a moon"
+              // width={512}
+            />
+          </Link>
+          <Link href="http://www.unitechgroup.com/" target="_blank">
+            <Image
+              src="/images/unitech.png"
+              alt="Illustration of Orpheus with a moon"
+              // width={512}
+            />
+          </Link>
+          <Link href="https://get.tech/" target="_blank">
+            <Image
+              src="/images/dotTECH.png"
+              alt="Illustration of Orpheus with a moon"
+              // width={512}
+            />
+          </Link>
+          <Link href="https://www.invisionapp.com/" target="_blank">
+            <Image
+              src="/images/invision.png"
+              alt="Illustration of Orpheus with a moon"
+              // width={512}
+            />
+          </Link>
+          <Link href="https://github.com/" target="_blank">
+            <Image
+              src="/images/github.png"
+              alt="Illustration of Orpheus with a moon"
+              // width={512}
+            />
+          </Link>
+          <Link href="https://challengerocket.com/" target="_blank">
+            <Image
+              src="/images/crocket.png"
+              alt="Illustration of Orpheus with a moon"
+              // width={512}
+            />
+          </Link>
         </Grid>
       </Container>
     </Box>
