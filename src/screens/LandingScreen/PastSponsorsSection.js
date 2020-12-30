@@ -155,7 +155,7 @@ const PastSponsorsSection = () => {
             span: { color: 'white' }
           }}
         >
-          <Link href="http://www.unitechgroup.com/" target="_blank">
+          <Link href="https://unitechindia.com/" target="_blank">
             <Image
               src="/images/unitech.png"
               alt="Unitech logo"
