@@ -68,7 +68,7 @@ const ThemesSection = () => {
           <Card
             variant="interactive"
             sx={{
-              backgroundImage: 'url("/images/image1.jpeg")',
+              backgroundImage: 'url("/images/image1.jpg")',
               backgroundSize: 'cover',
               color: '#5d114c',
               svg: { color: 'rgb(255,88,88)' },
@@ -98,7 +98,7 @@ const ThemesSection = () => {
             variant="interactive"
             sx={{
               // background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
-              backgroundImage: 'url("/images/image2.jpeg")',
+              backgroundImage: 'url("/images/image2.jpg")',
               backgroundSize: 'cover',
               color: 'white',
               svg: { color: '#fb558e' },
@@ -127,7 +127,7 @@ const ThemesSection = () => {
           <Card
             variant="interactive"
             sx={{
-              backgroundImage: 'url("/images/schwags.jpeg")',
+              backgroundImage: 'url("/images/schwags.jpg")',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               color: 'white',
