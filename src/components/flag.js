@@ -34,7 +34,7 @@ const scrolled = (props) =>
   `;
 
 const Base = styled('a')`
-  background-image: url();
+  background-image: url('/images/logos/logo.png');
   background-repeat: no-repeat;
   background-position: top left;
   background-size: contain;
