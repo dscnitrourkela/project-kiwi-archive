@@ -28,22 +28,14 @@ jobs:
       - name: Install Firebase
         run: npm install -g firebase-tools
      
-      - name: Test Login
-        run: firebase hosting:channel:open TEMP --token=${{secrets.FIREBASE_TOKEN}}
+      - name: Create Channel
+        run: firebase hosting:channel:open $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}}
         
-      - name: Deploy to Channel at Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: hosting:channel:deploy TEMP
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }} 
+      - name: Deploy Channel
+        run: firebase hosting:channel:deploy $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}}
      
-      - name: Open Channel at Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: PROJECT_LINK=$(hosting:channel:open TEMP)
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}    
+      - name: Open Channel
+        run: PROJECT_LINK=$(firebase hosting:channel:open $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}})
           
       - name: Comment on PR
         uses: unsplash/comment-on-pr@master
