@@ -42,7 +42,7 @@ jobs:
           URL: ${{ github.event.pull_request.comments_url }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
         run: |
-          MESSAGE=$(ls) && echo$MESSAGE
+          MESSAGE=$(ls) && echo $MESSAGE
 # MESSAGE=$(firebase hosting:channel:open $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}})
 #         run: |
 #            curl \
