@@ -3,9 +3,6 @@ import styled from '@emotion/styled';
 import { Box, Container, Image, Grid, Heading, Link, Text } from 'theme-ui';
 import theme from '@hackclub/theme';
 import Icon from './icon';
-import { faUnderline } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 const Base = styled(Box)`
   background: ${(props) =>
@@ -42,7 +39,7 @@ const Logo = (props) => (
 const Service = ({ href, icon, ...props }) => (
   <Link
     target="_blank"
-    rel="noopener"
+    rel="noreferrer"
     href={href}
     title={`HackNITR on ${icon}`}
     children={<Icon glyph={icon} />}
@@ -90,10 +87,10 @@ const Footer = ({ dark = false, children, ...props }) => (
         <Heading>About Us</Heading>
           <Text>We are a group of coding aficionado university students, hosting this hackathon as a clarion call to the brightest minds to come together and hack out the problems we face in the community we all comprise of by collaboration and innovation. Here's to a better future!</Text>
           <Grid gap={2} columns={[2, '1fr,1fr']} sx={{mt: 2}}>
-            <Link href="/codeofconduct.html" target="_blank">
+            <Link href="/codeofconduct.html" target="_blank" rel="noreferrer">
             Code Of Conduct
             </Link>
-            <Link href="/privacypolicy.html" target="_blank">
+            <Link href="/privacypolicy.html" target="_blank" rel="noreferrer">
             Privacy Policy
             </Link>
           </Grid>
@@ -144,8 +141,8 @@ const Footer = ({ dark = false, children, ...props }) => (
           <Heading>About NIT Rourkela</Heading>
           <Box sx={{display: 'flex'}}>
           <Image
-            src="https://2020.hacknitr.tech/img/logo/nitr.png"
-            alt="Illustration of Orpheus with a moon"
+            src="/images/logos/nitr.png"
+            alt="NIT Rourkela Logo"
             sx={{
               width: '100%',
               height: '100%'
@@ -164,7 +161,7 @@ const Footer = ({ dark = false, children, ...props }) => (
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <Image
             src="/images/dsclogo1.png"
-            alt=""
+            alt="DSC NIT Rourkela Logo"
             sx={{
               width: '100%'
             }}
@@ -173,7 +170,7 @@ const Footer = ({ dark = false, children, ...props }) => (
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <Image
             src="/images/hackclub1.png"
-            alt=""
+            alt="Hack Club Logo"
             sx={{
               width: '70%'
             }}
@@ -182,7 +179,7 @@ const Footer = ({ dark = false, children, ...props }) => (
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <Image
             src="/images/githubce.png"
-            alt=""
+            alt="GitHub Campus Experts Logo"
             sx={{
               width: '70%'
             }}
@@ -191,7 +188,7 @@ const Footer = ({ dark = false, children, ...props }) => (
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <Image
             src="/images/opencode1.png"
-            alt=""
+            alt="OpenCode Logo"
             sx={{
               width: '45%'
             }}
@@ -199,7 +196,7 @@ const Footer = ({ dark = false, children, ...props }) => (
             </div>
       </Grid>
       <Text as="p" variant="caption" sx={{ mt: 5, textAlign: 'center' }}>
-         Made with <Link href="https://theme.hackclub.com/" target='_blank'>Hack Club Theme</Link>. Remixed by HackNITR
+         Made with <Link href="https://theme.hackclub.com/" target='_blank' rel="noreferrer">Hack Club Theme</Link>. Remixed by HackNITR
       </Text>
     </Container>
   </Base>

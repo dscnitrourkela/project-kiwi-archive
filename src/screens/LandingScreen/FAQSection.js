@@ -70,7 +70,7 @@ const FAQSection = () => {
         >
           <Image
             src="/images/image2.svg"
-            alt="Illustration of Orpheus with a moon"
+            alt="FAQ Image"
             // width={512}
           />
           <Accordion data={data} />
