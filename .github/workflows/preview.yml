@@ -28,7 +28,7 @@ jobs:
       - name: Create Channel at Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: hosting:channel:create $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
+          args: hosting:channel:create TEMP
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
           
