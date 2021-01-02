@@ -7,6 +7,12 @@ jobs:
     name: Preview at Firebase
     runs-on: ubuntu-latest
     steps:
+      - name: Comment with URL
+        env:
+          URL: ${{ github.event.pull_request.comments_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
+        run: |
+          MESSAGE=$(ls) && echo$MESSAGE
       
       - name: Checkout Repository
         uses: actions/checkout@v2
@@ -36,9 +42,12 @@ jobs:
           URL: ${{ github.event.pull_request.comments_url }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
         run: |
-          MESSAGE=$(firebase hosting:channel:open $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}}) && curl \
-            -X POST \
-            $URL \
-            -H "Content-Type: application/json" \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            --data '{ "body": $MESSAGE }'
+          MESSAGE=$(ls) && echo$MESSAGE
+# MESSAGE=$(firebase hosting:channel:open $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}})
+#         run: |
+#            curl \
+#             -X POST \
+#             $URL \
+#             -H "Content-Type: application/json" \
+#             -H "Authorization: token $GITHUB_TOKEN" \
+#             --data '{ "body": $MESSAGE }'
