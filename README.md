@@ -1,4 +1,4 @@
-# Hack Club Theme Starter
+  # Hack Club Theme Starter
 
 A sample [Next.js] project for getting started with [MDX], [Theme UI], & [Hack Club Theme].
 
