@@ -1,6 +1,6 @@
 name: Preview Website
 
-on: push
+on: [pull_request]
 
 env:
   PROJECT_LINK: 'NA'
