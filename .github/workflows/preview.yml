@@ -30,14 +30,14 @@ jobs:
       - name: Deploy Channel
         run: firebase hosting:channel:deploy ${{ github.event.number }} --token=${{secrets.FIREBASE_TOKEN}}
 
-      - name: Comment with URL
-        env:
-          URL: ${{ github.event.pull_request.comments_url }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-        run: |
-           MESSAGE=$(firebase hosting:channel:open ${{ github.event.number }} --token=${{secrets.FIREBASE_TOKEN}}) && curl \
-            -X POST \
-            $URL \
-            -H "Content-Type: application/json" \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            --data '{ "body": "$MESSAGE" }'
+#       - name: Comment with URL
+#         env:
+#           URL: ${{ github.event.pull_request.comments_url }}
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+#         run: |
+#            MESSAGE=$(firebase hosting:channel:open ${{ github.event.number }} --token=${{secrets.FIREBASE_TOKEN}}) && curl \
+#             -X POST \
+#             $URL \
+#             -H "Content-Type: application/json" \
+#             -H "Authorization: token $GITHUB_TOKEN" \
+#             --data '{ "body": "$MESSAGE" }'
