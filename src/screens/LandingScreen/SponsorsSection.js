@@ -1,6 +1,5 @@
 import { Box, Container, Grid, Heading, Image, Text, Link } from 'theme-ui';
 import theme from '../../lib/theme';
-import Feature from '../../components/feature';
 
 const SponsorsSection = () => {
   return (
@@ -51,6 +50,7 @@ const SponsorsSection = () => {
           <Link
             href="https://www.stickermule.com/"
             target="_blank"
+            rel="noreferrer"
             sx={{ justifySelf: 'center' }}
           >
             <Image

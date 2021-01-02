@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Image, Button } from 'theme-ui';
+import { Box, Container, Heading, Image,  } from 'theme-ui';
 import theme from '../../lib/theme';
 
 import SlideDown from '../../components/slide-down';
@@ -105,8 +105,8 @@ const HeroSection = () => {
         }}
       >
         <Image
-          src="/images/undraw2.svg"
-          alt="Illustration of Orpheus with a moon"
+          src="/images/undraw2.png"
+          alt="Hackathon Cover"
           width={512}
           sx={{
             zIndex: 1,

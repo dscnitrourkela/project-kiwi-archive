@@ -48,7 +48,7 @@ const ContactSection = () => {
             span: { color: 'white' }
           }}
         >
-          <Image src="/images/undrawPost.svg" sx={{ height: '512px' }} />
+          <Image src="/images/undrawPost.svg" alt="Contact Us" sx={{ height: '512px' }} />
           <Box
             sx={{ display: 'flex', justifyContent: 'center', width: '100%' }}
           >

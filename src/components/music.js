@@ -1,6 +1,5 @@
-import { useEffect, useState } from 'react';
 import ReactAudioPlayer from 'react-audio-player';
-import { Box, Embed, Button } from 'theme-ui';
+import { Box, } from 'theme-ui';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faVolumeMute, faVolumeUp } from '@fortawesome/free-solid-svg-icons';

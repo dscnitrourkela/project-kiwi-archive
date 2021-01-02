@@ -136,14 +136,10 @@ const Header = ({ color, dark, bgColor, ...props }) => {
     }
 
     if (window.scrollY >= 16) {
-      console.log('Scrolled 50px');
       setScrolled(() => true);
     } else {
       setScrolled(() => false);
     }
-
-    console.log(window.scrollY);
-    console.log(scrolled);
   };
 
   const handleToggleMenu = () => {

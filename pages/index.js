@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { Embed } from 'theme-ui';
 import LandingScreen from '../src/screens/LandingScreen/index';
 
 export default function LandingPage() {
@@ -14,7 +13,7 @@ export default function LandingPage() {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:url" content="http://hacknitr.tech/" />
         <meta property="og:title" content="HackNITR 2.0 | Virtual Edition" />
         <meta
           property="og:description"
@@ -23,7 +22,7 @@ export default function LandingPage() {
         <meta property="og:image" content="/images/hacknitr_cover.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta property="twitter:url" content="http://hacknitr.tech/" />
         <meta
           property="twitter:title"
           content="HackNITR 2.0 | Virtual Edition"
