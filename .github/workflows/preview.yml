@@ -25,13 +25,6 @@ jobs:
       - name: Build Static Files
         run: npm run export
         
-      - name: Create Channel at Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: hosting:channel:create TEMP
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-          
       - name: Deploy to Channel at Firebase
         uses: w9jds/firebase-action@master
         with:
