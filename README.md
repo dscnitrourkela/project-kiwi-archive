@@ -151,7 +151,7 @@ const App = ({ Component, pageProps }) => {
     return () => {
       router.events.off('routeChangeComplete', onRouteChangeComplete)
     }
-  }, [])
+  }, [])?
 
   return (
     <ThemeProvider theme={theme}>
