@@ -23,35 +23,21 @@ jobs:
       
       - name: Install Firebase
         run: npm install -g firebase-tools
-      
-      - name: Set PR Number in Variable
-        run: echo "PR_NUMBER=(echo $GITHUB_REF | awk 'BEGIN { FS = `/` } ; { print $3 }')" >> $GITHUB_ENV
-
-      - name: Comment with URL
-        env:
-          URL: ${{ github.event.pull_request.comments_url }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
-        run: |
-          MESSAGE=$(firebase hosting:channel:open $PR_NUMBER --token=${{secrets.FIREBASE_TOKEN}}) && echo $MESSAGE
-
      
       - name: Create Channel
-        run: firebase hosting:channel:create $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}}
+        run: firebase hosting:channel:create ${{ github.event.number }} --token=${{secrets.FIREBASE_TOKEN}}
         
       - name: Deploy Channel
-        run: firebase hosting:channel:deploy $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}}
+        run: firebase hosting:channel:deploy ${{ github.event.number }} --token=${{secrets.FIREBASE_TOKEN}}
 
       - name: Comment with URL
         env:
           URL: ${{ github.event.pull_request.comments_url }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
-        run: |
-          MESSAGE=$(ls) && echo $MESSAGE
-# MESSAGE=$(firebase hosting:channel:open $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}})
-#         run: |
-#            curl \
-#             -X POST \
-#             $URL \
-#             -H "Content-Type: application/json" \
-#             -H "Authorization: token $GITHUB_TOKEN" \
-#             --data '{ "body": $MESSAGE }'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+          run: |
+           curl \
+            -X POST \
+            $URL \
+            -H "Content-Type: application/json" \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            --data '{ "body": ${{ github.event.number }} }'
