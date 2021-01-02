@@ -41,14 +41,14 @@ jobs:
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }} 
      
-     - name: Open Channel at Firebase
+      - name: Open Channel at Firebase
         uses: w9jds/firebase-action@master
         with:
           args: PROJECT_LINK=$(hosting:channel:open ${{ PR_NUMBER }})
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}    
           
-     - name: Comment on PR
+      - name: Comment on PR
         uses: unsplash/comment-on-pr@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
