@@ -2,9 +2,6 @@ name: Preview Website
 
 on: [pull_request]
 
-env:
-  PROJECT_LINK: 'NA'
-
 jobs:
   preview:
     name: Preview at Firebase
@@ -33,13 +30,15 @@ jobs:
         
       - name: Deploy Channel
         run: firebase hosting:channel:deploy $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}}
-     
-      - name: Open Channel
-        run: PROJECT_LINK=$(firebase hosting:channel:open $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}})
-          
-      - name: Comment on PR
-        uses: unsplash/comment-on-pr@master
+
+      - name: Comment with URL
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          msg: ${{ PROJECT_LINK }}
+          URL: ${{ github.event.pull_request.comments_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
+        run: |
+          curl \
+            -X POST \
+            $URL \
+            -H "Content-Type: application/json" \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            --data `{ "body": $(firebase hosting:channel:open $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}}) }`
