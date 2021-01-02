@@ -6,14 +6,7 @@ jobs:
   preview:
     name: Preview at Firebase
     runs-on: ubuntu-latest
-    steps:
-      - name: Comment with URL
-        env:
-          URL: ${{ github.event.pull_request.comments_url }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
-        run: |
-          MESSAGE=$(ls) && echo$MESSAGE
-      
+    steps:      
       - name: Checkout Repository
         uses: actions/checkout@v2
 
@@ -21,7 +14,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '14'
-
+     
       - name: Install packages
         run: npm install
         
@@ -30,6 +23,14 @@ jobs:
       
       - name: Install Firebase
         run: npm install -g firebase-tools
+
+      - name: Comment with URL
+        env:
+          URL: ${{ github.event.pull_request.comments_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
+        run: |
+          MESSAGE=$(firebase hosting:channel:open $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}}) && echo $MESSAGE
+
      
       - name: Create Channel
         run: firebase hosting:channel:create $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') --token=${{secrets.FIREBASE_TOKEN}}
