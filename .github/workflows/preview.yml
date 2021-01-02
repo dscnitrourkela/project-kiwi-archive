@@ -1,6 +1,6 @@
 name: Preview Website
 
-on: pull_request
+on: push
 
 env:
   PROJECT_LINK: 'NA'
@@ -28,27 +28,27 @@ jobs:
       - name: Create Channel at Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: hosting:channel:create ${{ (echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') }}
+          args: hosting:channel:create $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
           
-      - name: Deploy to Channel at Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: hosting:channel:deploy ${{ (echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') }}
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }} 
+#       - name: Deploy to Channel at Firebase
+#         uses: w9jds/firebase-action@master
+#         with:
+#           args: hosting:channel:deploy ${{ (echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') }}
+#         env:
+#           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }} 
      
-      - name: Open Channel at Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: PROJECT_LINK=$(hosting:channel:open ${{ (echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') }})
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}    
+#       - name: Open Channel at Firebase
+#         uses: w9jds/firebase-action@master
+#         with:
+#           args: PROJECT_LINK=$(hosting:channel:open ${{ (echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') }})
+#         env:
+#           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}    
           
-      - name: Comment on PR
-        uses: unsplash/comment-on-pr@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          msg: PROJECT_LINK
+#       - name: Comment on PR
+#         uses: unsplash/comment-on-pr@master
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         with:
+#           msg: PROJECT_LINK
