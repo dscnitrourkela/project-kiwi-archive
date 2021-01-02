@@ -4,6 +4,7 @@ on: pull_request
 
 env:
   PROJECT_LINK: 'NA'
+  PR_NUMBER: 1
 
 jobs:
   preview:
