@@ -4,15 +4,12 @@ on: pull_request
 
 env:
   PROJECT_LINK: 'NA'
-  PR_NUMBER: 1
 
 jobs:
   preview:
     name: Preview at Firebase
     runs-on: ubuntu-latest
     steps:
-      - name: Get PR Number
-        run: PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
       
       - name: Checkout Repository
         uses: actions/checkout@v2
@@ -31,21 +28,21 @@ jobs:
       - name: Create Channel at Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: hosting:channel:create ${{ PR_NUMBER }}
+          args: hosting:channel:create ${{ $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') }}
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
           
       - name: Deploy to Channel at Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: hosting:channel:deploy ${{ PR_NUMBER }}
+          args: hosting:channel:deploy ${{ $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') }}
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }} 
      
       - name: Open Channel at Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: PROJECT_LINK=$(hosting:channel:open ${{ PR_NUMBER }})
+          args: PROJECT_LINK=$(hosting:channel:open ${{ $(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }') }})
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}    
           
