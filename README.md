@@ -9,7 +9,7 @@ A sample [Next.js] project for getting started with [MDX], [Theme UI], & [Hack C
 [theme ui]: https://theme-ui.com
 [hack club theme]: https://github.com/hackclub/theme
 
-## Usage
+# Usage
 
 1. Import this repo to your coding environment of choice. Download it, `git clone`, or use the GitHub import on Glitch/Repl.it.
 2. `yarn` to install dependencies.
