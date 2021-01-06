@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Image,  } from 'theme-ui';
+import { Box, Container, Heading, Image, Text } from 'theme-ui';
 import theme from '../../lib/theme';
 
 import SlideDown from '../../components/slide-down';
@@ -63,7 +63,7 @@ const HeroSection = () => {
         <Heading
           as="h1"
           variant="ultratitle"
-          mt={3}
+          mt={[5, 3]}
           sx={{
             color,
             textTransform: 'uppercase',
@@ -85,6 +85,18 @@ const HeroSection = () => {
           </NextLink>
           !
         </Text> */}
+        <Text
+          as="p"
+          variant="subtitle"
+          mt={2}
+          mb={[6, 0]}
+          sx={{
+            fontSize: [2, 4],
+            fontWeight: 'bold',
+          }}
+        >
+            19 - 22 MARCH, 2021
+        </Text>
       </SlideDown>
       <Container
         variant="narrow"
@@ -98,7 +110,7 @@ const HeroSection = () => {
           img: {
             position: 'absolute',
             top: 0,
-            left: 0,
+            left: [0, 0, 40],
             right: 0,
             maxWidth: '100%'
           }
