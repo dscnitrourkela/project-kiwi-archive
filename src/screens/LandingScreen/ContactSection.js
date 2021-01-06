@@ -57,7 +57,7 @@ const ContactSection = () => {
                 portalId="8898157"
                 formId="63a673ca-c337-4699-bcfc-c11262ce3622"
                 onSubmit={() => console.log('Submit!')}
-                // onReady={(form) => console.log('Form ready!')}
+                onReady={(form) => console.log('Form ready!')}
                 loading={<div>Loading...</div>}
               />
             </Box>

@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Image,  } from 'theme-ui';
+import { Box, Container, Heading, Image, Text } from 'theme-ui';
 import theme from '../../lib/theme';
 
 import SlideDown from '../../components/slide-down';
@@ -63,21 +63,31 @@ const HeroSection = () => {
         <Heading
           as="h1"
           variant="ultratitle"
-          mt={3}
+          mt={[5, 3]}
           sx={{
             color,
             textTransform: 'uppercase',
             WebkitTextStroke: 'white',
             WebkitTextStrokeWidth: '2px',
             WebkitTextFillColor: 'transparent',
-            filter: `drop-shadow(0 0 1px ${color}) drop-shadow(0 0 2px ${color}) drop-shadow(0 0 6px ${color})`
+            filter: `drop-shadow(0 0 1px ${color}) drop-shadow(0 0 2px ${color}) drop-shadow(0 0 6px ${color})`,
+            cursor: 'pointer'
           }}
         >
           HACKNITR 2.0
         </Heading>
-        {/* <Text as="p" variant="subtitle">
-            HACKNITR is the flagship hackathon of NIT Rourkela.
-        </Text> */}
+        <Text
+          as="p"
+          variant="subtitle"
+          mt={2}
+          mb={[6, 0]}
+          sx={{
+            fontSize: [2, 4],
+            fontWeight: 'bold',
+          }}
+        >
+            19 - 22 MARCH, 2021
+        </Text>
         {/* <Text as="p" variant="subtitle">
           Join in Saturday at 8:30 PM ET on{' '}
           <NextLink href="/slack" passHref>
@@ -98,7 +108,7 @@ const HeroSection = () => {
           img: {
             position: 'absolute',
             top: 0,
-            left: 0,
+            left: [0, 0, 40],
             right: 0,
             maxWidth: '100%'
           }
