@@ -32,6 +32,21 @@ export default function LandingPage() {
           content="Annual Hackathon at NIT Rourkela aiming to provide student developers, a platform to transform their ideas into prototypes, alongside amazing workshops, sessions and fun mini-events.  Awaiting awesome hackers like you!"
         />
         <meta property="twitter:image" content="/images/hacknitr_cover.png" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta name="description" content="Description" />
+        <meta name="keywords" content="Keywords" />
+
+        <link href="icon-192x192.png" rel="icon" type="image/png" sizes="192x192" />
+        <link href="icon-256x256.png" rel="icon" type="image/png" sizes="256x256" />
+        <link href="icon-384x384.png" rel="icon" type="image/png" sizes="384x384" />
+        <link href="icon-512x512.png" rel="icon" type="image/png" sizes="512x512" />
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+        <link href="/manifest.json" rel="manifest" />
+        <meta name="theme-color" content="#17171D" />
       </Head>
       <LandingScreen />
     </>
