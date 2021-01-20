@@ -224,7 +224,7 @@ const Footer = ({ dark = false, children, ...props }) => (
             src="/images/mlsa.png"
             alt="Microsoft Learn Student Ambassador Logo"
             sx={{
-              width: '45%',
+              width: '40%',
               ml: [3,0]
             }}
             />
