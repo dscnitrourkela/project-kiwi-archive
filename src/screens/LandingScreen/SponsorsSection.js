@@ -43,10 +43,26 @@ const SponsorsSection = () => {
           </Text>
         </Heading>
         <Grid
-          columns={[null, null]}
-          gap={[6, 6]}
-          sx={{ alignItems: 'center', span: { color: 'white' }, mt: 4 }}
+          columns={[1, 3]}
+          gap={6}
+          sx={{ alignItems: 'center', mt: 4 }}
         >
+
+          <Link
+            href="https://www.echoar.xyz/"
+            target="_blank"
+            rel="noreferrer"
+            sx={{ justifySelf: 'center' }}
+          >
+            <Image
+              src="/images/echoar.png"
+              alt="Sticker Mule Logo"
+              sx={{
+                maxHeight: '15rem'
+              }}
+            />
+          </Link>
+
           <Link
             href="https://www.stickermule.com/"
             target="_blank"
@@ -54,13 +70,29 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="https://cdn.worldvectorlogo.com/logos/sticker-mule.svg"
+              src="/images/stickermule.png"
               alt="Sticker Mule Logo"
+              sx={{
+                maxHeight: '20rem'
+              }}
+            />
+          </Link>
+
+          <Link
+            href="https://www.voiceflow.com/"
+            target="_blank"
+            rel="noreferrer"
+            sx={{ justifySelf: 'center' }}
+          >
+            <Image
+              src="/images/Voiceflow.png"
+              alt="Voiceflow Logo"
               sx={{
                 maxHeight: '15rem'
               }}
             />
           </Link>
+          
         </Grid>
       </Container>
     </Box>

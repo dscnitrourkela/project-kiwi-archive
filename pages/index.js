@@ -44,6 +44,7 @@ export default function LandingPage() {
         <link href="icon-512x512.png" rel="icon" type="image/png" sizes="512x512" />
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
 
         <link href="/manifest.json" rel="manifest" />
         <meta name="theme-color" content="#17171D" />
