@@ -157,26 +157,46 @@ const Footer = ({ dark = false, children, ...props }) => (
       </Grid>
 
       {/* Club Logos */}
-      <Grid sx={{marginTop: '1rem', mt: 5}} gap={2} columns={[2, 4]}>
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-        <Image
-            src="/images/dsclogo1.png"
-            alt="DSC NIT Rourkela Logo"
-            sx={{
-              width: '100%'
-            }}
-          />
-        </div>
+      <Grid sx={{margin: '0rem', mt: 5}} gap={2} columns={[2, 6]}>
+      <div style={{margin: '0 auto'}}>
+          <Link href="https://hacknitr.tech/">
+          <Image
+                src="/images/hacknitr.png"
+                alt="HackNITR Logo"
+                sx={{
+                  width: '30%',
+                  ml: 4
+                }}
+              />
+            </Link>
+            </div>
+          <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <Link href="https://dscnitrourkela.org/" target="_blank">
+          <Image
+                src="/images/dsclogo1.png"
+                alt="DSC NIT Rourkela Logo"
+                sx={{
+                  width: '100%',
+                  ml: [-2,-4]
+                }}
+              />
+            </Link>
+            </div>
+        
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <Link href="http://hackclub.com/" target="_blank">
             <Image
-            src="/images/hackclub1.png"
-            alt="Hack Club Logo"
-            sx={{
-              width: '70%'
-            }}
-          />
+                src="/images/hackclub1.png"
+                alt="Hack Club Logo"
+                sx={{
+                  width: '70%',
+                  ml: [3,0]
+                }}
+              />
+            </Link>
             </div>
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <Link href="https://education.github.com/" target="_blank">
             <Image
             src="/images/githubce.png"
             alt="GitHub Campus Experts Logo"
@@ -184,15 +204,31 @@ const Footer = ({ dark = false, children, ...props }) => (
               width: '70%'
             }}
           />
+            </Link>
             </div>
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <Link href="https://opencodenitr.herokuapp.com/" target="_blank">
             <Image
-            src="/images/opencode1.png"
-            alt="OpenCode Logo"
+              src="/images/opencode1.png"
+              alt="OpenCode Logo"
+              sx={{
+                width: '45%',
+                ml: [3,0]
+              }}
+            />
+            </Link>
+            </div>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <Link href="https://studentambassadors.microsoft.com/" target="_blank">
+            <Image
+            src="/images/mlsa.png"
+            alt="Microsoft Learn Student Ambassador Logo"
             sx={{
-              width: '45%'
+              width: '40%',
+              ml: [3,0]
             }}
-          />
+            />
+            </Link>
             </div>
       </Grid>
       <Text as="p" variant="caption" sx={{ mt: 5, textAlign: 'center' }}>
