@@ -159,7 +159,7 @@ const Footer = ({ dark = false, children, ...props }) => (
       {/* Club Logos */}
       <Grid sx={{margin: '0rem', mt: 5}} gap={2} columns={[2, 6]}>
       <div style={{margin: '0 auto'}}>
-          <Link href="https://hacknitr.tech/">
+          <Link href="https://hacknitr.tech/" rel="noreferrer">
           <Image
                 src="/images/hacknitr.png"
                 alt="HackNITR Logo"
@@ -171,7 +171,7 @@ const Footer = ({ dark = false, children, ...props }) => (
             </Link>
             </div>
           <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-          <Link href="https://dscnitrourkela.org/" target="_blank">
+          <Link href="https://dscnitrourkela.org/" target="_blank" rel="noreferrer">
           <Image
                 src="/images/dsclogo1.png"
                 alt="DSC NIT Rourkela Logo"
@@ -184,7 +184,7 @@ const Footer = ({ dark = false, children, ...props }) => (
             </div>
         
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-            <Link href="http://hackclub.com/" target="_blank">
+            <Link href="https://hackclub.com/" target="_blank" rel="noreferrer">
             <Image
                 src="/images/hackclub1.png"
                 alt="Hack Club Logo"
@@ -196,7 +196,7 @@ const Footer = ({ dark = false, children, ...props }) => (
             </Link>
             </div>
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-            <Link href="https://education.github.com/" target="_blank">
+            <Link href="https://education.github.com/" target="_blank" rel="noreferrer">
             <Image
             src="/images/githubce.png"
             alt="GitHub Campus Experts Logo"
@@ -207,7 +207,7 @@ const Footer = ({ dark = false, children, ...props }) => (
             </Link>
             </div>
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-            <Link href="https://opencodenitr.herokuapp.com/" target="_blank">
+            <Link href="https://opencodenitr.herokuapp.com/" target="_blank" rel="noreferrer">
             <Image
               src="/images/opencode1.png"
               alt="OpenCode Logo"
@@ -219,7 +219,7 @@ const Footer = ({ dark = false, children, ...props }) => (
             </Link>
             </div>
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-            <Link href="https://studentambassadors.microsoft.com/" target="_blank">
+            <Link href="https://studentambassadors.microsoft.com/" target="_blank" rel="noreferrer">
             <Image
             src="/images/mlsa.png"
             alt="Microsoft Learn Student Ambassador Logo"

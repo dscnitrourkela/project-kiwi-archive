@@ -5,6 +5,8 @@ import SlideDown from '../../components/slide-down';
 
 import { keyframes } from '@emotion/core';
 
+import ScriptTag from 'react-script-tag';
+
 const floating = keyframes`
   from {
     transform: translateY(20px);
@@ -89,7 +91,7 @@ const HeroSection = () => {
           as="p"
           variant="subtitle"
           mt={2}
-          mb={[6, 0]}
+          mb={[1, 3]}
           sx={{
             fontSize: [2, 4],
             fontWeight: 'bold',
@@ -97,7 +99,21 @@ const HeroSection = () => {
         >
             19 - 22 MARCH, 2021
         </Text>
+
+        <div 
+        className="apply-button" 
+        data-hackathon-slug="hacknitr2" 
+        data-button-theme="dark-inverted"
+        style={{height: '44px', width: '312px'}}
+      >
+        <ScriptTag defer async src="https://apply.devfolio.co/v2/sdk.js" />
+      </div>
       </SlideDown>
+
+      {/* <Container style={{zIndex: '1000'}}>
+      
+      </Container> */}
+
       <Container
         variant="narrow"
         sx={{
@@ -116,6 +132,8 @@ const HeroSection = () => {
           }
         }}
       >
+      
+      
         <Image
           src="/images/undraw2.png"
           alt="Hackathon Cover"
