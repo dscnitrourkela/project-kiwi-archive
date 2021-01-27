@@ -38,12 +38,13 @@ export default function LandingPage() {
         <meta name="description" content="Description" />
         <meta name="keywords" content="Keywords" />
 
-        <link href="icon-192x192.png" rel="icon" type="image/png" sizes="192x192" />
-        <link href="icon-256x256.png" rel="icon" type="image/png" sizes="256x256" />
-        <link href="icon-384x384.png" rel="icon" type="image/png" sizes="384x384" />
-        <link href="icon-512x512.png" rel="icon" type="image/png" sizes="512x512" />
+        <link href="/maskable_icon_x128.png" rel="icon" type="image/png" sizes="128x128" />
+        <link href="/maskable_icon_x144.png" rel="icon" type="image/png" sizes="144x144" />
+        <link href="/maskable_icon_x152.png" rel="icon" type="image/png" sizes="152x152" />
+        <link href="/maskable_icon_x384.png" rel="icon" type="image/png" sizes="384x384" />
+        <link href="/maskable_icon_x512.png" rel="icon" type="image/png" sizes="512x512" />
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="apple-touch-icon" href="/maskable_icon_x384.png" />
         <link rel="shortcut icon" href="/favicon.ico" />
 
         <link href="/manifest.json" rel="manifest" />
