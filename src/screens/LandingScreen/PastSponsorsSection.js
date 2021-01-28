@@ -129,7 +129,7 @@ const PastSponsorsSection = () => {
           <Link href="https://matic.network/" target="_blank" rel="noreferrer">
             <Image
               src="/images/past4.png"
-              alt="matic logo"
+              alt="Matic Logo"
             />
           </Link>
           <Link href="https://www.noticebard.com/" target="_blank" rel="noreferrer">
