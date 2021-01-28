@@ -40,7 +40,7 @@ const SponsorsSection = () => {
           </Text>
         </Heading>
 
-        <Container sx={{mt: '3rem', mb: [1, 5]}}>
+        <Container sx={{mt: [5, 6], mb: [2, 5]}}>
         <Heading
           as="h4"
           variant="title"
@@ -62,8 +62,7 @@ const SponsorsSection = () => {
               mx: [-2, 0],
               whiteSpace: 'nowrap',
               color: '#5d114c',
-              // bg: 'linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)',
-              fontSize: '3rem'
+              fontSize: ['2.6rem', '3rem']
             }}
             
           >
@@ -93,14 +92,12 @@ const SponsorsSection = () => {
         </Grid>
         </Container>
 
-        <Container sx={{mt: [1, 6]}}>
+        <Container sx={{mt: [6, 6]}}>
         <Heading
           as="h4"
           variant="title"
           sx={{ textAlign: 'center', marginBottom: '1rem',}}
           style={{
-            // backgroundColor: '#b3cdd1',
-            // backgroundImage: 'linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%)',
             background: 'linear-gradient(-72deg,#dedede,#ffffff 16%,#dedede 21%,#ffffff 24%,#454545 27%,#dedede 36%,#ffffff 45%,#ffffff 60%,#dedede 72%,#ffffff 80%,#dedede 84%,#a1a1a1)',
             width: 'fit-content',
             margin: '0 auto',
@@ -116,7 +113,7 @@ const SponsorsSection = () => {
               mx: [-2, 0],
               whiteSpace: 'nowrap',
               color: '#5d114c',
-              fontSize: '3rem'
+              fontSize: ['2.6rem', '3rem']
             }}
             
           >
@@ -177,7 +174,7 @@ const SponsorsSection = () => {
         </Grid>
         </Container>
 
-        <Container sx={{mt: [1, 6]}}>
+        <Container sx={{mt: [6, 6]}}>
         <Heading
           as="h4"
           variant="title"
@@ -198,7 +195,7 @@ const SponsorsSection = () => {
               mx: [-2, 0],
               whiteSpace: 'nowrap',
               color: '#5d114c',
-              fontSize: '3rem'
+              fontSize: ['2.6rem', '3rem']
             }}
             
           >
@@ -260,7 +257,7 @@ const SponsorsSection = () => {
         <Grid
           columns={[1, 1]}
           gap={6}
-          sx={{ alignItems: 'center', mt: 4 }}
+          sx={{ alignItems: 'center', mt: [6, 5] }}
           >
             <Link
               href="https://www.voiceflow.com/"
