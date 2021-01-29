@@ -135,9 +135,7 @@ const SponsorsSection = () => {
             <Image
               src="/images/past4.png"
               alt="Matic Logo"
-              sx={{
-                maxHeight: '15rem'
-              }}
+              sx={{ justifySelf: 'center' }}
             />
           </Link>
 
@@ -157,7 +155,7 @@ const SponsorsSection = () => {
           </Link>
 
           <Link
-            href="https://twitter.com/tezos"
+            href="https://tezos.com/"
             target="_blank"
             rel="noreferrer"
             sx={{ justifySelf: 'center' }}
