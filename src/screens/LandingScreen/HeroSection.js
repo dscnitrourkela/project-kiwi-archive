@@ -2,6 +2,7 @@ import { Box, Container, Heading, Image, Text } from 'theme-ui';
 import theme from '../../lib/theme';
 
 import SlideDown from '../../components/slide-down';
+import ReactScript from 'react-script-tag'
 
 import { keyframes } from '@emotion/core';
 
@@ -77,16 +78,6 @@ const HeroSection = () => {
         >
           HACKNITR 2.0
         </Heading>
-        {/* <Text as="p" variant="subtitle">
-            HACKNITR is the flagship hackathon of NIT Rourkela.
-        </Text> */}
-        {/* <Text as="p" variant="subtitle">
-          Join in Saturday at 8:30 PM ET on{' '}
-          <NextLink href="/slack" passHref>
-            <Link sx={{ color, opacity: 0.75 }}>#hack-night</Link>
-          </NextLink>
-          !
-        </Text> */}
         <Text
           as="p"
           variant="subtitle"
@@ -101,18 +92,14 @@ const HeroSection = () => {
         </Text>
 
         <div 
-        className="apply-button" 
-        data-hackathon-slug="hacknitr2" 
-        data-button-theme="dark-inverted"
-        style={{height: '44px', width: '312px'}}
-      >
-        <ScriptTag defer async src="https://apply.devfolio.co/v2/sdk.js" />
-      </div>
+          className="apply-button" 
+          data-hackathon-slug="hacknitr2" 
+          data-button-theme="dark-inverted"
+          style={{height: '44px', width: '312px'}}
+        >
+          <ScriptTag defer async src="https://apply.devfolio.co/v2/sdk.js" />
+        </div>
       </SlideDown>
-
-      {/* <Container style={{zIndex: '1000'}}>
-      
-      </Container> */}
 
       <Container
         variant="narrow"
@@ -144,17 +131,9 @@ const HeroSection = () => {
           }}
         />
       </Container>
-      {/* <Button
-        as="a"
-        variant="ctaLg"
-        href="/"
-        target="_blank"
-        rel="noopener"
-        sx={{ justifySelf: 'end' }}
-        style={{ zIndex: 1500 }}
-      >
-        Register now
-      </Button> */}
+      {/* <!-- Start of HubSpot Embed Code --> */}
+      <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8898157.js"></script>
+      {/* <!-- End of HubSpot Embed Code --> */}
     </Box>
   );
 };

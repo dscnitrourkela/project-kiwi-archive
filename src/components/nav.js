@@ -184,7 +184,7 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       onClick={handleToggle}
     />
 
-    <ScrollLink
+    {/* <ScrollLink
       offset={-50}
       to="contact-section"
       smooth
@@ -192,7 +192,7 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       style={{ cursor: 'pointer' }}
       className="navLink"
       onClick={handleToggle}
-    />
+    /> */}
     {props.music && (
       <Link style={{ cursor: 'pointer' }}>
         <Music muted={muted} handleMute={handleMute} />
