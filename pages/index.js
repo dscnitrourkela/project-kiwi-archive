@@ -49,6 +49,8 @@ export default function LandingPage() {
 
         <link href="/manifest.json" rel="manifest" />
         <meta name="theme-color" content="#17171D" />
+
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8898157.js"></script>
       </Head>
       <LandingScreen />
     </>

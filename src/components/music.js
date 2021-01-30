@@ -21,7 +21,7 @@ const Music = ({ muted, handleMute }) => {
       </div>
       <Box sx={{ display: 'none' }}>
         <ReactAudioPlayer
-          src="/music/score.mp3"
+          src="https://github.com/dscnitrourkela/project-kiwi/blob/dev/public/music/score.mp3?raw=true"
           controls
           autoPlay
           muted={muted}
