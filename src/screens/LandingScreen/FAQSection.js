@@ -20,7 +20,7 @@ let data = [
   },
   {
     title: 'How does the application process work?',
-    content: `We're looking for people who can innovate and build solutions to real-world problems. Tell us why you want to be a part of HackNITR, any accomplishments you're proud of or anything else which could strengthen your application. Applications open in mid January.`
+    content: `We're looking for people who can innovate and build solutions to real-world problems. Tell us why you want to be a part of HackNITR, any accomplishments you're proud of or anything else which could strengthen your application. Get started by applying with Devfolio.`
   },
   {
     title: 'Can we apply as a team?',
@@ -32,7 +32,7 @@ let data = [
   },
   {
     title: 'When will the applications open?',
-    content: `Applications will start soon on our website. Please subscribe below to stay updated.`
+    content: `Applications are open.`
   }
 ];
 
