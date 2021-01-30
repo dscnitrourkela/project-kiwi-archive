@@ -14,15 +14,15 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: '14'
 
       - name: Install packages
-        run: npm install
+        run: yarn install
         
       - name: Build Static Files
-        run: npm run export
+        run: yarn export
         
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
