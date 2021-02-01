@@ -24,7 +24,7 @@ let data = [
   },
   {
     title: 'Can we apply as a team?',
-    content: `Yes! No one likes to be a loner. You can join or create a team once you've started an individual application. You can form team of up to 3 people. Most people aim to have a mix of people with both design and developer skills.`
+    content: `Yes! No one likes to be a loner. You can join or create a team once you've started an individual application. You can form team of up to 4 people. Most people aim to have a mix of people with both design and developer skills.`
   },
   {
     title: 'What if I don\'t have a team or idea?',
