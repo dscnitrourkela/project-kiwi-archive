@@ -170,6 +170,28 @@ const SponsorsSection = () => {
           </Link>
           
         </Grid>
+
+        <Grid
+          columns={[1, 1]}
+          gap={6}
+          sx={{ alignItems: 'center', mt: [6, 5] }}
+          >
+            <Link
+              href="https://www.wolfram.com/language/"
+              target="_blank"
+              rel="noreferrer"
+              sx={{ justifySelf: 'center' }}
+            >
+              <Image
+                src="/images/wolfram.png"
+                alt="Wolfram Logo"
+                sx={{
+                  maxHeight: '6rem'
+                }}
+              />
+            </Link>
+          </Grid>
+
         </Container>
 
         <Container sx={{mt: [6, 6]}}>
