@@ -275,7 +275,7 @@ const SponsorsSection = () => {
         </Grid>
 
         <Grid
-          columns={[1, 1]}
+          columns={[1, 2]}
           gap={6}
           sx={{ alignItems: 'center', mt: [6, 5] }}
           >
@@ -290,6 +290,20 @@ const SponsorsSection = () => {
                 alt="Voiceflow Logo"
                 sx={{
                   maxHeight: '5rem'
+                }}
+              />
+            </Link>
+            <Link
+              href="https://www.taskade.com/"
+              target="_blank"
+              rel="noreferrer"
+              sx={{ justifySelf: 'center' }}
+            >
+              <Image
+                src="/images/taskade.png"
+                alt="Taskade Logo"
+                sx={{
+                  maxHeight: '6rem'
                 }}
               />
             </Link>
