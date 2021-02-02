@@ -166,9 +166,9 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
 
     <ScrollLink
       offset={-50}
-      to="faq-section"
+      to="sponsors-section"
       smooth
-      children="FAQ"
+      children="Sponsors"
       style={{ cursor: 'pointer' }}
       className="navLink"
       onClick={handleToggle}
@@ -176,9 +176,9 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
 
     <ScrollLink
       offset={-50}
-      to="sponsors-section"
+      to="faq-section"
       smooth
-      children="Sponsors"
+      children="FAQ"
       style={{ cursor: 'pointer' }}
       className="navLink"
       onClick={handleToggle}
