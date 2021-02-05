@@ -1,13 +1,9 @@
 import {
   Box,
-  Button,
-  Card,
   Container,
   Grid,
   Heading,
-  Image,
-  Link,
-  Text
+  Image
 } from 'theme-ui';
 import theme from '../../lib/theme';
 import Feature from '../../components/feature';
