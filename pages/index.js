@@ -13,7 +13,7 @@ export default function LandingPage() {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://hacknitr.tech/" />
+        <meta property="og:url" content="https://hacknitr.tech/" />
         <meta property="og:title" content="HackNITR 2.0 | Virtual Edition" />
         <meta
           property="og:description"
@@ -22,7 +22,7 @@ export default function LandingPage() {
         <meta property="og:image" content="/images/hacknitr_cover.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="http://hacknitr.tech/" />
+        <meta property="twitter:url" content="https://hacknitr.tech/" />
         <meta
           property="twitter:title"
           content="HackNITR 2.0 | Virtual Edition"
@@ -32,7 +32,7 @@ export default function LandingPage() {
           content="Annual Hackathon at NIT Rourkela aiming to provide student developers, a platform to transform their ideas into prototypes, alongside amazing workshops, sessions and fun mini-events.  Awaiting awesome hackers like you!"
         />
         <meta property="twitter:image" content="/images/hacknitr_cover.png" />
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
         <meta name="description" content="Description" />
@@ -50,8 +50,9 @@ export default function LandingPage() {
         <link href="/manifest.json" rel="manifest" />
         <meta name="theme-color" content="#17171D" />
 
-        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8898157.js"></script>
       </Head>
+      <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8898157.js"></script>
+
       <LandingScreen />
     </>
   );
