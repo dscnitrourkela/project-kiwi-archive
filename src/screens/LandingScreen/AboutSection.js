@@ -1,5 +1,4 @@
 import { Box, Button, Container, Grid, Heading, Text } from 'theme-ui';
-import { Link } from 'react-scroll';
 import theme from '../../lib/theme';
 
 const AboutSection = () => {
