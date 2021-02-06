@@ -1,13 +1,9 @@
 import {
   Box,
-  Button,
-  Card,
   Container,
   Grid,
   Heading,
-  Image,
-  Link,
-  Text
+  Image
 } from 'theme-ui';
 import theme from '../../lib/theme';
 import Feature from '../../components/feature';
@@ -20,11 +16,11 @@ let data = [
   },
   {
     title: 'How does the application process work?',
-    content: `We're looking for people who can innovate and build solutions to real-world problems. Tell us why you want to be a part of HackNITR, any accomplishments you're proud of or anything else which could strengthen your application. Applications open in mid January.`
+    content: `We're looking for people who can innovate and build solutions to real-world problems. Tell us why you want to be a part of HackNITR, any accomplishments you're proud of or anything else which could strengthen your application. Get started by applying with Devfolio.`
   },
   {
     title: 'Can we apply as a team?',
-    content: `Yes! No one likes to be a loner. You can join or create a team once you've started an individual application. You can form team of up to 3 people. Most people aim to have a mix of people with both design and developer skills.`
+    content: `Yes! No one likes to be a loner. You can join or create a team once you've started an individual application. You can form team of up to 4 people. Most people aim to have a mix of people with both design and developer skills.`
   },
   {
     title: 'What if I don\'t have a team or idea?',
@@ -32,7 +28,7 @@ let data = [
   },
   {
     title: 'When will the applications open?',
-    content: `Applications will start soon on our website. Please subscribe below to stay updated.`
+    content: `Applications are open.`
   }
 ];
 

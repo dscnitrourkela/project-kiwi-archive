@@ -1,4 +1,4 @@
-import { Box, Card, Container, Grid, Heading, Image } from 'theme-ui';
+import { Box, Card, Container, Grid, Heading } from 'theme-ui';
 import theme from '../../lib/theme';
 import Feature from '../../components/feature';
 

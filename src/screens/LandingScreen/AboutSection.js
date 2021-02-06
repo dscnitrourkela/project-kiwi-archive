@@ -21,7 +21,7 @@ const AboutSection = () => {
       }}
     >
       <Container>
-        <Text as="p" variant="eyebrow" sx={{ textAlign: ['center', 'left'] }}>
+        <Text as="p" variant="eyebrow" sx={{ textAlign: ['center', 'center'] }}>
           HackNITR 2.0
         </Text>
         <Heading
@@ -30,7 +30,7 @@ const AboutSection = () => {
           sx={{
             lineHeight: 1.25,
             letterSpacing: '1px',
-            textAlign: ['center', 'left']
+            textAlign: ['center', 'center']
           }}
         >
           Flagship hackathon of{' '}
@@ -47,7 +47,7 @@ const AboutSection = () => {
           >
             NIT Rourkela
           </Text>
-          .
+          
         </Heading>
         <Grid
           // columns={[null, '1fr 2fr']}

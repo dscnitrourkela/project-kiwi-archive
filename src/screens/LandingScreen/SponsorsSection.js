@@ -170,6 +170,28 @@ const SponsorsSection = () => {
           </Link>
           
         </Grid>
+
+        <Grid
+          columns={[1, 1]}
+          gap={6}
+          sx={{ alignItems: 'center', mt: [6, 5] }}
+          >
+            <Link
+              href="https://www.wolfram.com/language/"
+              target="_blank"
+              rel="noreferrer"
+              sx={{ justifySelf: 'center' }}
+            >
+              <Image
+                src="/images/wolfram.png"
+                alt="Wolfram Logo"
+                sx={{
+                  maxHeight: '6rem'
+                }}
+              />
+            </Link>
+          </Grid>
+
         </Container>
 
         <Container sx={{mt: [6, 6]}}>
@@ -253,7 +275,7 @@ const SponsorsSection = () => {
         </Grid>
 
         <Grid
-          columns={[1, 1]}
+          columns={[1, 2]}
           gap={6}
           sx={{ alignItems: 'center', mt: [6, 5] }}
           >
@@ -268,6 +290,20 @@ const SponsorsSection = () => {
                 alt="Voiceflow Logo"
                 sx={{
                   maxHeight: '5rem'
+                }}
+              />
+            </Link>
+            <Link
+              href="https://www.taskade.com/"
+              target="_blank"
+              rel="noreferrer"
+              sx={{ justifySelf: 'center' }}
+            >
+              <Image
+                src="/images/taskade.png"
+                alt="Taskade Logo"
+                sx={{
+                  maxHeight: '6rem'
                 }}
               />
             </Link>
