@@ -117,14 +117,14 @@ const Navigation = ({ muted, music, handleMute, ...props }) => {
         className="navLink"
       />
 
-      <ScrollLink
+      {/* <ScrollLink
         offset={-50}
         to="contact-section"
         smooth
         children="Contact"
         style={{ cursor: 'pointer' }}
         className="navLink"
-      />
+      /> */}
       {music && (
         <Link style={{ color: '#fafafa', cursor: 'pointer' }}>
           <Music muted={muted} handleMute={handleMute} />

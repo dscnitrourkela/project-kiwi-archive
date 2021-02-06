@@ -82,9 +82,9 @@ const AboutSection = () => {
             technological skills to win awesome prizes and swags.
           </Text>
           <Button variant="ctaLg" rel="noopener" sx={{ justifySelf: 'center' }}>
-            <Link to="contact-section" smooth offset={-50}>
+            {/* <Link to="contact-section" smooth offset={-50}> */}
               Subscribe for updates
-            </Link>
+            {/* </Link> */}
           </Button>
         </Grid>
       </Container>
