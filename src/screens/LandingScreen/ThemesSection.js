@@ -90,7 +90,7 @@ const ThemesSection = () => {
               icon="idea"
               color="white"
               name="Innovate with new technologies"
-              desc="Execute your tech stack with amazing projects"
+              desc="Execute amazing projects by employing latest tech stack"
             />
           </Card>
 

@@ -36,3 +36,4 @@ yarn-error.log*
 .firebase/hosting.b3V0.cache
 firebase-debug.log
 package-lock.json
+public/sw.js.map

@@ -1,5 +1,4 @@
 import { Box, Button, Container, Grid, Heading, Text } from 'theme-ui';
-import { Link } from 'react-scroll';
 import theme from '../../lib/theme';
 
 const AboutSection = () => {
@@ -82,9 +81,9 @@ const AboutSection = () => {
             technological skills to win awesome prizes and swags.
           </Text>
           <Button variant="ctaLg" rel="noopener" sx={{ justifySelf: 'center' }}>
-            <Link to="contact-section" smooth offset={-50}>
+            {/* <Link to="contact-section" smooth offset={-50}> */}
               Subscribe for updates
-            </Link>
+            {/* </Link> */}
           </Button>
         </Grid>
       </Container>

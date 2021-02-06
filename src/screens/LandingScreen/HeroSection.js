@@ -2,11 +2,8 @@ import { Box, Container, Heading, Image, Text } from 'theme-ui';
 import theme from '../../lib/theme';
 
 import SlideDown from '../../components/slide-down';
-import ReactScript from 'react-script-tag'
 
 import { keyframes } from '@emotion/core';
-
-import ScriptTag from 'react-script-tag';
 
 const floating = keyframes`
   from {
@@ -97,7 +94,7 @@ const HeroSection = () => {
           data-button-theme="dark-inverted"
           style={{height: '44px', width: '312px'}}
         >
-          <ScriptTag defer async src="https://apply.devfolio.co/v2/sdk.js" />
+          <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
         </div>
       </SlideDown>
 

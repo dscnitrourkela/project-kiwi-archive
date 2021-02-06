@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { Box, Card, Text, useColorMode } from 'theme-ui'
+import { Card, Text, useColorMode } from 'theme-ui'
 import Image from 'next/image'
 import theme from '../lib/theme'
 
