@@ -53,13 +53,27 @@ const AboutSection = () => {
           sx={{ maxWidth: 'copyUltra', mx: 'auto' }}
         >
           <Text as="p" variant="lead" sx={{ mt: 0, textAlign: 'center' }}>
-            HackNITR 2.0 is one of a kind Hackathon brought to you by OpenCode
-            and DSC NIT Rourkela. A unique opportunity to bring out your ideas
-            and technological skills to win awesome prizes and swags.
+            HackNITR 2.0 is one of a kind hackathon brought to you by{' '}
+            <Link
+              rel="noreferrer"
+              sx={{ cursor: 'pointer' }}
+            >
+              <a href="https://opencodenitr.herokuapp.com/" target="_blank" style={{textDecoration: 'none'}}>OpenCode</a>
+            </Link>{' '}
+            and{' '}
+            <Link
+              rel="noreferrer"
+              sx={{ cursor: 'pointer' }}
+            >
+              <a href="https://dscnitrourkela.org/" target="_blank" style={{textDecoration: 'none'}}>DSC NIT Rourkela</a>
+            </Link>
+            . A unique opportunity to bring out your ideas and technological
+            skills to win awesome prizes and swags.
           </Text>
 
-          <Text as="p" variant="lead" sx={{ mt: 0, textAlign: 'center' }}>
-            Want to take a workshop or become a student mentor at HackNITR 2.0?
+          <Text as="p" variant="lead" sx={{ mt: 0, textAlign: 'left' }}>
+            We are eager to have student mentors and workshop facilitators join
+            us at HackNITR 2.0
           </Text>
           <Link
             href="https://nitrdevs.typeform.com/to/rVVPYabo"
@@ -72,8 +86,10 @@ const AboutSection = () => {
               rel="noopener"
               sx={{ justifySelf: 'center' }}
             >
-              Click Here
+              Apply Now
             </Button>
+
+            
           </Link>
         </Grid>
       </Container>

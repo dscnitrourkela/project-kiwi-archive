@@ -49,14 +49,14 @@ const ThemesSection = () => {
           }}
         >
         <Card
-            variant="interactive"
-            sx={{
-              background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
-              color: 'white',
-              svg: { color: '#fb558e' },
-              minHeight: '20rem'
-            }}
-          >
+          variant="interactive"
+          sx={{
+            background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
+            color: 'white',
+            svg: { color: '#fb558e' },
+            minHeight: '20rem'
+          }}
+        >
             <Feature
               icon="code"
               color="white"

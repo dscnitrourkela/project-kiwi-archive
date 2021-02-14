@@ -10,7 +10,7 @@ const PastSponsorsSection = () => {
         py: [4, 5],
         color: 'white',
         minHeight: '100vh',
-        backgroundColor: theme.colors.darker,
+        backgroundColor: theme.colors.dark,
         // width: '100vw',
         height: 'fit-content',
 
