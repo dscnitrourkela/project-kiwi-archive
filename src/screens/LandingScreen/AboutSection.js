@@ -1,4 +1,4 @@
-import { Box, Button, Container, Grid, Heading, Text } from 'theme-ui';
+import { Box, Button, Container, Grid, Heading, Text, Link } from 'theme-ui';
 import theme from '../../lib/theme';
 
 const AboutSection = () => {
@@ -53,38 +53,45 @@ const AboutSection = () => {
           mt={[3, 5]}
           sx={{ maxWidth: 'copyUltra', mx: 'auto' }}
         >
-          {/* <Heading as="h3" variant="headline" sx={{ fontSize: [4, 5], mb: 0 }}>
-            Go beyond club meetings.
-          </Heading> */}
-          {/* <Text
-            as="p"
-            variant="lead"
-            sx={{ mt: 0, a: { variant: 'styles.a', color: 'blue' } }}
-          >
-            Hack Clubs attend and run{' '}
-            <a href="https://hackathons.hackclub.com/">hackathons</a> like{' '}
-            <a href="https://windyhacks.com">Windy&nbsp;City&nbsp;Hacks</a> &{' '}
-            <a href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">
-              Hack the Fog
-            </a>
-            , run summer programs like{' '}
-            <a href="http://thecspn.com/?p=43434">Hack Camp</a>, and compete in
-            events like the{' '}
-            <a href="http://www.congressionalappchallenge.us">
-              Congressional App Challenge
-            </a>
-            . The&nbsp;hack’s the limit.
-          </Text> */}
           <Text as="p" variant="lead" sx={{ mt: 0, textAlign: 'center' }}>
-            HackNITR 2.0 is one of a kind Hackathon brought to you by OpenCode and
-            DSC NIT Rourkela. A unique opportunity to bring out your ideas and
-            technological skills to win awesome prizes and swags.
+            HackNITR 2.0 is one of a kind hackathon brought to you by{' '}
+            <Link
+              rel="noreferrer"
+              sx={{ cursor: 'pointer' }}
+            >
+              <a href="https://opencodenitr.herokuapp.com/" target="_blank" style={{textDecoration: 'none'}}>OpenCode</a>
+            </Link>{' '}
+            and{' '}
+            <Link
+              rel="noreferrer"
+              sx={{ cursor: 'pointer' }}
+            >
+              <a href="https://dscnitrourkela.org/" target="_blank" style={{textDecoration: 'none'}}>DSC NIT Rourkela</a>
+            </Link>
+            . A unique opportunity to bring out your ideas and technological
+            skills to win awesome prizes and swags.
           </Text>
-          <Button variant="ctaLg" rel="noopener" sx={{ justifySelf: 'center' }}>
-            {/* <Link to="contact-section" smooth offset={-50}> */}
-              Subscribe for updates
-            {/* </Link> */}
-          </Button>
+
+          <Text as="p" variant="lead" sx={{ mt: 0, textAlign: 'left' }}>
+            We are eager to have student mentors and workshop facilitators join
+            us at HackNITR 2.0
+          </Text>
+          <Link
+            href="https://nitrdevs.typeform.com/to/rVVPYabo"
+            target="_blank"
+            rel="noreferrer"
+            sx={{ justifySelf: 'center' }}
+          >
+            <Button
+              variant="ctaLg"
+              rel="noopener"
+              sx={{ justifySelf: 'center' }}
+            >
+              Apply Now
+            </Button>
+
+            
+          </Link>
         </Grid>
       </Container>
     </Box>
