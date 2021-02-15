@@ -75,6 +75,7 @@ const AboutSection = () => {
             We are eager to have student mentors and workshop facilitators join
             us at HackNITR 2.0
           </Text>
+
           <a
             href="https://nitrdevs.typeform.com/to/rVVPYabo"
             target="_blank"
@@ -89,8 +90,9 @@ const AboutSection = () => {
               Apply Now
             </Button>
 
-            
           </a>
+
+
         </Grid>
       </Container>
     </Box>
