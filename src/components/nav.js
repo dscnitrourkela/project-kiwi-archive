@@ -168,7 +168,7 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       offset={-50}
       to="speaker-section"
       smooth
-      children="Sessions"
+      children="Speakers"
       style={{ cursor: 'pointer' }}
       className="navLink"
       onClick={handleToggle}
@@ -184,7 +184,7 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       onClick={handleToggle}
     />
 
-    <ScrollLink
+    {/* <ScrollLink
       offset={-50}
       to="prizes-section"
       smooth
@@ -192,7 +192,7 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       style={{ cursor: 'pointer' }}
       className="navLink"
       onClick={handleToggle}
-    />
+    /> */}
 
     <ScrollLink
       offset={-50}

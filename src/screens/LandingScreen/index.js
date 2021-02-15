@@ -10,7 +10,7 @@ import PastSponsorsSection from './PastSponsorsSection';
 import HeroSection from './HeroSection';
 import SpeakerSection from './SpeakerSection';
 import TracksSection from './TracksSection';
-import PrizesSection from './PrizesSection'
+// import PrizesSection from './PrizesSection'
 
 const color = '#f6f6f6';
 
@@ -24,7 +24,7 @@ const LandingScreen = () => {
       <ThemesSection />
       <SpeakerSection />
       <TracksSection />
-      <PrizesSection />
+      {/* <PrizesSection /> */}
       <SponsorsSection />
       <PastSponsorsSection />
       <FAQSection />

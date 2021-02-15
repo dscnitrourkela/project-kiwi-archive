@@ -35,9 +35,18 @@ a {
   display: inline-block;
   margin: 0 auto;
   margin-bottom: 1em;
-  width: 330px;
+  width: 500px;
   height: 330px;
   text-align: center;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .flip {
+    width: 330px;
+    height: 330px;
+    font-size: 0.85rem;
+  }
 }
 
 .flip>.front,
@@ -70,18 +79,32 @@ opacity: 1;
 transform: rotateY(0deg);
 }
 
-.flip>.front,
-.flip>.back {
+.flip>.front {
 display: block;
 color: white;
 width: inherit;
 background-size: cover!important;
 background-position: center!important;
 height: 100%;
-padding: 1em 2em;
-background: #313131;
+padding: 0;
 border-radius: 10px;
 }
+
+.flip>.front>img {
+  opacity: 0.5;
+}
+
+.flip>.back {
+  display: block;
+  color: white;
+  width: inherit;
+  background-size: cover!important;
+  background-position: center!important;
+  height: 100%;
+  padding: 1em 2em;
+  background: #313131;
+  border-radius: 10px;
+  }
 
 .css-19t934o {
   padding: 0 !important;
