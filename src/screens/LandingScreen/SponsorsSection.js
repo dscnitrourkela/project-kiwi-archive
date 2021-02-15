@@ -11,7 +11,7 @@ const SponsorsSection = () => {
         color: 'white',
         minHeight: '100vh',
         height: 'fit-content',
-        backgroundColor: theme.colors.dark,
+        backgroundColor: theme.colors.darker,
         // width: '100vw',
         display: 'flex',
         justifyContent: 'center',
@@ -280,20 +280,6 @@ const SponsorsSection = () => {
           sx={{ alignItems: 'center', mt: [6, 5] }}
           >
             <Link
-              href="https://www.voiceflow.com/"
-              target="_blank"
-              rel="noreferrer"
-              sx={{ justifySelf: 'center' }}
-            >
-              <Image
-                src="/images/Voiceflow.png"
-                alt="Voiceflow Logo"
-                sx={{
-                  maxHeight: '5rem'
-                }}
-              />
-            </Link>
-            <Link
               href="https://www.taskade.com/"
               target="_blank"
               rel="noreferrer"
@@ -304,6 +290,20 @@ const SponsorsSection = () => {
                 alt="Taskade Logo"
                 sx={{
                   maxHeight: '6rem'
+                }}
+              />
+            </Link>
+            <Link
+              href="https://www.voiceflow.com/"
+              target="_blank"
+              rel="noreferrer"
+              sx={{ justifySelf: 'center' }}
+            >
+              <Image
+                src="/images/Voiceflow.png"
+                alt="Voiceflow Logo"
+                sx={{
+                  maxHeight: '5rem'
                 }}
               />
             </Link>

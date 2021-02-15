@@ -166,6 +166,36 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
 
     <ScrollLink
       offset={-50}
+      to="speaker-section"
+      smooth
+      children="Speakers"
+      style={{ cursor: 'pointer' }}
+      className="navLink"
+      onClick={handleToggle}
+    />
+
+    <ScrollLink
+      offset={-50}
+      to="tracks-section"
+      smooth
+      children="Tracks"
+      style={{ cursor: 'pointer' }}
+      className="navLink"
+      onClick={handleToggle}
+    />
+
+    {/* <ScrollLink
+      offset={-50}
+      to="prizes-section"
+      smooth
+      children="Prizes"
+      style={{ cursor: 'pointer' }}
+      className="navLink"
+      onClick={handleToggle}
+    /> */}
+
+    <ScrollLink
+      offset={-50}
       to="sponsors-section"
       smooth
       children="Sponsors"
@@ -184,15 +214,6 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       onClick={handleToggle}
     />
 
-    {/* <ScrollLink
-      offset={-50}
-      to="contact-section"
-      smooth
-      children="Contact"
-      style={{ cursor: 'pointer' }}
-      className="navLink"
-      onClick={handleToggle}
-    /> */}
     {props.music && (
       <Link style={{ cursor: 'pointer' }}>
         <Music muted={muted} handleMute={handleMute} />

@@ -22,4 +22,6 @@ theme.layout.copy.maxWidth = [null, null, 'copyPlus'];
 
 theme.text.title.fontSize = [5, 6];
 
+theme.radii.circle = '100px';
+
 export default theme;

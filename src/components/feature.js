@@ -29,7 +29,7 @@ const Feature = ({ icon, color, name, desc, children, ...props }) => (
       <Text
         as="p"
         variant="subtitle"
-        sx={{ mt: 0, pb: 2, a: { variant: 'styles.a', color: 'blue' } }}
+        sx={{ mt: 0, pb: 1, a: { variant: 'styles.a', color: 'blue' } }}
       >
         {desc}
       </Text>

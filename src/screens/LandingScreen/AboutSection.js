@@ -46,7 +46,6 @@ const AboutSection = () => {
           >
             NIT Rourkela
           </Text>
-          
         </Heading>
         <Grid
           // columns={[null, '1fr 2fr']}
@@ -76,11 +75,12 @@ const AboutSection = () => {
             We are eager to have student mentors and workshop facilitators join
             us at HackNITR 2.0
           </Text>
-          <Link
+
+          <a
             href="https://nitrdevs.typeform.com/to/rVVPYabo"
             target="_blank"
             rel="noreferrer"
-            sx={{ justifySelf: 'center' }}
+            style={{ justifySelf: 'center', textDecoration: 'none' }}
           >
             <Button
               variant="ctaLg"
@@ -90,8 +90,9 @@ const AboutSection = () => {
               Apply Now
             </Button>
 
-            
-          </Link>
+          </a>
+
+
         </Grid>
       </Container>
     </Box>

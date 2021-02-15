@@ -88,10 +88,10 @@ const Footer = ({ dark = false, children, ...props }) => (
           <Text>We are a group of coding aficionado university students, hosting this hackathon as a clarion call to the brightest minds to come together and hack out the problems we face in the community we all comprise of by collaboration and innovation. Here's to a better future!</Text>
           <Grid gap={2} columns={[2, '1fr,1fr']} sx={{mt: 2}}>
             <Link href="/codeofconduct.html" target="_blank" rel="noreferrer">
-            Code Of Conduct
+            <Text sx={{fontSize: ['1.2rem', '0.7rem','1.2rem']}}>Code Of Conduct</Text>
             </Link>
             <Link href="/privacypolicy.html" target="_blank" rel="noreferrer">
-            Privacy Policy
+            <Text sx={{fontSize: ['1.2rem', '0.7rem','1.2rem']}}>Privacy Policy</Text>
             </Link>
           </Grid>
         </Box>
