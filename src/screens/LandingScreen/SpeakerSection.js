@@ -82,9 +82,9 @@ const SpeakerSection = () => {
               }
             }}
           >
-          <Box sx={{ display: 'flex', boxShadow: '2px 2px 10px #000', borderRadius: '10px' }}>
+          <Box sx={{ display: 'flex', flexDirection: ['column', 'row'] , boxShadow: '2px 2px 10px #000', borderRadius: '10px' }}>
                 <Image
-                  style={{ objectFit: 'cover', borderRadius: '10px 0 0 10px' }}
+                  sx={{ objectFit: 'cover', borderRadius: ['10px 10px 0 0', '10px 0 0 10px'] }}
                   src="/images/Speakers/Juan.jpg"
                 />
                 <Box
@@ -94,7 +94,7 @@ const SpeakerSection = () => {
                     minWidth: ['200px', '300px'],
                     paddingLeft: '1rem',
                     paddingRight: '1rem',
-                    borderRadius: '0 10px 10px 0'
+                    borderRadius: ['0 0 10px 10px', '0 10px 10px 0']
                   }}
                 >
                   <Heading
@@ -102,7 +102,7 @@ const SpeakerSection = () => {
                       textAlign: 'left',
                       pt: ['0.7rem', '1.5rem'],
                       pb: [1, 1],
-                      fontSize: [1, 3],
+                      fontSize: [2, 3],
                       color: '#fff'
                     }}
                   >
@@ -111,7 +111,7 @@ const SpeakerSection = () => {
                   <Heading
                     sx={{
                       textAlign: 'left',
-                      fontSize: ['0.7rem', '1rem'],
+                      fontSize: '16px',
                       pb: [1, 3],
                       fontWeight: '400',
                       color: '#fff'
@@ -122,9 +122,9 @@ const SpeakerSection = () => {
                   <Text
                     sx={{
                       textAlign: 'left',
-                      fontSize: ['0.62rem', '0.9rem'],
-                      pt: [0, 2],
-                      pb: [0, 3]
+                      fontSize: '14px',
+                      pt: [1, 2],
+                      pb: [1, 3]
                     }}
                   >
                     Juan is a Program Manager at the GitHub Education Team,
@@ -186,9 +186,9 @@ const SpeakerSection = () => {
               }
             }}
           >
-          <Box sx={{ display: 'flex', boxShadow: '2px 2px 10px #000', borderRadius: '10px' }}>
+          <Box sx={{ display: 'flex', flexDirection: ['column', 'row'], boxShadow: '2px 2px 10px #000', borderRadius: '10px' }}>
                 <Image
-                  style={{ objectFit: 'cover', borderRadius: '10px 0 0 10px' }}
+                  sx={{ objectFit: 'cover', borderRadius: ['10px 10px 0 0', '10px 0 0 10px'] }}
                   src="/images/Speakers/Nikita1.jpg"
                 />
                 <Box
@@ -198,7 +198,7 @@ const SpeakerSection = () => {
                     minWidth: ['200px', '300px'],
                     paddingLeft: '1rem',
                     paddingRight: '1rem',
-                    borderRadius: '0 10px 10px 0'
+                    borderRadius: ['0 0 10px 10px', '0 10px 10px 0']
                   }}
                 >
                   <Heading
@@ -206,7 +206,7 @@ const SpeakerSection = () => {
                       textAlign: 'left',
                       pt: ['0.7rem', '1.5rem'],
                       pb: [1, 1],
-                      fontSize: [1, 3],
+                      fontSize: [2, 3],
                       color: '#fff'
                     }}
                   >
@@ -215,7 +215,7 @@ const SpeakerSection = () => {
                   <Heading
                     sx={{
                       textAlign: 'left',
-                      fontSize: ['0.7rem', '1rem'],
+                      fontSize: '16px',
                       pb: [1, 3],
                       fontWeight: '400',
                       color: '#fff'
@@ -226,9 +226,9 @@ const SpeakerSection = () => {
                   <Text
                     sx={{
                       textAlign: 'left',
-                      fontSize: ['0.62rem', '0.9rem'],
-                      pt: [0, 2],
-                      pb: [0, 3]
+                      fontSize: '14px',
+                      pt: [1, 2],
+                      pb: [1, 3]
                     }}
                   >
                     Nikita is a part of Developer Ecosystem team at Google. She is extremely passionate about spreading technical knowledge with masses online and offline.
