@@ -93,6 +93,122 @@ const SpeakerSection = () => {
               <Image
                 sx={{
                   objectFit: 'cover',
+                  borderRadius: ['10px 10px 0 0', '10px 0 0 10px'],
+                  minWidth: '40%'
+                }}
+                src="/images/Speakers/gauravsen.jfif"
+              />
+              <Box
+                sx={{
+                  color: '#8492A6',
+                  background: '#252429',
+                  minWidth: ['200px', '300px'],
+                  paddingLeft: '1rem',
+                  paddingRight: '14px',
+                  borderRadius: ['0 0 10px 10px', '0 10px 10px 0']
+                }}
+              >
+                <Heading
+                  sx={{
+                    textAlign: 'left',
+                    pt: ['0.7rem', '1.5rem'],
+                    pb: [1, 1],
+                    fontSize: [2, 3],
+                    color: '#fff'
+                  }}
+                >
+                  Gaurav Sen
+                </Heading>
+                <Heading
+                  sx={{
+                    textAlign: 'left',
+                    fontSize: '16px',
+                    pb: [1, 3],
+                    fontWeight: '400',
+                    color: '#fff'
+                  }}
+                >
+                  Founder of InterviewReady
+                </Heading>
+                <Text
+                  sx={{
+                    textAlign: 'left',
+                    fontSize: '14px',
+                    pt: [1, 2],
+                    pb: [1, 3]
+                  }}
+                >
+                  Gaurav is a Software Engineer and a Content Creator. He has
+                  YouTube channel on system design and algorithms has more than
+                  300k subscribers.
+                </Text>
+                <Box
+                  sx={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'start',
+                    paddingBottom: ['0.6rem', '1rem'],
+                    paddingTop: '5px'
+                  }}
+                >
+                  <Service
+                    href="https://twitter.com/gkcs_"
+                    size={24}
+                    sx={{
+                      justifySelf: 'center',
+                      color: '#8492A6',
+                      ':hover': {
+                        color: '#EC3750'
+                      }
+                    }}
+                    icon="twitter"
+                    title="Gaurav on Twitter"
+                  />
+
+                  <Service
+                    href="https://www.youtube.com/c/GauravSensei"
+                    size={24}
+                    sx={{
+                      justifySelf: 'center',
+                      pl: '1rem',
+                      color: '#8492A6',
+                      ':hover': {
+                        color: '#EC3750'
+                      }
+                    }}
+                    icon="youtube"
+                    title="Gaurav on Youtube"
+                  />
+                </Box>
+              </Box>
+            </Box>
+          </Container>
+
+          <Container
+            sx={{
+              maxWidth: ['400px', '600px'],
+              cursor: 'pointer',
+              margin: '0 auto',
+              width: 'fit-content',
+              padding: '0',
+              borderRadius: '100px',
+              transition: 'transform .5s ease-in-out',
+              ':hover': {
+                transform: 'scale(1.1)'
+              }
+            }}
+          >
+            <Box
+              sx={{
+                display: 'flex',
+                flexDirection: ['column', 'row'],
+                boxShadow: '2px 2px 10px #000',
+                borderRadius: '10px'
+              }}
+            >
+              <Image
+                sx={{
+                  objectFit: 'cover',
                   borderRadius: ['10px 10px 0 0', '10px 0 0 10px']
                 }}
                 src="/images/Speakers/Juan.jpg"
@@ -177,6 +293,134 @@ const SpeakerSection = () => {
                     }}
                     icon="github"
                     title="Juan on GitHub"
+                  />
+                </Box>
+              </Box>
+            </Box>
+          </Container>
+        </Grid>
+
+        <Grid
+          columns={[1, 2]}
+          gap={5}
+          sx={{
+            alignItems: 'center',
+            justifyContent: 'center',
+            margin: '0 auto',
+            mb: [5, 6]
+          }}
+        >
+          <Container
+            sx={{
+              maxWidth: ['400px', '600px'],
+              cursor: 'pointer',
+              margin: '0 auto',
+              width: 'fit-content',
+              padding: '0',
+              borderRadius: '100px',
+              transition: 'transform .5s ease-in-out',
+              ':hover': {
+                transform: 'scale(1.1)'
+              }
+            }}
+          >
+            <Box
+              sx={{
+                display: 'flex',
+                flexDirection: ['column', 'row'],
+                boxShadow: '2px 2px 10px #000',
+                borderRadius: '10px'
+              }}
+            >
+              <Image
+                sx={{
+                  objectFit: 'cover',
+                  borderRadius: ['10px 10px 0 0', '10px 0 0 10px'],
+                  minWidth: '40%'
+                }}
+                src="/images/Speakers/logan.png"
+              />
+              <Box
+                sx={{
+                  color: '#8492A6',
+                  background: '#252429',
+                  minWidth: ['200px', '300px'],
+                  paddingLeft: '1rem',
+                  paddingRight: '1rem',
+                  borderRadius: ['0 0 10px 10px', '0 10px 10px 0']
+                }}
+              >
+                <Heading
+                  sx={{
+                    textAlign: 'left',
+                    pt: ['0.7rem', '1rem'],
+                    pb: [1, 1],
+                    fontSize: [2, 3],
+                    color: '#fff'
+                  }}
+                >
+                  Logan Kilpatrick
+                </Heading>
+                <Heading
+                  sx={{
+                    textAlign: 'left',
+                    fontSize: '16px',
+                    pb: [1, 3],
+                    fontWeight: '400',
+                    color: '#fff'
+                  }}
+                >
+                  Software Engineer at Apple, Julia Language Community Manager
+                </Heading>
+                <Text
+                  sx={{
+                    textAlign: 'left',
+                    fontSize: '14px',
+                    pt: [1, 0],
+                    pb: [1, 0]
+                  }}
+                >
+                  Logan currently splits his time between a number of
+                  professional commitments he is passionate about. He spends a
+                  lot of his free time thinking and building things for the
+                  Julia Community.
+                </Text>
+                <Box
+                  sx={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'start',
+                    paddingBottom: ['0.6rem', '0.5rem'],
+                    paddingTop: '5px'
+                  }}
+                >
+                  <Service
+                    href="https://twitter.com/OfficialLoganK"
+                    size={24}
+                    sx={{
+                      justifySelf: 'center',
+                      color: '#8492A6',
+                      ':hover': {
+                        color: '#EC3750'
+                      }
+                    }}
+                    icon="twitter"
+                    title="Logan on Twitter"
+                  />
+
+                  <Service
+                    href="https://github.com/logankilpatrick"
+                    size={24}
+                    sx={{
+                      justifySelf: 'center',
+                      pl: '1rem',
+                      color: '#8492A6',
+                      ':hover': {
+                        color: '#EC3750'
+                      }
+                    }}
+                    icon="github"
+                    title="Logan on GitHub"
                   />
                 </Box>
               </Box>
@@ -305,133 +549,6 @@ const SpeakerSection = () => {
                     >
                       Register
                   </Button> */}
-                </Box>
-              </Box>
-            </Box>
-          </Container>
-        </Grid>
-
-        <Grid
-          columns={[1, 1]}
-          gap={5}
-          sx={{
-            alignItems: 'center',
-            justifyContent: 'center',
-            margin: '0 auto',
-            mb: [5, 6]
-          }}
-        >
-          <Container
-            sx={{
-              maxWidth: ['400px', '600px'],
-              cursor: 'pointer',
-              margin: '0 auto',
-              width: 'fit-content',
-              padding: '0',
-              borderRadius: '100px',
-              transition: 'transform .5s ease-in-out',
-              ':hover': {
-                transform: 'scale(1.1)'
-              }
-            }}
-          >
-            <Box
-              sx={{
-                display: 'flex',
-                flexDirection: ['column', 'row'],
-                boxShadow: '2px 2px 10px #000',
-                borderRadius: '10px'
-              }}
-            >
-              <Image
-                sx={{
-                  objectFit: 'cover',
-                  borderRadius: ['10px 10px 0 0', '10px 0 0 10px'],
-                  minWidth: '40%'
-                }}
-                src="/images/Speakers/gauravsen.jfif"
-              />
-              <Box
-                sx={{
-                  color: '#8492A6',
-                  background: '#252429',
-                  minWidth: ['200px', '300px'],
-                  paddingLeft: '1rem',
-                  paddingRight: '10px',
-                  borderRadius: ['0 0 10px 10px', '0 10px 10px 0']
-                }}
-              >
-                <Heading
-                  sx={{
-                    textAlign: 'left',
-                    pt: ['0.7rem', '1.5rem'],
-                    pb: [1, 1],
-                    fontSize: [2, 3],
-                    color: '#fff'
-                  }}
-                >
-                  Gaurav Sen
-                </Heading>
-                <Heading
-                  sx={{
-                    textAlign: 'left',
-                    fontSize: '16px',
-                    pb: [1, 3],
-                    fontWeight: '400',
-                    color: '#fff'
-                  }}
-                >
-                  Student Program Manager, Github Education
-                </Heading>
-                <Text
-                  sx={{
-                    textAlign: 'left',
-                    fontSize: '14px',
-                    pt: [1, 2],
-                    pb: [1, 3]
-                  }}
-                >
-                  Juan is a Program Manager at the GitHub Education Team, where
-                  he supports student leaders to build and grow local technical
-                  communities in their schools.
-                </Text>
-                <Box
-                  sx={{
-                    display: 'flex',
-                    flexDirection: 'row',
-                    justifyContent: 'start',
-                    paddingBottom: ['0.6rem', '1rem'],
-                    paddingTop: '5px'
-                  }}
-                >
-                  <Service
-                    href="https://twitter.com/juanpflores_"
-                    size={24}
-                    sx={{
-                      justifySelf: 'center',
-                      color: '#8492A6',
-                      ':hover': {
-                        color: '#EC3750'
-                      }
-                    }}
-                    icon="twitter"
-                    title="Juan on Twitter"
-                  />
-
-                  <Service
-                    href="https://github.com/juanpflores"
-                    size={24}
-                    sx={{
-                      justifySelf: 'center',
-                      pl: '1rem',
-                      color: '#8492A6',
-                      ':hover': {
-                        color: '#EC3750'
-                      }
-                    }}
-                    icon="github"
-                    title="Juan on GitHub"
-                  />
                 </Box>
               </Box>
             </Box>
