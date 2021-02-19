@@ -72,7 +72,7 @@ const AboutSection = () => {
           </Text>
 
           <Text as="p" variant="lead" sx={{ mt: 0, textAlign: 'left' }}>
-            We are eager to have student mentors and workshop facilitators join
+            We are calling for student mentors and workshop facilitators join
             us at HackNITR 2.0
           </Text>
 
