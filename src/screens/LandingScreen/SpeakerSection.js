@@ -77,99 +77,110 @@ const SpeakerSection = () => {
               padding: '0',
               borderRadius: '100px',
               transition: 'transform .5s ease-in-out',
-              ":hover": {
+              ':hover': {
                 transform: 'scale(1.1)'
               }
             }}
           >
-          <Box sx={{ display: 'flex', flexDirection: ['column', 'row'] , boxShadow: '2px 2px 10px #000', borderRadius: '10px' }}>
-                <Image
-                  sx={{ objectFit: 'cover', borderRadius: ['10px 10px 0 0', '10px 0 0 10px'] }}
-                  src="/images/Speakers/Juan.jpg"
-                />
-                <Box
+            <Box
+              sx={{
+                display: 'flex',
+                flexDirection: ['column', 'row'],
+                boxShadow: '2px 2px 10px #000',
+                borderRadius: '10px'
+              }}
+            >
+              <Image
+                sx={{
+                  objectFit: 'cover',
+                  borderRadius: ['10px 10px 0 0', '10px 0 0 10px']
+                }}
+                src="/images/Speakers/Juan.jpg"
+              />
+              <Box
+                sx={{
+                  color: '#8492A6',
+                  background: '#252429',
+                  minWidth: ['200px', '300px'],
+                  paddingLeft: '1rem',
+                  paddingRight: '1rem',
+                  borderRadius: ['0 0 10px 10px', '0 10px 10px 0']
+                }}
+              >
+                <Heading
                   sx={{
-                    color: '#8492A6',
-                    background: '#252429',
-                    minWidth: ['200px', '300px'],
-                    paddingLeft: '1rem',
-                    paddingRight: '1rem',
-                    borderRadius: ['0 0 10px 10px', '0 10px 10px 0']
+                    textAlign: 'left',
+                    pt: ['0.7rem', '1.5rem'],
+                    pb: [1, 1],
+                    fontSize: [2, 3],
+                    color: '#fff'
                   }}
                 >
-                  <Heading
+                  Juan Pablo Flores
+                </Heading>
+                <Heading
+                  sx={{
+                    textAlign: 'left',
+                    fontSize: '16px',
+                    pb: [1, 3],
+                    fontWeight: '400',
+                    color: '#fff'
+                  }}
+                >
+                  Student Program Manager, Github Education
+                </Heading>
+                <Text
+                  sx={{
+                    textAlign: 'left',
+                    fontSize: '14px',
+                    pt: [1, 2],
+                    pb: [1, 3]
+                  }}
+                >
+                  Juan is a Program Manager at the GitHub Education Team, where
+                  he supports student leaders to build and grow local technical
+                  communities in their schools.
+                </Text>
+                <Box
+                  sx={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'start',
+                    paddingBottom: ['0.6rem', '1rem'],
+                    paddingTop: '5px'
+                  }}
+                >
+                  <Service
+                    href="https://twitter.com/juanpflores_"
+                    size={24}
                     sx={{
-                      textAlign: 'left',
-                      pt: ['0.7rem', '1.5rem'],
-                      pb: [1, 1],
-                      fontSize: [2, 3],
-                      color: '#fff'
-                    }}
-                  >
-                    Juan Pablo Flores
-                  </Heading>
-                  <Heading
-                    sx={{
-                      textAlign: 'left',
-                      fontSize: '16px',
-                      pb: [1, 3],
-                      fontWeight: '400',
-                      color: '#fff'
-                    }}
-                  >
-                    Student Program Manager, Github Education
-                  </Heading>
-                  <Text
-                    sx={{
-                      textAlign: 'left',
-                      fontSize: '14px',
-                      pt: [1, 2],
-                      pb: [1, 3]
-                    }}
-                  >
-                    Juan is a Program Manager at the GitHub Education Team,
-                    where he supports student leaders to build and grow local
-                    technical communities in their schools.
-                  </Text>
-                  <Box
-                    sx={{
-                      display: 'flex',
-                      flexDirection: 'row',
-                      justifyContent: 'start',
-                      paddingBottom: ['0.6rem', '1rem'],
-                      paddingTop: '5px'
-                    }}
-                  >
-                    <Service
-                      href="https://twitter.com/juanpflores_"
-                      size={24}
-                      sx={{
-                        justifySelf: 'center',
-                        color: '#8492A6',
-                        ':hover': {
-                          color: '#EC3750'
-                        }
-                      }}
-                      icon="twitter"
-                      title="Juan on Twitter"
-                    />
-
-                    <Service
-                      href="https://github.com/juanpflores"
-                      size={24}
-                      sx={{ 
-                        justifySelf: 'center', 
-                        pl: '1rem',
-                        color: '#8492A6',
+                      justifySelf: 'center',
+                      color: '#8492A6',
                       ':hover': {
                         color: '#EC3750'
-                      } }}
-                      icon="github"
-                      title="Juan on GitHub"
-                    />
-                  </Box>
+                      }
+                    }}
+                    icon="twitter"
+                    title="Juan on Twitter"
+                  />
+
+                  <Service
+                    href="https://github.com/juanpflores"
+                    size={24}
+                    sx={{
+                      justifySelf: 'center',
+                      pl: '1rem',
+                      color: '#8492A6',
+                      ':hover': {
+                        color: '#EC3750'
+                      }
+                    }}
+                    icon="github"
+                    title="Juan on GitHub"
+                  />
                 </Box>
               </Box>
+            </Box>
           </Container>
 
           <Container
@@ -181,96 +192,109 @@ const SpeakerSection = () => {
               padding: '0',
               borderRadius: '100px',
               transition: 'transform .5s ease-in-out',
-              ":hover": {
+              ':hover': {
                 transform: 'scale(1.1)'
               }
             }}
           >
-          <Box sx={{ display: 'flex', flexDirection: ['column', 'row'], boxShadow: '2px 2px 10px #000', borderRadius: '10px' }}>
-                <Image
-                  sx={{ objectFit: 'cover', borderRadius: ['10px 10px 0 0', '10px 0 0 10px'] }}
-                  src="/images/Speakers/Nikita1.jpg"
-                />
-                <Box
+            <Box
+              sx={{
+                display: 'flex',
+                flexDirection: ['column', 'row'],
+                boxShadow: '2px 2px 10px #000',
+                borderRadius: '10px'
+              }}
+            >
+              <Image
+                sx={{
+                  objectFit: 'cover',
+                  borderRadius: ['10px 10px 0 0', '10px 0 0 10px']
+                }}
+                src="/images/Speakers/Nikita1.jpg"
+              />
+              <Box
+                sx={{
+                  color: '#8492A6',
+                  background: '#252429',
+                  minWidth: ['200px', '300px'],
+                  paddingLeft: '1rem',
+                  paddingRight: '1rem',
+                  borderRadius: ['0 0 10px 10px', '0 10px 10px 0']
+                }}
+              >
+                <Heading
                   sx={{
-                    color: '#8492A6',
-                    background: '#252429',
-                    minWidth: ['200px', '300px'],
-                    paddingLeft: '1rem',
-                    paddingRight: '1rem',
-                    borderRadius: ['0 0 10px 10px', '0 10px 10px 0']
+                    textAlign: 'left',
+                    pt: ['0.7rem', '1.5rem'],
+                    pb: [1, 1],
+                    fontSize: [2, 3],
+                    color: '#fff'
                   }}
                 >
-                  <Heading
+                  Nikita Gandhi
+                </Heading>
+                <Heading
+                  sx={{
+                    textAlign: 'left',
+                    fontSize: '16px',
+                    pb: [1, 3],
+                    fontWeight: '400',
+                    color: '#fff'
+                  }}
+                >
+                  Community Manager at Google Developers
+                </Heading>
+                <Text
+                  sx={{
+                    textAlign: 'left',
+                    fontSize: '14px',
+                    pt: [1, 2],
+                    pb: [1, 3]
+                  }}
+                >
+                  Nikita is a part of Developer Ecosystem team at Google. She is
+                  extremely passionate about spreading technical knowledge with
+                  masses online and offline.
+                </Text>
+                <Box
+                  sx={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'start',
+                    paddingBottom: ['0.6rem', '1rem'],
+                    paddingTop: '5px'
+                  }}
+                >
+                  <Service
+                    href="https://twitter.com/Nikkitagandhi"
+                    size={24}
                     sx={{
-                      textAlign: 'left',
-                      pt: ['0.7rem', '1.5rem'],
-                      pb: [1, 1],
-                      fontSize: [2, 3],
-                      color: '#fff'
-                    }}
-                  >
-                    Nikita Gandhi
-                  </Heading>
-                  <Heading
-                    sx={{
-                      textAlign: 'left',
-                      fontSize: '16px',
-                      pb: [1, 3],
-                      fontWeight: '400',
-                      color: '#fff'
-                    }}
-                  >
-                    Community Manager at Google Developers
-                  </Heading>
-                  <Text
-                    sx={{
-                      textAlign: 'left',
-                      fontSize: '14px',
-                      pt: [1, 2],
-                      pb: [1, 3]
-                    }}
-                  >
-                    Nikita is a part of Developer Ecosystem team at Google. She is extremely passionate about spreading technical knowledge with masses online and offline.
-                  </Text>
-                  <Box
-                    sx={{
-                      display: 'flex',
-                      flexDirection: 'row',
-                      justifyContent: 'start',
-                      paddingBottom: ['0.6rem', '1rem'],
-                      paddingTop: '5px'
-                    }}
-                  >
-                    <Service
-                      href="https://twitter.com/Nikkitagandhi"
-                      size={24}
-                      sx={{
-                        justifySelf: 'center',
-                        color: '#8492A6',
-                        ':hover': {
-                          color: '#EC3750'
-                        }
-                      }}
-                      icon="twitter"
-                      title="Nikita on Twitter"
-                    />
-
-                    <Service
-                      href="https://nikkitagandhi.medium.com/"
-                      size={24}
-                      sx={{ 
-                        justifySelf: 'center', 
-                        pl: '1rem',
-                        color: '#8492A6',
+                      justifySelf: 'center',
+                      color: '#8492A6',
                       ':hover': {
                         color: '#EC3750'
-                      } }}
-                      icon="medium-fill"
-                      title="Nikita on Medium"
-                    />
+                      }
+                    }}
+                    icon="twitter"
+                    title="Nikita on Twitter"
+                  />
 
-                    {/* <Button
+                  <Service
+                    href="https://nikkitagandhi.medium.com/"
+                    size={24}
+                    sx={{
+                      justifySelf: 'center',
+                      pl: '1rem',
+                      color: '#8492A6',
+                      ':hover': {
+                        color: '#EC3750'
+                      }
+                    }}
+                    icon="medium-fill"
+                    title="Nikita on Medium"
+                  />
+
+                  {/* <Button
                       variant="primary"
                       rel="noopener"
                       sx={{
@@ -281,11 +305,10 @@ const SpeakerSection = () => {
                     >
                       Register
                   </Button> */}
-                  </Box>
                 </Box>
               </Box>
+            </Box>
           </Container>
-
         </Grid>
       </Container>
     </Box>
