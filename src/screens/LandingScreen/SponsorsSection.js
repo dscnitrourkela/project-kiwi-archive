@@ -70,10 +70,25 @@ const SponsorsSection = () => {
           </Text>
         </Heading>
         <Grid
-          columns={[1, 1]}
+          columns={[1, 3]}
           gap={6}
           sx={{ alignItems: 'center', mt: 4 }}
         >
+          <Link
+            href="https://aws.amazon.com/developer/community/usergroups/"
+            target="_blank"
+            rel="noreferrer"
+            sx={{ justifySelf: 'center' }}
+          >
+            <Image
+              src="/images/aws.png"
+              alt="AWS User Group India logo"
+              sx={{
+                maxHeight: '10rem'
+              }}
+            />
+          </Link>
+
           <Link
             href="https://devfolio.co/"
             target="_blank"
@@ -88,7 +103,42 @@ const SponsorsSection = () => {
               }}
             />
           </Link>
-          
+
+          <Link
+            href="https://github.com/"
+            target="_blank"
+            rel="noreferrer"
+            sx={{ justifySelf: 'center' }}
+          >
+            <Image
+              src="/images/github1.png"
+              alt="GitHub logo"
+              sx={{
+                maxHeight: '7rem'
+              }}
+            />
+          </Link>
+        </Grid>
+
+        <Grid
+          columns={[1, 1]}
+          gap={6}
+          sx={{ alignItems: 'center', mt: 5 }}
+        >
+          <Link
+            href="https://www.sashido.io/en/"
+            target="_blank"
+            rel="noreferrer"
+            sx={{ justifySelf: 'center' }}
+          >
+            <Image
+              src="/images/sashido.png"
+              alt="Sashido logo"
+              sx={{
+                maxHeight: '5rem'
+              }}
+            />
+          </Link>
         </Grid>
         </Container>
 
@@ -229,14 +279,14 @@ const SponsorsSection = () => {
         >
 
           <Link
-            href="https://www.echoar.xyz/"
+            href="https://thecodex.me/"
             target="_blank"
             rel="noreferrer"
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/echoar.png"
-              alt="Sticker Mule Logo"
+              src="/images/codex.png"
+              alt="Codex Logo"
               sx={{
                 maxHeight: '15rem'
               }}
@@ -244,14 +294,44 @@ const SponsorsSection = () => {
           </Link>
 
           <Link
-            href="https://everwall.com/"
+            href="https://www.echoar.xyz/"
             target="_blank"
             rel="noreferrer"
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/everwall.png"
-              alt="Everwall Logo"
+              src="/images/echoar.png"
+              alt="EchoAR Logo"
+              sx={{
+                maxHeight: '15rem'
+              }}
+            />
+          </Link>
+
+          {/* <Link
+            href="https://egghead.io/"
+            target="_blank"
+            rel="noreferrer"
+            sx={{ justifySelf: 'center' }}
+          >
+            <Image
+              src="/images/egghead2.png"
+              alt="Egghead Logo"
+              sx={{
+                maxHeight: '15rem'
+              }}
+            />
+          </Link> */}
+
+          <Link
+            href="https://www.invisionapp.com/"
+            target="_blank"
+            rel="noreferrer"
+            sx={{ justifySelf: 'center' }}
+          >
+            <Image
+              src="/images/invision.png"
+              alt="Invision Logo"
               sx={{
                 maxHeight: '15rem'
               }}
@@ -272,14 +352,8 @@ const SponsorsSection = () => {
               }}
             />
           </Link>
-        </Grid>
 
-        <Grid
-          columns={[1, 2]}
-          gap={6}
-          sx={{ alignItems: 'center', mt: [6, 5] }}
-          >
-            <Link
+          <Link
               href="https://www.taskade.com/"
               target="_blank"
               rel="noreferrer"
@@ -293,6 +367,7 @@ const SponsorsSection = () => {
                 }}
               />
             </Link>
+
             <Link
               href="https://www.voiceflow.com/"
               target="_blank"
@@ -307,60 +382,62 @@ const SponsorsSection = () => {
                 }}
               />
             </Link>
-          </Grid>
+        </Grid>
         </Container>
-        {/* <Grid
-          columns={[1, 3]}
+
+        {/* <Container sx={{mt: [5, 6], mb: [2, 5]}}>
+        <Heading
+          as="h4"
+          variant="title"
+          sx={{ textAlign: 'center', marginBottom: '1rem',}}
+          style={{
+            backgroundImage: 'linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%)',
+            backgroundColor: '#ef5734',
+            width: 'fit-content',
+            margin: '0 auto',
+            padding: '0 1rem',
+            paddingBottom: '5px',
+            borderRadius: '10px'
+            }}
+        >
+          <Text
+            as="span"
+            sx={{
+              borderRadius: 'default',
+              px: 1,
+              mx: [-2, 0],
+              whiteSpace: 'nowrap',
+              color: '#5d114c',
+              fontSize: ['25px', '50px']
+            }}
+            
+          >
+            Media and Outreach Partner
+          </Text>
+        </Heading>
+        <Grid
+          columns={[1, 1]}
           gap={6}
           sx={{ alignItems: 'center', mt: 4 }}
         >
-
           <Link
-            href="https://www.echoar.xyz/"
+            href="https://www.noticebard.com/"
             target="_blank"
             rel="noreferrer"
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/echoar.png"
-              alt="Sticker Mule Logo"
+              src="/images/noticebard.png"
+              alt="Noticebard logo"
               sx={{
-                maxHeight: '15rem'
-              }}
-            />
-          </Link>
-
-          <Link
-            href="https://www.stickermule.com/"
-            target="_blank"
-            rel="noreferrer"
-            sx={{ justifySelf: 'center' }}
-          >
-            <Image
-              src="/images/stickermule.png"
-              alt="Sticker Mule Logo"
-              sx={{
-                maxHeight: '20rem'
-              }}
-            />
-          </Link>
-
-          <Link
-            href="https://www.voiceflow.com/"
-            target="_blank"
-            rel="noreferrer"
-            sx={{ justifySelf: 'center' }}
-          >
-            <Image
-              src="/images/Voiceflow.png"
-              alt="Voiceflow Logo"
-              sx={{
-                maxHeight: '15rem'
+                maxHeight: '10rem'
               }}
             />
           </Link>
           
-        </Grid> */}
+        </Grid>
+        </Container> */}
+        
       </Container>
     </Box>
   );
