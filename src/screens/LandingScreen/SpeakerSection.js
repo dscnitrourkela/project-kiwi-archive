@@ -96,7 +96,7 @@ const SpeakerSection = () => {
                   borderRadius: ['10px 10px 0 0', '10px 0 0 10px'],
                   minWidth: '40%'
                 }}
-                src="/images/Speakers/gauravsen.jfif"
+                src="/images/Speakers/gauravsen2.jpg"
               />
               <Box
                 sx={{
@@ -128,7 +128,7 @@ const SpeakerSection = () => {
                     color: '#fff'
                   }}
                 >
-                  Founder of InterviewReady
+                  Founder of InterviewReady, Ex-Uber
                 </Heading>
                 <Text
                   sx={{
@@ -138,9 +138,9 @@ const SpeakerSection = () => {
                     pb: [1, 3]
                   }}
                 >
-                  Gaurav is a Software Engineer and a Content Creator. He has
-                  YouTube channel on system design and algorithms has more than
-                  300k subscribers.
+                  Gaurav is a Software Engineer and a Content Creator. His
+                  YouTube channel on system design and algorithms boasts more
+                  than 300k subscribers.
                 </Text>
                 <Box
                   sx={{
@@ -365,7 +365,7 @@ const SpeakerSection = () => {
                   sx={{
                     textAlign: 'left',
                     fontSize: '16px',
-                    pb: [1, 3],
+                    pb: [1, 2],
                     fontWeight: '400',
                     color: '#fff'
                   }}
@@ -381,8 +381,8 @@ const SpeakerSection = () => {
                   }}
                 >
                   Logan currently splits his time between a number of
-                  professional commitments he is passionate about. He spends a
-                  lot of his free time thinking and building things for the
+                  professional commitments he is passionate about. He spends
+                  majority of his free time thinking and building things for the
                   Julia Community.
                 </Text>
                 <Box
@@ -481,7 +481,7 @@ const SpeakerSection = () => {
                   sx={{
                     textAlign: 'left',
                     fontSize: '16px',
-                    pb: [1, 3],
+                    pb: [1, 2],
                     fontWeight: '400',
                     color: '#fff'
                   }}
@@ -493,7 +493,7 @@ const SpeakerSection = () => {
                     textAlign: 'left',
                     fontSize: '14px',
                     pt: [1, 2],
-                    pb: [1, 3]
+                    pb: [1, 2]
                   }}
                 >
                   Nikita is a part of Developer Ecosystem team at Google. She is

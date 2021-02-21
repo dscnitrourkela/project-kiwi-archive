@@ -322,6 +322,20 @@ const SponsorsSection = () => {
               }}
             />
           </Link> */}
+          <Link
+              href="https://get.interviewready.io/"
+              target="_blank"
+              rel="noreferrer"
+              sx={{ justifySelf: 'center' }}
+            >
+              <Image
+                src="/images/interviewready2.png"
+                alt="InterviewReady Logo"
+                sx={{
+                  maxHeight: '10rem'
+                }}
+              />
+            </Link>
 
           <Link
             href="https://www.invisionapp.com/"
@@ -367,8 +381,14 @@ const SponsorsSection = () => {
                 }}
               />
             </Link>
+        </Grid>
 
-            <Link
+        <Grid
+          columns={[1, 1]}
+          gap={6}
+          sx={{ alignItems: 'center', mt: [5, 6] }}
+        >
+          <Link
               href="https://www.voiceflow.com/"
               target="_blank"
               rel="noreferrer"
