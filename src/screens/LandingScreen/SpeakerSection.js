@@ -179,6 +179,49 @@ const SpeakerSection = () => {
                     icon="youtube"
                     title="Gaurav on Youtube"
                   />
+
+                  <Box
+                    sx={{
+                      fontSize: '11px',
+                      ml: '36%',
+                      mb: '0',
+                      backgroundColor: '#EC3750',
+                      backgroundImage: 'at left top, rgb(255,140,55)',
+                      padding: '3px 5px',
+                      borderRadius: '5px',
+                      color: '#fff'
+                    }}
+                  >
+                    <a
+                      style={{
+                        textDecoration: 'none',
+                        display: 'flex',
+                        color: '#fff'
+                      }}
+                      href="https://google.com/"
+                      target="_blank"
+                    >
+                      <Service
+                        href="https://nikkitagandhi.medium.com/"
+                        size={24}
+                        sx={{
+                          justifySelf: 'center',
+                          color: '#fff',
+                          ':hover': {
+                            color: '#fff'
+                          }
+                        }}
+                        icon="event-add"
+                        title="Add to Google Calendar"
+                      />
+                      <Text
+                        as="p"
+                        sx={{ pt: '3px', ':hover': { color: '#c0c0c0' } }}
+                      >
+                        Add to calendar
+                      </Text>
+                    </a>
+                  </Box>
                 </Box>
               </Box>
             </Box>
@@ -294,6 +337,49 @@ const SpeakerSection = () => {
                     icon="github"
                     title="Juan on GitHub"
                   />
+
+                  <Box
+                    sx={{
+                      fontSize: '12px',
+                      ml: '35%',
+                      mb: '0',
+                      backgroundColor: '#EC3750',
+                      backgroundImage: 'at left top, rgb(255,140,55)',
+                      padding: '3px 5px',
+                      borderRadius: '5px',
+                      color: '#fff'
+                    }}
+                  >
+                    <a
+                      style={{
+                        textDecoration: 'none',
+                        display: 'flex',
+                        color: '#fff'
+                      }}
+                      href="https://google.com/"
+                      target="_blank"
+                    >
+                      <Service
+                        href="https://nikkitagandhi.medium.com/"
+                        size={24}
+                        sx={{
+                          justifySelf: 'center',
+                          color: '#fff',
+                          ':hover': {
+                            color: '#fff'
+                          }
+                        }}
+                        icon="event-add"
+                        title="Add to Google Calendar"
+                      />
+                      <Text
+                        as="p"
+                        sx={{ pt: '3px', ':hover': { color: '#c0c0c0' } }}
+                      >
+                        Add to calendar
+                      </Text>
+                    </a>
+                  </Box>
                 </Box>
               </Box>
             </Box>
@@ -422,6 +508,49 @@ const SpeakerSection = () => {
                     icon="github"
                     title="Logan on GitHub"
                   />
+
+                  <Box
+                    sx={{
+                      fontSize: '12px',
+                      ml: '35%',
+                      mb: '0',
+                      backgroundColor: '#EC3750',
+                      backgroundImage: 'at left top, rgb(255,140,55)',
+                      padding: '3px 5px',
+                      borderRadius: '5px',
+                      color: '#fff'
+                    }}
+                  >
+                    <a
+                      style={{
+                        textDecoration: 'none',
+                        display: 'flex',
+                        color: '#fff'
+                      }}
+                      href="https://google.com/"
+                      target="_blank"
+                    >
+                      <Service
+                        href="https://nikkitagandhi.medium.com/"
+                        size={24}
+                        sx={{
+                          justifySelf: 'center',
+                          color: '#fff',
+                          ':hover': {
+                            color: '#fff'
+                          }
+                        }}
+                        icon="event-add"
+                        title="Add to Google Calendar"
+                      />
+                      <Text
+                        as="p"
+                        sx={{ pt: '3px', ':hover': { color: '#c0c0c0' } }}
+                      >
+                        Add to calendar
+                      </Text>
+                    </a>
+                  </Box>
                 </Box>
               </Box>
             </Box>
@@ -538,17 +667,48 @@ const SpeakerSection = () => {
                     title="Nikita on Medium"
                   />
 
-                  {/* <Button
-                      variant="primary"
-                      rel="noopener"
-                      sx={{
-                        fontSize: ['0.5rem', '0.6rem'],
-                        ml: '45%',
-                        mb: '0'
+                  <Box
+                    sx={{
+                      fontSize: '12px',
+                      ml: '35%',
+                      mb: '0',
+                      backgroundColor: '#EC3750',
+                      backgroundImage: 'at left top, rgb(255,140,55)',
+                      padding: '3px 5px',
+                      borderRadius: '5px',
+                      color: '#fff'
+                    }}
+                  >
+                    <a
+                      style={{
+                        textDecoration: 'none',
+                        display: 'flex',
+                        color: '#fff'
                       }}
+                      href="https://google.com/"
+                      target="_blank"
                     >
-                      Register
-                  </Button> */}
+                      <Service
+                        href="https://nikkitagandhi.medium.com/"
+                        size={24}
+                        sx={{
+                          justifySelf: 'center',
+                          color: '#fff',
+                          ':hover': {
+                            color: '#fff'
+                          }
+                        }}
+                        icon="event-add"
+                        title="Add to Google Calendar"
+                      />
+                      <Text
+                        as="p"
+                        sx={{ pt: '3px', ':hover': { color: '#c0c0c0' } }}
+                      >
+                        Add to calendar
+                      </Text>
+                    </a>
+                  </Box>
                 </Box>
               </Box>
             </Box>
