@@ -123,7 +123,7 @@ const SponsorsSection = () => {
         <Grid
           columns={[1, 1]}
           gap={6}
-          sx={{ alignItems: 'center', mt: 5 }}
+          sx={{ alignItems: 'center', mt: 6 }}
         >
           <Link
             href="https://www.sashido.io/en/"
@@ -175,6 +175,20 @@ const SponsorsSection = () => {
           gap={6}
           sx={{ alignItems: 'center', mt: 4 }}
         >
+          <Link
+            href="https://www.codechef.com/"
+            target="_blank"
+            rel="noreferrer"
+            sx={{ justifySelf: 'center' }}
+          >
+            <Image
+              src="/images/codechef.png"
+              alt="CodeChef Logo"
+              sx={{
+                maxHeight: '4rem'
+              }}
+            />
+          </Link>
 
           <Link
             href="https://matic.network/"
@@ -203,29 +217,28 @@ const SponsorsSection = () => {
               }}
             />
           </Link>
-
-          <Link
-            href="https://tezos.com/"
-            target="_blank"
-            rel="noreferrer"
-            sx={{ justifySelf: 'center' }}
-          >
-            <Image
-              src="/images/tezos.png"
-              alt="Tezos Logo"
-              sx={{
-                maxHeight: '15rem'
-              }}
-            />
-          </Link>
-          
         </Grid>
 
         <Grid
-          columns={[1, 1]}
-          gap={6}
+          columns={[1, 2]}
+          gap={[6, 3]}
           sx={{ alignItems: 'center', mt: [6, 5] }}
           >
+            <Link
+              href="https://tezos.com/"
+              target="_blank"
+              rel="noreferrer"
+              sx={{ justifySelf: 'center' }}
+            >
+              <Image
+                src="/images/tezos.png"
+                alt="Tezos Logo"
+                sx={{
+                  maxHeight: '6rem'
+                }}
+              />
+            </Link>
+
             <Link
               href="https://www.wolfram.com/language/"
               target="_blank"
@@ -386,7 +399,7 @@ const SponsorsSection = () => {
         <Grid
           columns={[1, 1]}
           gap={6}
-          sx={{ alignItems: 'center', mt: [5, 6] }}
+          sx={{ alignItems: 'center', mt: 6 }}
         >
           <Link
               href="https://www.voiceflow.com/"
@@ -405,7 +418,60 @@ const SponsorsSection = () => {
         </Grid>
         </Container>
 
-        {/* <Container sx={{mt: [5, 6], mb: [2, 5]}}>
+        <Container sx={{mt: [5, 6], mb: [2, 5]}}>
+          <Heading
+            as="h4"
+            variant="title"
+            sx={{ textAlign: 'center', marginBottom: '1rem',}}
+            style={{
+              backgroundImage: 'linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%)',
+              backgroundColor: '#ef5734',
+              width: 'fit-content',
+              margin: '0 auto',
+              padding: '0 1rem',
+              paddingBottom: '5px',
+              borderRadius: '10px'
+              }}
+          >
+            <Text
+              as="span"
+              sx={{
+                borderRadius: 'default',
+                px: 1,
+                mx: [-2, 0],
+                whiteSpace: 'nowrap',
+                color: '#5d114c',
+                fontSize: ['40px', '50px']
+              }}
+              
+            >
+              Special Mention
+            </Text>
+          </Heading>
+          <Grid
+            columns={[1, 1]}
+            gap={6}
+            sx={{ alignItems: 'center', mt: 4 }}
+          >
+            <Link
+              href="https://www.noticebard.com/"
+              target="_blank"
+              rel="noreferrer"
+              sx={{ justifySelf: 'center' }}
+            >
+              <Image
+                src="/images/tweetbeam.png"
+                alt="Tweetbeam logo"
+                sx={{
+                  maxHeight: '10rem'
+                }}
+              />
+            </Link>
+            
+          </Grid>
+          </Container>
+
+        <Container sx={{mt: [5, 6], mb: [2, 5]}}>
         <Heading
           as="h4"
           variant="title"
@@ -456,7 +522,7 @@ const SponsorsSection = () => {
           </Link>
           
         </Grid>
-        </Container> */}
+        </Container>
         
       </Container>
     </Box>
