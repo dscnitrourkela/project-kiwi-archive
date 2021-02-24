@@ -202,7 +202,6 @@ const SpeakerSection = () => {
                       target="_blank"
                     >
                       <Service
-                        href="https://nikkitagandhi.medium.com/"
                         size={24}
                         sx={{
                           justifySelf: 'center',
@@ -360,7 +359,6 @@ const SpeakerSection = () => {
                       target="_blank"
                     >
                       <Service
-                        href="https://nikkitagandhi.medium.com/"
                         size={24}
                         sx={{
                           justifySelf: 'center',
@@ -531,7 +529,6 @@ const SpeakerSection = () => {
                       target="_blank"
                     >
                       <Service
-                        href="https://nikkitagandhi.medium.com/"
                         size={24}
                         sx={{
                           justifySelf: 'center',
@@ -689,7 +686,6 @@ const SpeakerSection = () => {
                       target="_blank"
                     >
                       <Service
-                        href="https://nikkitagandhi.medium.com/"
                         size={24}
                         sx={{
                           justifySelf: 'center',
