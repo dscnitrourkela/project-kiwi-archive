@@ -198,7 +198,7 @@ const SpeakerSection = () => {
                         display: 'flex',
                         color: '#fff'
                       }}
-                      href="https://google.com/"
+                      href="https://calendar.google.com/calendar/u/0/r/eventedit?uid=5f4212d7db36e40015f240cf&location=http://hacknitr.tech/live&ctz=Asia/Calcutta&text=Gaurav%20Sen%20X%20HackNITR%202.0&dates=20210319T180000/20210319T200000&details=This%20is%20the%20reminder%20for%20Gaurav%20Sen%27s%20session%20on%20-%20%22%20System%20Design%20for%20Hackathons%20%22.%20HackNITR%202.0%20will%20be%20conducted%20entirely%20on%20Airmeet%20and%20the%20join%20link%20will%20be%20active%2006%20hrs%20before%20the%20event.%0A%0AJoin%20Link%3A%20http%3A//hacknitr.tech/live"
                       target="_blank"
                     >
                       <Service
@@ -355,7 +355,7 @@ const SpeakerSection = () => {
                         display: 'flex',
                         color: '#fff'
                       }}
-                      href="https://google.com/"
+                      href="https://calendar.google.com/calendar/u/0/r/eventedit?uid=5f4212d7db36e40015f240cf&location=http://hacknitr.tech/live&ctz=Asia/Calcutta&text=Juan%20Pablo%20Flores%20X%20HackNITR%202.0&dates=20210321T220000/20210321T230000&details=This%20is%20the%20reminder%20for%20Juan%20Pablo%20Flores%27s%20session.%20HackNITR%202.0%20will%20be%20conducted%20entirely%20on%20Airmeet%20and%20the%20join%20link%20will%20be%20active%2006%20hrs%20before%20the%20event.%0A%0AJoin%20Link%3A%20http%3A//hacknitr.tech/live"
                       target="_blank"
                     >
                       <Service
@@ -525,7 +525,7 @@ const SpeakerSection = () => {
                         display: 'flex',
                         color: '#fff'
                       }}
-                      href="https://google.com/"
+                      href="https://calendar.google.com/calendar/u/0/r/eventedit?uid=5f4212d7db36e40015f240cf&location=http://hacknitr.tech/live&ctz=Asia/Calcutta&text=Logan%20Kilpatrick%20X%20HackNITR%202.0&dates=20210320T193000/20210320T210000&details=This%20is%20the%20reminder%20for%20Logan%20Kilpatrick%27s%20session.%20HackNITR%202.0%20will%20be%20conducted%20entirely%20on%20Airmeet%20and%20the%20join%20link%20will%20be%20active%2006%20hrs%20before%20the%20event.%0A%0AJoin%20Link%3A%20http%3A//hacknitr.tech/live"
                       target="_blank"
                     >
                       <Service
@@ -682,7 +682,7 @@ const SpeakerSection = () => {
                         display: 'flex',
                         color: '#fff'
                       }}
-                      href="https://google.com/"
+                      href="https://calendar.google.com/calendar/u/0/r/eventedit?uid=5f4212d7db36e40015f240cf&location=http://hacknitr.tech/live&ctz=Asia/Calcutta&text=Nikita%20Gandhi%20X%20HackNITR%202.0&dates=20210312T180000/20210312T200000&details=This%20is%20the%20reminder%20for%20Nikita%20Gandhi%27s%20session%20on%20-%20%22%20Building%20for%20Next%20Billion%20Users%20%22.%20%0AHackNITR%202.0%20will%20be%20conducted%20entirely%20on%20Airmeet%20and%20the%20join%20link%20will%20be%20active%2006%20hrs%20before%20the%20event.%0A%0AJoin%20Link%3A%20http%3A//hacknitr.tech/live"
                       target="_blank"
                     >
                       <Service
