@@ -321,20 +321,20 @@ const SponsorsSection = () => {
             />
           </Link>
 
-          {/* <Link
+          <Link
             href="https://egghead.io/"
             target="_blank"
             rel="noreferrer"
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/egghead2.png"
+              src="/images/egghead.png"
               alt="Egghead Logo"
               sx={{
                 maxHeight: '15rem'
               }}
             />
-          </Link> */}
+          </Link>
           <Link
               href="https://get.interviewready.io/"
               target="_blank"
@@ -379,28 +379,28 @@ const SponsorsSection = () => {
               }}
             />
           </Link>
-
-          <Link
-              href="https://www.taskade.com/"
-              target="_blank"
-              rel="noreferrer"
-              sx={{ justifySelf: 'center' }}
-            >
-              <Image
-                src="/images/taskade.png"
-                alt="Taskade Logo"
-                sx={{
-                  maxHeight: '6rem'
-                }}
-              />
-            </Link>
         </Grid>
 
         <Grid
-          columns={[1, 1]}
+          columns={[1, 2]}
           gap={6}
           sx={{ alignItems: 'center', mt: 6 }}
         >
+          <Link
+            href="https://www.taskade.com/"
+            target="_blank"
+            rel="noreferrer"
+            sx={{ justifySelf: 'center' }}
+          >
+            <Image
+              src="/images/taskade.png"
+              alt="Taskade Logo"
+              sx={{
+                maxHeight: '6rem'
+              }}
+            />
+          </Link>
+          
           <Link
               href="https://www.voiceflow.com/"
               target="_blank"
