@@ -400,7 +400,7 @@ const SponsorsSection = () => {
               }}
             />
           </Link>
-          
+
           <Link
               href="https://www.voiceflow.com/"
               target="_blank"
@@ -454,7 +454,7 @@ const SponsorsSection = () => {
             sx={{ alignItems: 'center', mt: 4 }}
           >
             <Link
-              href="https://www.noticebard.com/"
+              href="https://www.tweetbeam.com/"
               target="_blank"
               rel="noreferrer"
               sx={{ justifySelf: 'center' }}
