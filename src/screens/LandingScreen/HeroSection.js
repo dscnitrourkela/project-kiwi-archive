@@ -85,7 +85,7 @@ const HeroSection = () => {
             fontWeight: 'bold',
           }}
         >
-            19 - 22 MARCH, 2021
+            19 - 21 MARCH, 2021
         </Text>
 
         <div 
