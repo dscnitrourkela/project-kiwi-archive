@@ -12,47 +12,31 @@ import Accordion from '../../components/accordion';
 let data = [
   {
     title: 'What is a Hackathon? How different is Online Hackathon?',
-    content: `A hackathon is a coding marathon where you build something with tech by working with people. It isn’t about hacking into a system, it is about hacking something together, It is about learning a great deal and creating something exciting in the process. Online Hackathons are held remotely unlike a traditional in-person, rest all are the same for both.`
+    content: `A hackathon is a coding marathon where you build something with tech by working with people. It isn’t about hacking into a system, it is about building something together, It is about learning a great deal and creating something exciting in the process. Online Hackathons are held remotely unlike a traditional in-person, rest all are the same for both.`
   },
   {
-    title: 'When will the registrations start?',
-    content: `The registrations have already started, Register for the hackathon at hacknitr.tech .`
-  },
-  {
-    title: 'When is the last date to register?',
-    content: `You can register for HackNITR 2.0 all the way till March 19, 2021. However, we encourage you to register earlier to participate in workshops, mini-events and other activities`
+    title: 'How to register?',
+    content: `Scroll up to the beginning of this page and find the "Apply with Devfolio" button. Alternatively head over to hacknitr2.devfolio.co. You can register for HackNITR 2.0 all the way till March 18, 2021`
   },
   {
     title: 'Who can participate?',
-    content: `Everyone is welcome to apply, any student developer, designer, professionals or creative individuals, who are passionate about creating to join. If you can innovate, you are eligible.`
-  },
-  {
-    title: 'How does the application process work?',
-    content: `We're looking for people who can innovate and build solutions to real-world problems. Tell us why you want to be a part of HackNITR 2.0, any accomplishments you're proud of or anything else which could strengthen your application. Applications are open now.`
-  },
-  {
-    title: "What if I don't have a team or idea?",
-    content: `Interest in learning and working with technology is much more important. We'll have a team formation and ideation events geared towards helping you find people to work with. Just fill out the application form`
-  },
-  {
-    title: 'How do I work with my team?',
-    content: `One of the biggest challenges of an online hackathon is internal communication with your team. We have a Discord Server where one can find all the everyone from organizers to participants.`
-  },
-  {
-    title: 'Do I need to be a student?',
-    content: `Absolutely not! The team behind HackNITR is made up of students, however anyone age 13 and above can give it a go!`
-  },
-  {
-    title: 'Where can I find updates?',
-    content: `We have an active Discord for communication, along with we will be reaching out to you via mail. So keep checking your inbox for regular updates.`
-  },
-  {
-    title: 'What if my project is unfinished ? Can I submit an incomplete project?',
-    content: `Unfinished or unimpressive (so you think) projects should be presented anyway! Presenting your hack gives you a chance to be proud of what you’ve done, and a constructive perspective of where you should be headed next.`
+    content: `Everyone is welcome to apply, any student developer, designer, working professionals or creative individuals, who are passionate about creating to join. If you can innovate or just want to have a fun weekend, you are eligible.`
   },
   {
     title: 'What if I haven’t been to a Hackathon before?',
     content: `Don’t be intimidated, we're so glad to host the first ever hackathon you’re attending, while it’s helpful to have some programming or technical experience, but it’s not a requirement. We’ll have talks, mentors and workshops to help you with your project.`
+  },
+  {
+    title: "What if I don't have a team or idea?",
+    content: `Interest in learning and working with technology is much more important. We'll have a team formation and ideation events geared towards helping you find people to work with. Just apply with Devfolio.`
+  },
+  {
+    title: 'Where can I find updates?',
+    content: `Follow us on instagram.com/hacknitr for all the updates, along with we will be reaching out to you via mail. To receive the updates through mail, kindly register for the hackathon.`
+  },
+  {
+    title: 'What could be the size of a team?',
+    content: `A Team can have minimum of 2 members to a maximum of 4 members.`
   }
 ];
 
