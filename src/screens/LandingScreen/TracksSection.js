@@ -13,7 +13,7 @@ const TracksSection = () => {
         color: 'white',
         minHeight: '100vh',
         height: 'fit-content',
-        backgroundColor: theme.colors.dark,
+        backgroundColor: theme.colors.darker,
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center'
@@ -46,7 +46,7 @@ const TracksSection = () => {
                   height: '100%',
                   borderRadius: '10px'
                 }}
-                src="/images/social.jpg"
+                src="/images/social.png"
               />
               <Heading
                 as="h1"
