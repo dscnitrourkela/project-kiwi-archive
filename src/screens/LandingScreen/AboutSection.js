@@ -9,7 +9,7 @@ const AboutSection = () => {
       sx={{
         py: [4, 5],
         color: 'white',
-        minHeight: '100vh',
+        minHeight: '70vh',
         // width: '100vw',
         height: 'fit-content',
 
@@ -70,29 +70,6 @@ const AboutSection = () => {
             . A unique opportunity to bring out your ideas and technological
             skills to win awesome prizes and swags.
           </Text>
-
-          <Text as="p" variant="lead" sx={{ mt: 0, textAlign: 'left' }}>
-            We are calling for student mentors and workshop facilitators join
-            us at HackNITR 2.0!
-          </Text>
-
-          <a
-            href="https://nitrdevs.typeform.com/to/rVVPYabo"
-            target="_blank"
-            rel="noreferrer"
-            style={{ justifySelf: 'center', textDecoration: 'none' }}
-          >
-            <Button
-              variant="ctaLg"
-              rel="noopener"
-              sx={{ justifySelf: 'center' }}
-            >
-              Apply Now
-            </Button>
-
-          </a>
-
-
         </Grid>
       </Container>
     </Box>
