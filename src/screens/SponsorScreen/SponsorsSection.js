@@ -7,7 +7,7 @@ const SponsorsSection = () => {
       id="sponsors-section"
       as="section"
       sx={{
-        py: [4, 5],
+        py: [6, 6],
         color: 'white',
         minHeight: '100vh',
         height: 'fit-content',

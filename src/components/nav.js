@@ -6,6 +6,7 @@ import theme from '../lib/theme';
 import Icon from './icon';
 import Flag from './flag';
 import ScrollLock from 'react-scrolllock';
+import NavLink from 'next/link'
 import { Link as ScrollLink } from 'react-scroll';
 import Music from './music';
 
@@ -144,7 +145,7 @@ const NavBar = styled(Box)`
 
 const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
   <NavBar role="navigation" {...props}>
-    <ScrollLink
+    {/* <ScrollLink
       offset={-50}
       to="about-section"
       smooth
@@ -152,9 +153,45 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       style={{ cursor: 'pointer' }}
       className="navLink"
       onClick={handleToggle}
-    />
+    /> */}
 
-    <ScrollLink
+    <Container sx={{display: 'flex', flexDirection: ['column', 'row'], alignItems: 'center'}}>
+      <Box className="navLink">
+        <Link href='/'>
+          <a>Home</a>
+        </Link>
+      </Box>
+
+      <Box className="navLink">
+        <Link href='/sponsors'>
+          <a>Sponsors</a>
+        </Link>
+      </Box>
+
+      <Box className="navLink">
+        <Link href='/'>
+          <a>Timeline</a>
+        </Link>
+      </Box>
+      
+      <Box className="navLink">
+        <Link href='/'>
+          <a>Guide</a>
+        </Link>
+      </Box>
+
+      <Box className="navLink">
+        <Link href='/gallery'>
+          <a>Gallery</a>
+        </Link>
+      </Box>
+
+      <Box className="navLink">
+       <a href="https://frame.dscnitrourkela.org" target="_blank">Badge</a>
+      </Box>
+    </Container>
+
+    {/* <ScrollLink
       offset={-50}
       to="themes-section"
       smooth
@@ -162,9 +199,9 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       style={{ cursor: 'pointer' }}
       className="navLink"
       onClick={handleToggle}
-    />
+    /> */}
 
-    <ScrollLink
+    {/* <ScrollLink
       offset={-50}
       to="speaker-section"
       smooth
@@ -184,7 +221,7 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       onClick={handleToggle}
     />
 
-    {/* <ScrollLink
+    <ScrollLink
       offset={-50}
       to="prizes-section"
       smooth
@@ -192,7 +229,7 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       style={{ cursor: 'pointer' }}
       className="navLink"
       onClick={handleToggle}
-    /> */}
+    />
 
     <ScrollLink
       offset={-50}
@@ -212,7 +249,7 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       style={{ cursor: 'pointer' }}
       className="navLink"
       onClick={handleToggle}
-    />
+    /> */}
 
     {props.music && (
       <Link style={{ cursor: 'pointer' }}>
