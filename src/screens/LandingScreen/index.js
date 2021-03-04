@@ -4,13 +4,14 @@ import Footer from '../../components/footer';
 import AboutSection from './AboutSection';
 import ThemesSection from './ThemesSection';
 import FAQSection from './FAQSection';
-import SponsorsSection from './SponsorsSection';
-import PastSponsorsSection from './PastSponsorsSection';
+// import SponsorsSection from './SponsorsSection';
+// import PastSponsorsSection from './PastSponsorsSection';
 // import ContactSection from './ContactSection';
 import HeroSection from './HeroSection';
 import SpeakerSection from './SpeakerSection';
 import TracksSection from './TracksSection';
-// import PrizesSection from './PrizesSection'
+import PrizesSection from './PrizesSection'
+import WorkshopSection from './WorkshopSection'
 
 const color = '#f6f6f6';
 
@@ -23,10 +24,11 @@ const LandingScreen = () => {
       <AboutSection />
       <ThemesSection />
       <SpeakerSection />
+      <WorkshopSection />
       <TracksSection />
-      {/* <PrizesSection /> */}
-      <SponsorsSection />
-      <PastSponsorsSection />
+      <PrizesSection />
+      {/* <SponsorsSection /> */}
+      {/* <PastSponsorsSection /> */}
       <FAQSection />
 
       <Footer dark />
