@@ -1,4 +1,4 @@
-import { Box, Button, Container, Grid, Heading, Text, Link } from 'theme-ui';
+import { Box, Button, Image, Container, Grid, Heading, Text, Link } from 'theme-ui';
 import theme from '../../lib/theme';
 
 const Gallery = () => {
@@ -41,30 +41,57 @@ const Gallery = () => {
           <li><strong>HackNITR 1.0 Report:</strong> If you want to know what happened in our first edition, check out this link <Link href="https://report.hacknitr.tech/">https://report.hacknitr.tech/</Link> . For new hackers, we highly recommend you to go through the submissions for inspiration.</li>                       
         </ul>
         
-        <h3>Free Resources for all hackers worth <strong>USD126k</strong> in total</h3>
+        <h3>Free Resources worth <strong>USD126k</strong>  & stickers for all</h3>
+        <Container sx={{display:"flex",flexDirection:['column','row']}}>
+          <Box>
+            <ul>
+              <li><strong>Codex:</strong> Free 3 months trial subscription</li>
+              <li><strong>EchoAR:</strong> 1 month free business Tier Access</li>
+              <li><strong>Invision:</strong>  Upgrade for 3 months</li>
+              <li><strong>Matic:</strong>  Lifetime Premium Plan</li>
+              <li><strong>Voiceflow:</strong> PRO access for 6 months</li>
+              <li><strong>Taskade:</strong>Upgrade to Taskade unlimited</li>
+              <li><strong>Sashido:</strong>Sashido Platform Credits</li>
+              <li><strong>Wolfram:</strong>Wolfram|One for thirty days</li>
+            </ul>
+            <Text>Join our Discord server and check out the <Link href="https://hacknitr.tech/discord"><code>#resources</code></Link> channel to claim all the above resources 🚀</Text>
+          </Box>
+          <Box>
+            <Image sx={{objectFit: 'contain', height: '250px', width: '100%', paddingTop: '5px', borderRadius:"10px"}} src="/images/stickers.jpeg" />
+          </Box>
+        </Container>
+
+
+        <h3>Submission Requirements</h3>
         <ul>
-          <li><strong>Codex:</strong> Free 3 months trial subscription</li>
-          <li><strong>EchoAR:</strong> 1 month free business Tier Access</li>
-          <li><strong>Invision:</strong>  Upgrade for 3 months</li>
-          <li><strong>Matic:</strong>  Lifetime Premium Plan</li>
-          <li><strong>Voiceflow:</strong> PRO access for 6 months</li>
-          <li><strong>Taskade:</strong>Upgrade to Taskade unlimited</li>
-          <li><strong>Sashido:</strong>Sashido Platform Credits</li>
-          <li><strong>Wolfram:</strong>Wolfram|One for thirty days</li>
-        </ul>
-        <Text>Join our Discord server and check out the <Link href="https://hacknitr.tech/discord"><code>#resources</code></Link> channel to claim all the above resources 🚀</Text>
-
-
-        <h3>Prizes</h3>
-        <Text>Please refer to our Devfolio page: <Link href="https://hacknitr2.devfolio.co/">https://hacknitr2.devfolio.co/</Link> for the prizes. Some prizes are opt-in and should be applied for, as applicable, during the submission process.</Text>        
-     
-        <strong>All the hackers who make a valid submission are eligible to receive stickers shipped to you 🎉</strong>
-        
+          <li>You must submit a 2-minute (max) video demo! Mention the services by our sponsors you used and the tracks you are applying for in the introduction of the video.</li>
+          <li>The video should demonstrate your project and not be a presentation or pitch.</li>
+          <li>You must link to a public code repository for your project.</li>
+          <li>The project should be entirely built during the hackathon hours xcept for the hack which is built under the Old Hacks Track).</li>
+        </ul>   
 
         <Text><strong>In case of any further queries, DM us on any of our social media handles mentioned above or write a mail to organiser@hackntir.tech</strong></Text>
 
+        <Container
+         sx={{
+           margin: 0,
+           padding: 0,
+           display: 'flex',
+           justifyContent: 'center',
+            alignItems: 'center',
+           width:"100%"
+           
+         }}
+       >
+         <iframe sx={{
+        border: "None",
+      }} src="https://whimsical.com/embed/Ww44y1QzyexHKuXJzbpQCi@7YNFXnKbYm2NUzpRWG8V8"></iframe>
+       </Container>
+
       </Container>
     </Box>
+
+    
   );
 };
 

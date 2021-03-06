@@ -78,10 +78,10 @@ const PrizesSection = () => {
             mt: [3]
           }}
         >
-          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/social.png" heading="Social Good" />
-          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/entertainment.jpg" heading="Fun & Entertainment" />
-          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/oldhacks.jpg" heading="Old Hacks" />
-          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/innovation.jpg" heading="Open Innovation" />
+          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/social.png" heading="Social Good" description="Winner in this track gets prizes worth $1600" />
+          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/entertainment.jpg" heading="Fun & Entertainment" description="Winner in this track gets prizes worth $1600" />
+          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/oldhacks.jpg" heading="Old Hacks" description="Winner in this track gets prizes worth $1600" />
+          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/innovation.jpg" heading="Open Innovation" description="Winner in this track gets prizes worth $1600" />
         </Grid>
 
         <Grid
@@ -97,36 +97,19 @@ const PrizesSection = () => {
           }}
         >
           <SponsoredPrize
-            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/trophy.png"
-            name="Prize Name"
-            amount="$150k"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat."
-          />
-
-          <SponsoredPrize
-            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/trophy.png"
-            name="Prize Name"
-            amount="$150k"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat."
-            src="/images/past4.png"
+            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/past4.png"
             name="Best hack built with Matic"
             amount="Rs. 15,000"
           />
 
           <SponsoredPrize
-            src="/images/tezos.png"
+            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/tezos.png"
             name="Best hack built with Tezos"
             amount="Rs. 20,000"
           />
 
           <SponsoredPrize
-            src="/images/portis.png"
+            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/portis.png"
             name="Best hack built with Portis"
             amount="Rs. 15,000"
           />
@@ -138,7 +121,7 @@ const PrizesSection = () => {
           />
 
           <SponsoredPrize
-            src="/images/sashido.png"
+            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/sashido.png"
             name="Best hack built with ML and SashiDo"
             description="3 special prizes to top three winners"
           />
