@@ -160,7 +160,7 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       </Box>
 
       <Box className="navLink" sx={{mb: [4, 0]}}>
-        <Link href='/'>
+        <Link href='/timeline'>
           <a>Timeline</a>
         </Link>
       </Box>
@@ -171,19 +171,13 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
         </Link>
       </Box>
 
-      <Box className="navLink" sx={{mb: [4, 0]}}>
-        <Link href='/gallery'>
-          <a>Gallery</a>
-        </Link>
-      </Box>
-
-      <Box className="navLink" sx={{mb: [4, 0]}}>
+      {/* <Box className="navLink" sx={{mb: [4, 0]}}>
        <Link>
        <a href="https://frame.dscnitrourkela.org" target="_blank">Badge</a>
        </Link>
-      </Box>
+      </Box> */}
     </Container>
-    
+
     {props.music && (
       <Link style={{ cursor: 'pointer' }}>
         <Music muted={muted} handleMute={handleMute} />
