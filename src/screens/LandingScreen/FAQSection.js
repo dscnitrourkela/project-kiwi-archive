@@ -73,7 +73,7 @@ const FAQSection = () => {
           sx={{ alignItems: 'center', span: { color: 'white' } }}
         >
           <Image
-            src="/images/image2.svg"
+            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/image2.svg"
             alt="FAQ Image"
             // width={512}
           />

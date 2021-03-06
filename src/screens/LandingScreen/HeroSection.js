@@ -119,7 +119,7 @@ const HeroSection = () => {
       
       
         <Image
-          src="/images/undraw2.png"
+          src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/undraw2.png"
           alt="Hackathon Cover"
           width={512}
           sx={{

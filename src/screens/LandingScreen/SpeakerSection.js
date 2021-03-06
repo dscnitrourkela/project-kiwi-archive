@@ -96,7 +96,7 @@ const SpeakerSection = () => {
                   borderRadius: ['10px 10px 0 0', '10px 0 0 10px'],
                   minWidth: '40%'
                 }}
-                src="/images/Speakers/gauravsen2.jpg"
+                src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/Speakers/gauravsen2.jpg"
               />
               <Box
                 sx={{
@@ -253,7 +253,7 @@ const SpeakerSection = () => {
                   objectFit: 'cover',
                   borderRadius: ['10px 10px 0 0', '10px 0 0 10px']
                 }}
-                src="/images/Speakers/Juan.jpg"
+                src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/Speakers/Juan.jpg"
               />
               <Box
                 sx={{

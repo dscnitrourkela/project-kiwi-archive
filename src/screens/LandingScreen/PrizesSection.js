@@ -52,7 +52,7 @@ const PrizesSection = () => {
           }}
         >
           <SponsoredPrize
-            src="/images/first.png"
+            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/first.png"
             name="Overall Winner get prizes worth $2400"
             // amount="$150k"
             // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -74,10 +74,10 @@ const PrizesSection = () => {
             mt: [3]
           }}
         >
-          <CategoryPrize src="/images/social.png" heading="Social Good" />
-          <CategoryPrize src="/images/entertainment.jpg" heading="Fun & Entertainment" />
-          <CategoryPrize src="/images/oldhacks.jpg" heading="Old Hacks" />
-          <CategoryPrize src="/images/innovation.jpg" heading="Open Innovation" />
+          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/social.png" heading="Social Good" />
+          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/entertainment.jpg" heading="Fun & Entertainment" />
+          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/oldhacks.jpg" heading="Old Hacks" />
+          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/innovation.jpg" heading="Open Innovation" />
         </Grid>
 
         <Grid
@@ -93,7 +93,7 @@ const PrizesSection = () => {
           }}
         >
           <SponsoredPrize
-            src="/images/trophy.png"
+            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/trophy.png"
             name="Prize Name"
             amount="$150k"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -103,7 +103,7 @@ const PrizesSection = () => {
           />
 
           <SponsoredPrize
-            src="/images/trophy.png"
+            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/trophy.png"
             name="Prize Name"
             amount="$150k"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
