@@ -107,12 +107,12 @@ const HeroSection = () => {
             <a href="https://hacknitr.tech/discord" target="_blank">
               <Image
                 sx={{
-                  maxHeight: '42px',
+                  maxHeight: '50px',
                   backgroundColor: '#fff',
                   pl: '4rem',
                   pr: '4rem',
-                  pt: '0.5rem',
-                  pb: '0.5rem',
+                  pt: '0.3rem',
+                  pb: '0.3rem',
                   borderRadius: '3px'
                 }}
                 src="/images/discordblack.png"
