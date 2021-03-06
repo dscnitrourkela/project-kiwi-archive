@@ -1,6 +1,6 @@
 import Nav from '../../components/nav';
 import Footer from '../../components/footer';
-import Gallery from './gallery'
+import TimelineScreen from './TimelineScreen'
 
 const color = '#f6f6f6';
 
@@ -9,7 +9,7 @@ const GalleryScreen = () => {
     <>
       <Nav color={color} dark />
 
-      <Gallery />
+      <TimelineScreen />
 
       <Footer dark />
     </>

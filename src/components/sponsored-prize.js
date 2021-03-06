@@ -23,12 +23,12 @@ const SponsoredPrize = (props) => {
           style={{ objectFit: 'contain', height: '250px', width: '100%', paddingTop: '5px' }}
         />
       </div>
-      <div style={{ padding: '1rem' }}>
-        <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Heading as="h3" sx={{textAlign: 'center'}}>{name}</Heading>
-          {/* <Heading as="h2">
+      <div style={{ padding: '1rem', backgroundColor: '#1F2D3D' }}>
+        <Box sx={{ display: 'flex', justifyContent: 'space-between'}}>
+          <Heading as="h3" sx={{textAlign: 'left'}}>{name}</Heading>
+          <Heading as="h3">
             <Text>{amount}</Text>
-          </Heading> */}
+          </Heading>
         </Box>
         <Text as="p" sx={{ color: '#8492A6', textAlign: 'justify' }}>
           {description}
