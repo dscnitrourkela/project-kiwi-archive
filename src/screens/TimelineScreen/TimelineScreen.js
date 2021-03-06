@@ -78,35 +78,44 @@ const Gallery = () => {
 
             <tr>
               <td>1</td>
-              <td>Loren Ipsum sit dolor emit blah blah</td>
+              <td>Siddharth's Workshop</td>
               <td>14/03/2021</td>
               <td>Loren Ipsum</td>
-              <td> <h6 className="mini-events"> Mini Event </h6> </td>
+              <td> <h6 className="workshops"> Workshop </h6> </td>
               <td>Loren Ipsum</td>
             </tr>
             
             <tr>
               <td>2</td>
-              <td>Loren Ipsum sit dolor emit blah blah</td>
+              <td>Microsoft Learn Student Ambassador's Talk</td>
               <td>15/03/2021</td>
               <td>Loren Ipsum</td>
-              <td> <h6 className="workshops"> Workshop </h6> </td>
+              <td> <h6 className="sessions"> Session </h6> </td>
               <td>Loren Ipsum</td>
             </tr>
 
             <tr>
               <td>1</td>
-              <td>Loren Ipsum sit dolor emit blah blah</td>
+              <td>Headstart to Competitive Programming - CodeChef</td>
               <td>16/03/2021</td>
-              <td>Loren Ipsum</td>
-              <td> <h6 className="mini-events"> Mini Event </h6> </td>
+              <td>8:00 PM</td>
+              <td> <h6 className="workshops"> Workshop </h6> </td>
               <td>Loren Ipsum</td>
             </tr>
             
             <tr>
               <td>2</td>
-              <td>Loren Ipsum sit dolor emit blah blah</td>
+              <td>Kahoot</td>
               <td>17/03/2021</td>
+              <td>10:00 PM</td>
+              <td> <h6 className="workshops"> Workshop </h6> </td>
+              <td>Loren Ipsum</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>AWS for Developers</td>
+              <td>18/03/2021</td>
               <td>Loren Ipsum</td>
               <td> <h6 className="workshops"> Workshop </h6> </td>
               <td>Loren Ipsum</td>
@@ -114,25 +123,106 @@ const Gallery = () => {
 
             <tr>
               <td>1</td>
-              <td>Loren Ipsum sit dolor emit blah blah</td>
+              <td>Mentor Booth</td>
               <td>18/03/2021</td>
               <td>Loren Ipsum</td>
               <td> <h6 className="mini-events"> Mini Event </h6> </td>
               <td>Loren Ipsum</td>
             </tr>
+
+            <tr>
+              <td>1</td>
+              <td>Team Building Events: Among Us, Psych, skribble, Codenames</td>
+              <td>18/03/2021</td>
+              <td>10:00 PM</td>
+              <td> <h6 className="mini-events"> Mini Event </h6> </td>
+              <td>Loren Ipsum</td>
+            </tr>
             
             <tr>
               <td>2</td>
-              <td>Loren Ipsum sit dolor emit blah blah</td>
+              <td>Keynote Session</td>
               <td>19/03/2021</td>
+              <td>5:00 PM</td>
+              <td> <h6 className="sessions"> Session </h6> </td>
               <td>Loren Ipsum</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Gaurav Sen Session</td>
+              <td>19/03/2021</td>
+              <td>6:00 PM</td>
+              <td> <h6 className="sessions"> Session </h6> </td>
+              <td>Loren Ipsum</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Check-In</td>
+              <td>19/03/2021</td>
+              <td>7:30 PM</td>
+              <td> <h6 className="workshops"> Workshop </h6> </td>
+              <td>Loren Ipsum</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Hacking Hours Begin</td>
+              <td>19/03/2021</td>
+              <td>10:00 PM</td>
+              <td> <h6 className="workshops"> Workshop </h6> </td>
+              <td>Loren Ipsum</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Mini Event</td>
+              <td>19/03/2021</td>
+              <td>10:30 PM</td>
+              <td> <h6 className="mini-events"> Mini Event </h6> </td>
+              <td>Loren Ipsum</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>Mentor Booth</td>
+              <td>20/03/2021</td>
+              <td>Loren Ipsum</td>
+              <td> <h6 className="mini-events"> Mini Event </h6> </td>
+              <td>Loren Ipsum</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>Mini Event</td>
+              <td>20/03/2021</td>
+              <td>Loren Ipsum</td>
+              <td> <h6 className="mini-events"> Mini Event </h6> </td>
+              <td>Loren Ipsum</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>CodeChef Hour</td>
+              <td>20/03/2021</td>
+              <td>2:00 PM</td>
               <td> <h6 className="workshops"> Workshop </h6> </td>
               <td>Loren Ipsum</td>
             </tr>
 
             <tr>
               <td>1</td>
-              <td>Loren Ipsum sit dolor emit blah blah</td>
+              <td>Logan Kilpatrick's Session</td>
+              <td>20/03/2021</td>
+              <td>7:30 PM</td>
+              <td> <h6 className="sessions"> Session </h6> </td>
+              <td>Loren Ipsum</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>Mini Event</td>
               <td>20/03/2021</td>
               <td>Loren Ipsum</td>
               <td> <h6 className="mini-events"> Mini Event </h6> </td>
@@ -141,9 +231,45 @@ const Gallery = () => {
             
             <tr>
               <td>2</td>
-              <td>Loren Ipsum sit dolor emit blah blah</td>
+              <td>Hacking Hours End</td>
+              <td>21/03/2021</td>
+              <td>10:00 AM</td>
+              <td> <h6 className="workshops"> Workshop </h6> </td>
+              <td>Loren Ipsum</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>DSC Manager Session</td>
+              <td>21/03/2021</td>
+              <td>6:00 PM</td>
+              <td> <h6 className="sessions"> Session </h6> </td>
+              <td>Loren Ipsum</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Project Showcase</td>
               <td>21/03/2021</td>
               <td>Loren Ipsum</td>
+              <td> <h6 className="workshops"> Workshop </h6> </td>
+              <td>Loren Ipsum</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Juan Pablo's Session</td>
+              <td>21/03/2021</td>
+              <td>10:00 PM</td>
+              <td> <h6 className="workshops"> Workshop </h6> </td>
+              <td>Loren Ipsum</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Prizes Announcement</td>
+              <td>27/03/2021</td>
+              <td>lorem</td>
               <td> <h6 className="workshops"> Workshop </h6> </td>
               <td>Loren Ipsum</td>
             </tr>
