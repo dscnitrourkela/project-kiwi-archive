@@ -119,6 +119,12 @@ const PrizesSection = () => {
             name="Best hack built with Matic"
             amount="$1118"
           />
+
+          <SponsoredPrize
+            src="/images/sashido.png"
+            name="Best hack built with ML and SashiDo"
+            description="3 special prizes to top three winners"
+          />
         </Grid>
       </Container>
     </Box>

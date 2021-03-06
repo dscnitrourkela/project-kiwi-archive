@@ -30,9 +30,9 @@ const SponsoredPrize = (props) => {
             <Text>{amount}</Text>
           </Heading>
         </Box>
-        {/* <Text as="p" sx={{ color: '#8492A6', textAlign: 'justify' }}>
+        <Text as="p" sx={{ color: '#8492A6', textAlign: 'justify' }}>
           {description}
-        </Text> */}
+        </Text>
       </div>
     </Card>
   );
