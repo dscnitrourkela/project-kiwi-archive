@@ -13,7 +13,7 @@ const PrizesSection = () => {
         py: [4, 5],
         color: 'white',
         minHeight: '100vh',
-        backgroundColor: theme.colors.darker,
+        backgroundColor: theme.colors.dark,
         height: 'fit-content',
         position: 'relative',
         display: 'flex',
@@ -42,26 +42,6 @@ const PrizesSection = () => {
           </Text>
         </Heading>
 
-        <Container
-          sx={{
-            width: ['100%', '85%', '50%'],
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            marginTop: ['2rem', 0]
-          }}
-        >
-          <SponsoredPrize
-            src="/images/first.png"
-            name="Overall Winner get prizes worth $2400"
-            // amount="$150k"
-            // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            //     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            //     enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            //     nisi ut aliquip ex ea commodo consequat."
-          />
-        </Container>
-
         <Grid
           pt={[3, 4]}
           pb={[4, 5]}
@@ -74,10 +54,34 @@ const PrizesSection = () => {
             mt: [3]
           }}
         >
-          <CategoryPrize src="/images/social.png" heading="Social Good" />
-          <CategoryPrize src="/images/entertainment.jpg" heading="Fun & Entertainment" />
-          <CategoryPrize src="/images/oldhacks.jpg" heading="Old Hacks" />
-          <CategoryPrize src="/images/innovation.jpg" heading="Open Innovation" />
+          <SponsoredPrize
+            src="/images/first.png"
+            name="Overall Winner get prizes worth $2400"
+          />
+
+          <SponsoredPrize
+            src="/images/women.svg"
+            name="All women team get prizes worth $2200"
+          />
+
+        </Grid>
+
+        <Grid
+          pt={[3, 4]}
+          pb={[4, 5]}
+          pl={[1, 3]}
+          pr={[1, 3]}
+          gap={[4, 3, 4]}
+          columns={[1, 2, 4]}
+          sx={{
+            textAlign: 'left',
+            mt: [3]
+          }}
+        >
+          <CategoryPrize src="/images/social.png" heading="Social Good" description="Winner in this track gets prizes worth $1600" />
+          <CategoryPrize src="/images/entertainment.jpg" heading="Fun & Entertainment" description="Winner in this track gets prizes worth $1600" />
+          <CategoryPrize src="/images/oldhacks.jpg" heading="Old Hacks" description="Winner in this track gets prizes worth $1600" />
+          <CategoryPrize src="/images/innovation.jpg" heading="Open Innovation" description="Winner in this track gets prizes worth $1600" />
         </Grid>
 
         <Grid
@@ -93,23 +97,27 @@ const PrizesSection = () => {
           }}
         >
           <SponsoredPrize
-            src="/images/trophy.png"
-            name="Prize Name"
-            amount="$150k"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat."
+            src="/images/past4.png"
+            name="Best hack built with Matic"
+            amount="Rs. 15,000"
           />
 
           <SponsoredPrize
-            src="/images/trophy.png"
-            name="Prize Name"
-            amount="$150k"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat."
+            src="/images/tezos.png"
+            name="Best hack built with Tezos"
+            amount="Rs. 20,000"
+          />
+
+          <SponsoredPrize
+            src="/images/portis.png"
+            name="Best hack built with Portis"
+            amount="Rs. 15,000"
+          />
+
+          <SponsoredPrize
+            src="/images/echoar.png"
+            name="Best hack built with Matic"
+            amount="$1118"
           />
         </Grid>
       </Container>
