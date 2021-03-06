@@ -1,9 +1,10 @@
-import { Box, Container, Heading, Image, Text } from 'theme-ui';
+import { Box, Container, Heading, Image, Text, Grid } from 'theme-ui';
 import theme from '../../lib/theme';
 
 import SlideDown from '../../components/slide-down';
 
 import { keyframes } from '@emotion/core';
+import { Link } from 'react-scroll';
 
 const floating = keyframes`
   from {
@@ -63,7 +64,7 @@ const HeroSection = () => {
         <Heading
           as="h1"
           variant="ultratitle"
-          mt={[5, 3]}
+          mt={[3, 3]}
           sx={{
             color,
             textTransform: 'uppercase',
@@ -79,23 +80,47 @@ const HeroSection = () => {
           as="p"
           variant="subtitle"
           mt={2}
-          mb={[1, 3]}
+          mb={[4, 3]}
           sx={{
             fontSize: [2, 4],
-            fontWeight: 'bold',
+            fontWeight: 'bold'
           }}
         >
-            19 - 21 MARCH, 2021
+          19 - 21 MARCH, 2021
         </Text>
 
-        <div 
-          className="apply-button" 
-          data-hackathon-slug="hacknitr2" 
-          data-button-theme="dark-inverted"
-          style={{height: '44px', width: '312px'}}
-        >
-          <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
-        </div>
+        <Grid gap={[4, 3, 4]} columns={[1, 2]}>
+          <div
+            className="apply-button"
+            data-hackathon-slug="hacknitr2"
+            data-button-theme="dark-inverted"
+            style={{ height: '44px', width: '312px', marginTop: '50px' }}
+          >
+            <script
+              defer
+              async
+              src="https://apply.devfolio.co/v2/sdk.js"
+            ></script>
+          </div>
+
+          <Box>
+            <a href="https://hacknitr.tech/discord" target="_blank">
+              <Image
+                sx={{
+                  maxHeight: '50px',
+                  backgroundColor: '#fff',
+                  pl: '4rem',
+                  pr: '4rem',
+                  pt: '0.3rem',
+                  pb: '0.3rem',
+                  borderRadius: '3px'
+                }}
+                src="/images/discordblack.png"
+                alt="Discord Button"
+              />
+            </a>
+          </Box>
+        </Grid>
       </SlideDown>
 
       <Container
@@ -116,8 +141,6 @@ const HeroSection = () => {
           }
         }}
       >
-      
-      
         <Image
           src="/images/undraw2.png"
           alt="Hackathon Cover"
@@ -129,7 +152,13 @@ const HeroSection = () => {
         />
       </Container>
       {/* <!-- Start of HubSpot Embed Code --> */}
-      <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8898157.js"></script>
+      <script
+        type="text/javascript"
+        id="hs-script-loader"
+        async
+        defer
+        src="//js.hs-scripts.com/8898157.js"
+      ></script>
       {/* <!-- End of HubSpot Embed Code --> */}
     </Box>
   );

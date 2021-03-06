@@ -2,7 +2,7 @@ import { Box, Heading, Image, Card } from 'theme-ui';
 import theme from '../lib/theme';
 
 const categoryPrize = (props) => {
- const {src, heading} = props;
+ const {src, heading, description} = props;
 
  return (
   <Card
@@ -16,6 +16,11 @@ const categoryPrize = (props) => {
       margin: 0,
     }}
   >
+    <div style={{padding: '1rem'}}>
+      <Box sx={{display: 'flex', justifyContent: 'center'}}>
+        <Heading as="h4">{heading}</Heading>
+      </Box>
+    </div>
     <div>
       <Image
         src={src}
@@ -24,7 +29,7 @@ const categoryPrize = (props) => {
     </div>
     <div style={{padding: '1rem'}}>
       <Box sx={{display: 'flex', justifyContent: 'center'}}>
-        <Heading as="h2">{heading}</Heading>
+        <Heading as="h3" sx={{textAlign: 'center'}}>{description}</Heading>
       </Box>
     </div>
   </Card>

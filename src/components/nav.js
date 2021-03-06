@@ -145,111 +145,38 @@ const NavBar = styled(Box)`
 
 const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
   <NavBar role="navigation" {...props}>
-    {/* <ScrollLink
-      offset={-50}
-      to="about-section"
-      smooth
-      children="About"
-      style={{ cursor: 'pointer' }}
-      className="navLink"
-      onClick={handleToggle}
-    /> */}
 
     <Container sx={{display: 'flex', flexDirection: ['column', 'row'], alignItems: 'center'}}>
-      <Box className="navLink">
+      <Box className="navLink" sx={{mb: [4, 0], mt: [4, 0]}}>
         <Link href='/'>
           <a>Home</a>
         </Link>
       </Box>
 
-      <Box className="navLink">
+      <Box className="navLink" sx={{mb: [4, 0]}}>
         <Link href='/sponsors'>
           <a>Sponsors</a>
         </Link>
       </Box>
 
-      <Box className="navLink">
-        <Link href='/'>
+      <Box className="navLink" sx={{mb: [4, 0]}}>
+        <Link href='/timeline'>
           <a>Timeline</a>
         </Link>
       </Box>
       
-      <Box className="navLink">
+      <Box className="navLink" sx={{mb: [4, 0]}}>
         <Link href='/'>
           <a>Guide</a>
         </Link>
       </Box>
 
-      <Box className="navLink">
-        <Link href='/gallery'>
-          <a>Gallery</a>
-        </Link>
-      </Box>
-
-      <Box className="navLink">
+      {/* <Box className="navLink" sx={{mb: [4, 0]}}>
+       <Link>
        <a href="https://frame.dscnitrourkela.org" target="_blank">Badge</a>
-      </Box>
+       </Link>
+      </Box> */}
     </Container>
-
-    {/* <ScrollLink
-      offset={-50}
-      to="themes-section"
-      smooth
-      children="Participate"
-      style={{ cursor: 'pointer' }}
-      className="navLink"
-      onClick={handleToggle}
-    /> */}
-
-    {/* <ScrollLink
-      offset={-50}
-      to="speaker-section"
-      smooth
-      children="Speakers"
-      style={{ cursor: 'pointer' }}
-      className="navLink"
-      onClick={handleToggle}
-    />
-
-    <ScrollLink
-      offset={-50}
-      to="tracks-section"
-      smooth
-      children="Tracks"
-      style={{ cursor: 'pointer' }}
-      className="navLink"
-      onClick={handleToggle}
-    />
-
-    <ScrollLink
-      offset={-50}
-      to="prizes-section"
-      smooth
-      children="Prizes"
-      style={{ cursor: 'pointer' }}
-      className="navLink"
-      onClick={handleToggle}
-    />
-
-    <ScrollLink
-      offset={-50}
-      to="sponsors-section"
-      smooth
-      children="Sponsors"
-      style={{ cursor: 'pointer' }}
-      className="navLink"
-      onClick={handleToggle}
-    />
-
-    <ScrollLink
-      offset={-50}
-      to="faq-section"
-      smooth
-      children="FAQ"
-      style={{ cursor: 'pointer' }}
-      className="navLink"
-      onClick={handleToggle}
-    /> */}
 
     {props.music && (
       <Link style={{ cursor: 'pointer' }}>
