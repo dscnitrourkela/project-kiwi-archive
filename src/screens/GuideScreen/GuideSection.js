@@ -8,7 +8,7 @@ const Gallery = () => {
       sx={{
         color: 'white',
         minHeight: '100vh',
-        // width: '100vw',
+        width: '100%',
         height: 'fit-content',
         pt: [5, 5],
         pb: [5, 6],
@@ -24,6 +24,7 @@ const Gallery = () => {
           padding: 0,
           justifyContent: 'left',
           alignItems: 'left',
+          width:"100%",
           h3:{
             margin:"2rem auto"
           }
@@ -68,25 +69,28 @@ const Gallery = () => {
           <li>The video should demonstrate your project and not be a presentation or pitch.</li>
           <li>You must link to a public code repository for your project.</li>
           <li>The project should be entirely built during the hackathon hours xcept for the hack which is built under the Old Hacks Track).</li>
-        </ul>   
+        </ul>
+        <h3>Pathways & Guide</h3>
         <Container
          sx={{
            margin: 0,
            padding: 0,
            display: 'flex',
            justifyContent: 'center',
-            alignItems: 'center',
-           minWidth:"1000px"
+           alignItems: 'center',
+            width: "100%",
+           height:"100vh"
            
          }}
        >
-         <iframe sx={{
-        border: "None",
-        minWidth:"100vw"
-      }} src="https://whimsical.com/embed/Ww44y1QzyexHKuXJzbpQCi@7YNFXnKbYm2NUzpRWG8V8"></iframe>
+         <iframe style={{
+          border: "None",
+          height:"100vh",
+          width:"100%"
+      }} src="https://whimsical.com/embed/Ww44y1QzyexHKuXJzbpQCi@7YNFXnKbYoW3uWdkVxnxL"></iframe>
        </Container>
         
-
+        <br/>
        <Text><strong>In case of any further queries, DM us on any of our social media handles mentioned above or write a mail to organiser@hackntir.tech</strong></Text>
       </Container>
     </Box>

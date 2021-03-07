@@ -46,7 +46,7 @@ const Gallery = () => {
               timelineData.map((date,i) => {
                 return date.events.map((event) => (
                     <tr>
-                    <td style={{alignContent:"left"}}>{event.title}</td>
+                    <td style={{textAlign:"left"}}>{event.title}</td>
                     <td>{date.date}</td>
                     <td>{event.time}</td>
                     <td> <h6 className={event.type.trim().toLowerCase()}> {event.type} </h6> </td>

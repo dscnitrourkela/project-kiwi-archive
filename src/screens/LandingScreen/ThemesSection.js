@@ -120,7 +120,7 @@ const ThemesSection = () => {
               icon="event-check"
               color="white"
               name="Awesome schwags"
-              desc="Participate and get a chance to win prizes "
+              desc="Submit your hack to win awesome schwags "
             />
           </Card>
 
