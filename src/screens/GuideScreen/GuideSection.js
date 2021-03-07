@@ -69,9 +69,6 @@ const Gallery = () => {
           <li>You must link to a public code repository for your project.</li>
           <li>The project should be entirely built during the hackathon hours xcept for the hack which is built under the Old Hacks Track).</li>
         </ul>   
-
-        <Text><strong>In case of any further queries, DM us on any of our social media handles mentioned above or write a mail to organiser@hackntir.tech</strong></Text>
-
         <Container
          sx={{
            margin: 0,
@@ -79,15 +76,18 @@ const Gallery = () => {
            display: 'flex',
            justifyContent: 'center',
             alignItems: 'center',
-           width:"100%"
+           minWidth:"1000px"
            
          }}
        >
          <iframe sx={{
         border: "None",
+        minWidth:"100vw"
       }} src="https://whimsical.com/embed/Ww44y1QzyexHKuXJzbpQCi@7YNFXnKbYm2NUzpRWG8V8"></iframe>
        </Container>
+        
 
+       <Text><strong>In case of any further queries, DM us on any of our social media handles mentioned above or write a mail to organiser@hackntir.tech</strong></Text>
       </Container>
     </Box>
 

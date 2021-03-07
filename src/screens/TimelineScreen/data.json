@@ -15,19 +15,9 @@
         "events":[
             {
                 "title":"Building for the next Billion Users",
-                "time":"17:30",
-                "type":"Sessions",
-                "host":"Nikitha Gandhi"
-            }
-        ]
-    },{        
-        "date":"13/03/2021",
-        "events":[
-            {
-                "title":"AngelHacks Student Ambassador Spotlight",
                 "time":"18:00",
                 "type":"Sessions",
-                "host":"Siddharth Dayalwal"
+                "host":"Nikitha Gandhi"
             }
         ]
     },{        
@@ -72,7 +62,7 @@
                 "host":"Suman Debnath"
             },
             {
-                "title":"Among Us",
+                "title":"Mini Event",
                 "time":"22:00",
                 "type":"MiniEvents",
                 "host":"HackNITR Team"
@@ -99,6 +89,12 @@
                 "time":"22:00",
                 "type":"TimeMarkers",
                 "host":"-"
+            },
+            {
+                "title":"What excites me to be a developer",
+                "time":"22:00",
+                "type":"Sessions",
+                "host":"Michael Paulson aka The Primeagen"
             }
         ]
     },
@@ -116,12 +112,30 @@
                 "time":"19:30",
                 "type":"Sessions",
                 "host":"Logan Klipatrick"
+            },
+            {
+                "title":"12 hrs left",
+                "time":"22:00",
+                "type":"TimeMarkers",
+                "host":"-"
+            },
+            {
+                "title":"Mini Event",
+                "time":"22:30",
+                "type":"MiniEvents",
+                "host":"HackNITR Team"
             }
         ]
     },
     {        
         "date":"21/03/2021",
         "events":[
+            {
+                "title":"1 hr left",
+                "time":"09:00",
+                "type":"TimeMarkers",
+                "host":"-"
+            },
             {
                 "title":"Hacking hours ends",
                 "time":"10:00",
@@ -133,6 +147,12 @@
                 "time":"18:00",
                 "type":"Sessions",
                 "host":"Siddhant Agarwal"
+            },
+            {
+                "title":"Submission Demo",
+                "time":"20:00",
+                "type":"Sessions",
+                "host":"HackNITR Team"
             },
             {
                 "title":"Exploring Tech through communities",
