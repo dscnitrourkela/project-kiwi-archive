@@ -1,0 +1,175 @@
+[    
+    
+    {        
+        "date":"10/03/2021",
+        "events":[
+            {
+                "title":"What is a Hackathon? How to be best at it?",
+                "time":"17:00",
+                "type":"Sessions",
+                "host":"Yash, Aditya x HackNITR & BitBox Team"
+            }
+        ]
+    },{        
+        "date":"12/03/2021",
+        "events":[
+            {
+                "title":"Building for the next Billion Users",
+                "time":"18:00",
+                "type":"Sessions",
+                "host":"Nikitha Gandhi"
+            }
+        ]
+    },{        
+        "date":"14/03/2021",
+        "events":[
+            {
+                "title":"AngelHacks Student Ambassador Spotlight",
+                "time":"18:00",
+                "type":"Workshops",
+                "host":"Siddharth Dayalwal"
+            }
+        ]
+    },
+    {        
+        "date":"16/03/2021",
+        "events":[
+            {
+                "title":"Headstart to Competitive Programmig",
+                "time":"20:00",
+                "type":"Workshops",
+                "host":"Sanket Singh"
+            }
+        ]
+    },{        
+        "date":"17/03/2021",
+        "events":[
+            {
+                "title":"Kahoot Quiz",
+                "time":"22:00",
+                "type":"MiniEvents",
+                "host":"HackNITR & BitBox Team"
+            }
+        ]
+    },
+    {        
+        "date":"18/03/2021",
+        "events":[
+            {
+                "title":"AWS for Developers",
+                "time":"18:00",
+                "type":"Workshops",
+                "host":"Suman Debnath"
+            },
+            {
+                "title":"Mini Event",
+                "time":"22:00",
+                "type":"MiniEvents",
+                "host":"HackNITR Team"
+            }
+        ]
+    },
+    {        
+        "date":"19/03/2021",
+        "events":[
+            {
+                "title":"Opening Ceremony",
+                "time":"17:00",
+                "type":"Sessions",
+                "host":"HackNITR Team"
+            },
+            {
+                "title":"System Design for Hackathons",
+                "time":"18:00",
+                "type":"Workshops",
+                "host":"Gaurav Sen"
+            },
+            {
+                "title":"Hacking Hours Begin",
+                "time":"22:00",
+                "type":"TimeMarkers",
+                "host":"-"
+            },
+            {
+                "title":"What excites me to be a developer",
+                "time":"22:00",
+                "type":"Sessions",
+                "host":"Michael Paulson aka The Primeagen"
+            }
+        ]
+    },
+    {        
+        "date":"20/03/2021",
+        "events":[
+            {
+                "title":"CodeChef Hour",
+                "time":"14:00",
+                "type":"MiniEvents",
+                "host":"CodeChef Team"
+            },
+            {
+                "title":"Connect with Julia Community Manager",
+                "time":"19:30",
+                "type":"Sessions",
+                "host":"Logan Klipatrick"
+            },
+            {
+                "title":"12 hrs left",
+                "time":"22:00",
+                "type":"TimeMarkers",
+                "host":"-"
+            },
+            {
+                "title":"Mini Event",
+                "time":"22:30",
+                "type":"MiniEvents",
+                "host":"HackNITR Team"
+            }
+        ]
+    },
+    {        
+        "date":"21/03/2021",
+        "events":[
+            {
+                "title":"1 hr left",
+                "time":"09:00",
+                "type":"TimeMarkers",
+                "host":"-"
+            },
+            {
+                "title":"Hacking hours ends",
+                "time":"10:00",
+                "type":"TimeMarkers",
+                "host":"-"
+            },
+            {
+                "title":"Keynote Session for closing ceremony",
+                "time":"18:00",
+                "type":"Sessions",
+                "host":"Siddhant Agarwal"
+            },
+            {
+                "title":"Submission Demo",
+                "time":"20:00",
+                "type":"Sessions",
+                "host":"HackNITR Team"
+            },
+            {
+                "title":"Exploring Tech through communities",
+                "time":"22:00",
+                "type":"Sessions",
+                "host":"Juan Pablo Flores"
+            }
+        ]
+    },{        
+        "date":"27/03/2021",
+        "events":[
+            {
+                "title":"Prizes Announcement",
+                "time":"TBA",
+                "type":"Workshops",
+                "host":"HackNITR Team"
+            }
+        ]
+    }
+]

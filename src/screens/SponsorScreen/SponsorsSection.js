@@ -96,7 +96,7 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/past.png"
+              src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/past.png"
               alt="Devfolio logo"
               sx={{
                 maxHeight: '5rem'
@@ -111,7 +111,7 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/github1.png"
+              src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/github1.png"
               alt="GitHub logo"
               sx={{
                 maxHeight: '7rem'
@@ -132,7 +132,7 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/sashido.png"
+              src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/sashido.png"
               alt="Sashido logo"
               sx={{
                 maxHeight: '5rem'
@@ -182,7 +182,7 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/codechef.png"
+              src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/codechef.png"
               alt="CodeChef Logo"
               sx={{
                 maxHeight: '4rem'
@@ -197,7 +197,7 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/past4.png"
+              src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/past4.png"
               alt="Matic Logo"
               sx={{ justifySelf: 'center' }}
             />
@@ -210,7 +210,7 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/portis.png"
+              src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/portis.png"
               alt="Portis Logo"
               sx={{
                 maxHeight: '20rem'
@@ -231,7 +231,7 @@ const SponsorsSection = () => {
               sx={{ justifySelf: 'center' }}
             >
               <Image
-                src="/images/tezos.png"
+                src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/tezos.png"
                 alt="Tezos Logo"
                 sx={{
                   maxHeight: '6rem'
@@ -246,7 +246,7 @@ const SponsorsSection = () => {
               sx={{ justifySelf: 'center' }}
             >
               <Image
-                src="/images/wolfram.png"
+                src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/wolfram.png"
                 alt="Wolfram Logo"
                 sx={{
                   maxHeight: '6rem'
@@ -298,7 +298,7 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/codex.png"
+              src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/codex.png"
               alt="Codex Logo"
               sx={{
                 maxHeight: '15rem'
@@ -313,7 +313,7 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/echoar.png"
+              src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/echoar.png"
               alt="EchoAR Logo"
               sx={{
                 maxHeight: '15rem'
@@ -328,7 +328,7 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/egghead.png"
+              src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/egghead.png"
               alt="Egghead Logo"
               sx={{
                 maxHeight: '15rem'
@@ -342,7 +342,7 @@ const SponsorsSection = () => {
               sx={{ justifySelf: 'center' }}
             >
               <Image
-                src="/images/interviewready2.png"
+                src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/interviewready2.png"
                 alt="InterviewReady Logo"
                 sx={{
                   maxHeight: '10rem'
@@ -357,7 +357,7 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/invision.png"
+              src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/invision.png"
               alt="Invision Logo"
               sx={{
                 maxHeight: '15rem'
@@ -372,7 +372,7 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/stickermule.png"
+              src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/stickermule.png"
               alt="Sticker Mule Logo"
               sx={{
                 maxHeight: '20rem'
@@ -393,7 +393,7 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/taskade.png"
+              src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/taskade.png"
               alt="Taskade Logo"
               sx={{
                 maxHeight: '6rem'
@@ -408,7 +408,7 @@ const SponsorsSection = () => {
               sx={{ justifySelf: 'center' }}
             >
               <Image
-                src="/images/Voiceflow.png"
+                src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/Voiceflow.png"
                 alt="Voiceflow Logo"
                 sx={{
                   maxHeight: '5rem'
@@ -460,7 +460,7 @@ const SponsorsSection = () => {
               sx={{ justifySelf: 'center' }}
             >
               <Image
-                src="/images/tweetbeam.png"
+                src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/tweetbeam.png"
                 alt="Tweetbeam logo"
                 sx={{
                   maxHeight: '10rem'
@@ -513,7 +513,7 @@ const SponsorsSection = () => {
             sx={{ justifySelf: 'center' }}
           >
             <Image
-              src="/images/noticebard.png"
+              src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/noticebard.png"
               alt="Noticebard logo"
               sx={{
                 maxHeight: '10rem'

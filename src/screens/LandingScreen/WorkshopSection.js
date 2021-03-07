@@ -50,6 +50,7 @@ const WorkshopSection = () => {
             href2="https://github.com/singhsanket143"
             icon2="github"
             title2="Sanket on GitHub"
+            href="https://calendar.google.com/calendar/u/0/r/eventedit?uid=5f4212d7db36e40015f240cf&location=http://hacknitr.tech/live&ctz=Asia/Calcutta&text=Codechef%20Workshop%20X%20HackNITR%202.0&dates=20210316T200000/20210316T210000&details=This%20is%20the%20reminder%20for%20the%20Codechef%20Workshop%20session%20on%20-%20%22%20Headstart%20to%20Competitive%20Programming%20by%20Sanket%20Singh%20%22.%20%0AHackNITR%202.0%20will%20be%20conducted%20entirely%20on%20Airmeet%20and%20the%20join%20link%20will%20be%20active%2006%20hrs%20before%20the%20event.%0A%0AJoin%20Link%3A%20http%3A%2F%2Fhacknitr.tech%2Flive"
           />
 
           <Workshop
@@ -57,13 +58,14 @@ const WorkshopSection = () => {
             title="AWS For Developers             "
             name="Suman Debnath"
             designation="Principal Developer Advocate at Amazon Web Services based in India"
-            description=""
+            description="An introductory workshop on the Amazon Web Services platform for developers by the Principal developer advocate of Amazon Web Services based in India."
             href1="https://twitter.com/_sumand"
             icon1="twitter"
             title1="Suman on Twitter"
             href2="https://github.com/debnsuma"
             icon2="github"
             title2="Suman on GitHub"
+            href="https://calendar.google.com/calendar/u/0/r/eventedit?uid=5f4212d7db36e40015f240cf&location=http://hacknitr.tech/live&ctz=Asia/Calcutta&text=AWS%20Workshop%20X%20HackNITR%202.0&dates=20210318T180000/20210318T200000&details=This%20is%20the%20reminder%20for%20the%20Suman%20Debnath%27s%20Workshop%20session%20on%20-%20%22%20AWS%20for%20Developers%20%22.%20%0AHackNITR%202.0%20will%20be%20conducted%20entirely%20on%20Airmeet%20and%20the%20join%20link%20will%20be%20active%2006%20hrs%20before%20the%20event.%0A%0AJoin%20Link%3A%20http%3A%2F%2Fhacknitr.tech%2Flive"
           />
         </Grid>
       </Container>

@@ -46,7 +46,7 @@ const TracksSection = () => {
                   height: '100%',
                   borderRadius: '10px'
                 }}
-                src="/images/social.png"
+                src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/social.png"
               />
               <Heading
                 as="h1"
@@ -83,7 +83,7 @@ const TracksSection = () => {
                   height: '100%',
                   borderRadius: '10px'
                 }}
-                src="/images/entertainment.jpg"
+                src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/entertainment.jpg"
               />
               <Heading
                 as="h1"
@@ -120,7 +120,7 @@ const TracksSection = () => {
                   height: '100%',
                   borderRadius: '10px'
                 }}
-                src="/images/oldhacks.jpg"
+                src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/oldhacks.jpg"
               />
               <Heading
                 as="h1"
@@ -156,7 +156,7 @@ const TracksSection = () => {
                   height: '100%',
                   borderRadius: '10px'
                 }}
-                src="/images/innovation.jpg"
+                src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/innovation.jpg"
               />
               <Heading
                 as="h1"

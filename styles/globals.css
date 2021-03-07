@@ -152,15 +152,15 @@ td {
   font-size: 20px;
 }
 
-.mini-events,
-.workshops,.sessions, .important-time-markers {
+.minievents,
+.workshops,.sessions, .timemarkers {
   font-weight: bold;
   margin: 5px;
   padding: 3px;
   border-radius: 5px;
 }
 
-.mini-events {
+.minievents {
   background-color: #4c748d;
 }
 .workshops {
@@ -169,7 +169,7 @@ td {
 .sessions {
   background-color: #3E7068;
 }
-.important-time-markers {
+.timemarkers {
   background-color: #A633D6;
 }
 

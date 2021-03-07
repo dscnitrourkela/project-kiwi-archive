@@ -165,8 +165,8 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
         </Link>
       </Box>
       
-      <Box className="navLink" sx={{mb: [4, 0]}}>
-        <Link href='/'>
+      <Box className="navLink">
+        <Link href='/guide'>
           <a>Guide</a>
         </Link>
       </Box>
