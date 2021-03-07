@@ -35,7 +35,8 @@ export default function workshop(props) {
     title1,
     href2,
     icon2,
-    title2
+    title2,
+    href
   } = props;
   return (
     <Box
@@ -124,7 +125,7 @@ export default function workshop(props) {
             </Heading>
             <Text
               sx={{
-                textAlign: 'justify',
+                textAlign: 'left',
                 fontSize: '14px',
                 pt: [1, 2],
                 pb: [1, 3]
@@ -188,7 +189,7 @@ export default function workshop(props) {
                     display: 'flex',
                     color: '#fff'
                   }}
-                  href="https://google.com"
+                  href={href}
                   target="_blank"
                 >
                   <Service
