@@ -106,7 +106,7 @@ const HeroSection = () => {
             style={{ height: '44px', width: '312px', marginTop: '50px' }}
           >
             <script
-              // defer
+              defer
               async
               src="https://apply.devfolio.co/v2/sdk.js"
             ></script>
