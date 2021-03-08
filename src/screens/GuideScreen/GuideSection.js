@@ -45,27 +45,33 @@ const Gallery = () => {
           <li>
             <strong>Devfolio</strong>(Registrations and Submissions){' '}
             <strong>:</strong>{' '}
-            <Link href="https://hacknitr2.devfolio.co/">
+            <Link target="_blank" href="https://hacknitr2.devfolio.co/">
               https://hacknitr2.devfolio.co/
             </Link>{' '}
           </li>
           <li>
             <strong>Discord:</strong>{' '}
-            <Link href="https://hacknitr.tech/discord">
+            <Link target="_blank" href="https://hacknitr.tech/discord">
               https://hacknitr.tech/discord
             </Link>
           </li>
           <li>
             <strong>Airmeet:</strong>(Virtual Conference for all workshops and
             sessions)<strong>:</strong>{' '}
-            <Link href="https://www.facebook.com/hacknitr">
+            <Link target="_blank" href="https://www.facebook.com/hacknitr">
               https://hacknitr.tech/live
             </Link>
           </li>
           <li>
             <strong>Timeline:</strong>{' '}
-            <Link href="https://hacknitr.tech/timeline">
+            <Link target="_blank" href="https://hacknitr.tech/timeline">
               https://hacknitr.tech/timeline
+            </Link>
+          </li>
+          <li>
+            <strong>Calendar:</strong>{' '}
+            <Link target="_blank" href="https://hacknitr.tech/calendar">
+              https://hacknitr.tech/calendar
             </Link>
           </li>
           <li>
