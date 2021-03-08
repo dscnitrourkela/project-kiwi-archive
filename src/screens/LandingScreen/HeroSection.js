@@ -89,7 +89,16 @@ const HeroSection = () => {
           19 - 21 MARCH, 2021
         </Text>
 
-        <Grid gap={[4, 3, 4]} columns={[1, 2]}>
+        <Grid
+          gap={[4, 3, 4]}
+          columns={[1, 2]}
+          sx={{
+            display: 'flex',
+            flexDirection: ['column', 'row'],
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
           <div
             className="apply-button"
             data-hackathon-slug="hacknitr2"
@@ -97,7 +106,7 @@ const HeroSection = () => {
             style={{ height: '44px', width: '312px', marginTop: '50px' }}
           >
             <script
-              defer
+              // defer
               async
               src="https://apply.devfolio.co/v2/sdk.js"
             ></script>
