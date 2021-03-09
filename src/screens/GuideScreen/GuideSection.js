@@ -70,8 +70,10 @@ const Gallery = () => {
           </li>
           <li>
             <strong>Calendar:</strong>{' '}
+  
             <Link target="_blank" href="https://bit.ly/HACKNITRCALENDAR">
               https://bit.ly/HACKNITRCALENDAR
+
             </Link>
           </li>
           <li>
