@@ -64,7 +64,7 @@ const HeroSection = () => {
         <Heading
           as="h1"
           variant="ultratitle"
-          mt={[3, 3]}
+          mt={[3, 0]}
           sx={{
             color,
             textTransform: 'uppercase',
@@ -90,27 +90,27 @@ const HeroSection = () => {
         </Text>
 
         <Grid
-          gap={[4, 3, 4]}
+          gap={[2, 3]}
           columns={[1, 2]}
           sx={{
             display: 'flex',
-            flexDirection: ['column', 'row'],
-            justifyContent: 'center',
-            alignItems: 'center'
+            flexDirection: ['column', 'row']
           }}
         >
-          <div
-            className="apply-button"
-            data-hackathon-slug="hacknitr2"
-            data-button-theme="dark-inverted"
-            style={{ height: '44px', width: '312px', marginTop: '50px' }}
-          >
-            <script
-              // defer
-              async
-              src="https://apply.devfolio.co/v2/sdk.js"
-            ></script>
-          </div>
+          <Box>
+            <div
+              className="apply-button"
+              data-hackathon-slug="hacknitr2"
+              data-button-theme="dark-inverted"
+              style={{
+                height: '44px',
+                width: '312px',
+                marginTop: '50px',
+              }}
+            >
+            <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+            </div>
+          </Box>
 
           <Box>
             <a href="https://hacknitr.tech/discord" target="_blank">

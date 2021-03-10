@@ -116,7 +116,7 @@ const PrizesSection = () => {
 
           <SponsoredPrize
             src="/images/echoar.png"
-            name="Best hack built with Matic"
+            name="Best hack built with EchoAR"
             amount="$1118"
           />
 
