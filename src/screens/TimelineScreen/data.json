@@ -79,6 +79,12 @@
                 "host":"HackNITR Team"
             },
             {
+                "title":"Octocat Challenge",
+                "time":"17:00",
+                "type":"MiniEvents",
+                "host":"-"
+            },
+            {
                 "title":"System Design for Hackathons",
                 "time":"18:00",
                 "type":"Workshops",
@@ -120,8 +126,14 @@
                 "host":"-"
             },
             {
-                "title":"Mini Event",
+                "title":"EchoAR",
                 "time":"22:30",
+                "type":"Workshops",
+                "host":"EchoAR"
+            },
+            {
+                "title":"Mini Event",
+                "time":"23:00",
                 "type":"MiniEvents",
                 "host":"HackNITR Team"
             }
