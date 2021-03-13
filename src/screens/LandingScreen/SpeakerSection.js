@@ -391,7 +391,7 @@ const SpeakerSection = () => {
             alignItems: 'center',
             justifyContent: 'center',
             margin: '0 auto',
-            mb: [5, 6]
+            mb: [5, 5]
           }}
         >
           <Container
@@ -710,6 +710,187 @@ const SpeakerSection = () => {
             </Box>
           </Container>
         </Grid>
+
+        <Grid
+          columns={[1, 1]}
+          gap={5}
+          sx={{
+            alignItems: 'center',
+            justifyContent: 'center',
+            margin: '0 auto',
+            mb: [5]
+          }}
+        >
+          <Container
+          sx={{
+            maxWidth: ['400px', '550px'],
+            cursor: 'pointer',
+            margin: '0 auto',
+            width: 'fit-content',
+            padding: '0',
+            borderRadius: '100px',
+            transition: 'transform .5s ease-in-out',
+            ':hover': {
+              transform: 'scale(1.1)'
+            }
+          }}
+        >
+          <Box
+            sx={{
+              display: 'flex',
+              flexDirection: ['column', 'row'],
+              boxShadow: '2px 2px 10px #000',
+              borderRadius: '10px'
+            }}
+          >
+            <Box
+              sx={{
+                minWidth: '200px',
+                borderRadius: ['10px 10px 0 0', '10px 0 0 10px'],
+                backgroundImage: ['none', 'url("/images/Speakers/primeagen1.jpg")'],
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat'
+              }}
+            >
+              <Image
+                  sx={{
+                    borderRadius: ['10px 10px 0 0', '10px 0 0 10px'],
+                    display: ['inherit', 'none'],
+                    width: '100%'
+                  }}
+                  src="/images/Speakers/primeagen1.jpg"
+                />
+            </Box>
+            <Box
+              sx={{
+                color: '#8492A6',
+                background: '#252429',
+                minWidth: ['200px', '300px'],
+                paddingLeft: '1rem',
+                paddingRight: '1rem',
+                borderRadius: ['0 0 10px 10px', '0 10px 10px 0']
+              }}
+            >
+              <Heading
+                sx={{
+                  textAlign: 'left',
+                  pt: ['0.7rem', '1.5rem'],
+                  pb: [1, 1],
+                  fontSize: [2, 3],
+                  color: '#fff'
+                }}
+              >
+                Michael Paulson
+              </Heading>
+              <Heading
+                sx={{
+                  textAlign: 'left',
+                  fontSize: '16px',
+                  pb: [1, 3],
+                  fontWeight: '400',
+                  color: '#fff'
+                }}
+              >
+                Senior Software Engineer, Netflix
+              </Heading>
+              <Text
+                sx={{
+                  textAlign: 'left',
+                  fontSize: '14px',
+                  pt: [1, 2],
+                  pb: [1, 3]
+                }}
+              >
+                Michael Paulson aka ThePrimeagen is a Twitch streamer that focuses on the joy of
+                programming and creating experiences that encourage and excite
+                people for engineering.
+              </Text>
+              <Box
+                sx={{
+                  display: 'flex',
+                  flexDirection: 'row',
+                  justifyContent: 'start',
+                  paddingBottom: ['0.6rem', '1rem'],
+                  paddingTop: '5px'
+                }}
+              >
+                <Service
+                  href="https://twitter.com/ThePrimeagen"
+                  size={24}
+                  sx={{
+                    justifySelf: 'center',
+                    color: '#8492A6',
+                    ':hover': {
+                      color: '#EC3750'
+                    }
+                  }}
+                  icon="twitter"
+                  title="ThePrimeagen on Twitter"
+                />
+
+                <Service
+                  href="https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw"
+                  size={24}
+                  sx={{
+                    justifySelf: 'center',
+                    pl: '1rem',
+                    color: '#8492A6',
+                    ':hover': {
+                      color: '#EC3750'
+                    }
+                  }}
+                  icon="youtube"
+                  title="ThePrimeagen on Youtube"
+                />
+
+                {/* <Box
+                  sx={{
+                    fontSize: '12px',
+                    ml: ['30%', '40%'],
+                    mb: '0',
+                    backgroundColor: '#EC3750',
+                    backgroundImage: 'at left top, rgb(255,140,55)',
+                    padding: '3px 5px',
+                    borderRadius: '5px',
+                    color: '#fff'
+                  }}
+                >
+                  <a
+                    style={{
+                      textDecoration: 'none',
+                      display: 'flex',
+                      color: '#fff'
+                    }}
+                    href="https://calendar.google.com/calendar/u/0/r/eventedit?uid=5f4212d7db36e40015f240cf&location=http://hacknitr.tech/live&ctz=Asia/Calcutta&text=Juan%20Pablo%20Flores%20X%20HackNITR%202.0&dates=20210321T220000/20210321T230000&details=This%20is%20the%20reminder%20for%20Juan%20Pablo%20Flores%27s%20session.%20HackNITR%202.0%20will%20be%20conducted%20entirely%20on%20Airmeet%20and%20the%20join%20link%20will%20be%20active%2006%20hrs%20before%20the%20event.%0A%0AJoin%20Link%3A%20http%3A//hacknitr.tech/live"
+                    target="_blank"
+                  >
+                    <Service
+                      size={24}
+                      sx={{
+                        justifySelf: 'center',
+                        color: '#fff',
+                        ':hover': {
+                          color: '#fff'
+                        }
+                      }}
+                      icon="event-add"
+                      title="Add to Google Calendar"
+                    />
+                    <Text
+                      as="p"
+                      sx={{ pt: '3px', ':hover': { color: '#c0c0c0' } }}
+                    >
+                      Add to calendar
+                    </Text>
+                  </a>
+                </Box> */}
+              </Box>
+            </Box>
+          </Box>
+        </Container>
+        </Grid>
+
+        
       </Container>
     </Box>
   );
