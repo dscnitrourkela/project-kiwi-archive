@@ -18,6 +18,12 @@
                 "time":"18:00",
                 "type":"Sessions",
                 "host":"Nikita Gandhi"
+            },
+            {
+                "title":"Typing Race",
+                "time":"22:00",
+                "type":"MiniEvents",
+                "host":"HackNITR Team"
             }
         ]
     },{        
@@ -73,13 +79,19 @@
         "date":"19/03/2021",
         "events":[
             {
+                "title":"Hackers CheckIn",
+                "time":"00:00",
+                "type":"Timemarkers",
+                "host":"-"
+            },
+            {
                 "title":"Opening Ceremony",
                 "time":"17:00",
                 "type":"Sessions",
                 "host":"HackNITR Team"
             },
             {
-                "title":"Octocat Challenge",
+                "title":"Build your Octocat Challenge",
                 "time":"17:00",
                 "type":"MiniEvents",
                 "host":"-"
@@ -101,12 +113,24 @@
                 "time":"22:00",
                 "type":"Sessions",
                 "host":"Michael Paulson aka The Primeagen"
+            },
+            {
+                "title":"Speed Networking & Hangout with HackNITR Team",
+                "time":"22:30",
+                "type":"Minievents",
+                "host":"HackNITR Team"
             }
         ]
     },
     {        
         "date":"20/03/2021",
         "events":[
+            {
+                "title":"Speed Networking & Hangout with HackNITR Team",
+                "time":"11:00",
+                "type":"Minievents",
+                "host":"HackNITR Team"
+            },
             {
                 "title":"CodeChef Hour",
                 "time":"14:00",
@@ -153,6 +177,12 @@
                 "time":"10:00",
                 "type":"TimeMarkers",
                 "host":"-"
+            },
+            {
+                "title":"Speed Networking & Hangout with HackNITR Team",
+                "time":"17:00",
+                "type":"Minievents",
+                "host":"HackNITR Team"
             },
             {
                 "title":"Keynote Session for closing ceremony",
