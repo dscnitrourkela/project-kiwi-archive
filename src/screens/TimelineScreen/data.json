@@ -36,12 +36,22 @@
                 "host":"Siddharth Dayalwal"
             }
         ]
+    },{        
+        "date":"15/03/2021",
+        "events":[
+            {
+                "title":"Discord Bots: Getting Started and Best Practices",
+                "time":"18:00",
+                "type":"Workshops",
+                "host":"Nimit Savant"
+            }
+        ]
     },
     {        
         "date":"16/03/2021",
         "events":[
             {
-                "title":"Headstart to Competitive Programmig",
+                "title":"Headstart to Competitive Programming",
                 "time":"20:00",
                 "type":"Workshops",
                 "host":"Sanket Singh"
