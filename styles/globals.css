@@ -153,7 +153,7 @@ td {
 }
 
 .minievents,
-.workshops,.sessions, .timemarkers {
+.workshops,.sessions, .timemarkers, .events {
   font-weight: bold;
   margin: 5px;
   padding: 3px;
@@ -171,5 +171,8 @@ td {
 }
 .timemarkers {
   background-color: #A633D6;
+}
+.events {
+  background-color: #9F9048;
 }
 
