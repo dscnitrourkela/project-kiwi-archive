@@ -87,7 +87,7 @@
             {
                 "title":"Opening Ceremony",
                 "time":"17:00",
-                "type":"Sessions",
+                "type":"Events",
                 "host":"HackNITR Team"
             },
             {
@@ -117,7 +117,7 @@
             {
                 "title":"Speed Networking & Hangout with HackNITR Team",
                 "time":"22:30",
-                "type":"Minievents",
+                "type":"Events",
                 "host":"HackNITR Team"
             }
         ]
@@ -128,7 +128,7 @@
             {
                 "title":"Speed Networking & Hangout with HackNITR Team",
                 "time":"11:00",
-                "type":"Minievents",
+                "type":"Events",
                 "host":"HackNITR Team"
             },
             {
@@ -181,7 +181,7 @@
             {
                 "title":"Speed Networking & Hangout with HackNITR Team",
                 "time":"17:00",
-                "type":"Minievents",
+                "type":"Events",
                 "host":"HackNITR Team"
             },
             {
@@ -193,7 +193,7 @@
             {
                 "title":"Submission Demo",
                 "time":"20:00",
-                "type":"Sessions",
+                "type":"Events",
                 "host":"HackNITR Team"
             },
             {
@@ -209,7 +209,7 @@
             {
                 "title":"Prizes Announcement",
                 "time":"TBA",
-                "type":"Workshops",
+                "type":"Events",
                 "host":"HackNITR Team"
             }
         ]
