@@ -884,6 +884,7 @@ const SpeakerSection = () => {
                     </Text>
                   </a>
                 </Box>
+
               </Box>
             </Box>
           </Box>
