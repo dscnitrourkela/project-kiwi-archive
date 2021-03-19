@@ -109,8 +109,14 @@
             {
                 "title":"System Design for Hackathons",
                 "time":"18:00",
-                "type":"Workshops",
+                "type":"Sessions",
                 "host":"Gaurav Sen"
+            },
+            {
+                "title":"Building DApps using Tezos",
+                "time":"20:00",
+                "type":"Workshops",
+                "host":"Mohit Marda"
             },
             {
                 "title":"Hacking Hours Begin",
