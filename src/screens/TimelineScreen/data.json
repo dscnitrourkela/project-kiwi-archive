@@ -170,12 +170,6 @@
                 "time":"22:30",
                 "type":"Workshops",
                 "host":"EchoAR"
-            },
-            {
-                "title":"Mini Event",
-                "time":"23:00",
-                "type":"MiniEvents",
-                "host":"HackNITR Team"
             }
         ]
     },

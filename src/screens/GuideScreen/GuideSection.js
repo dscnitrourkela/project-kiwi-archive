@@ -158,7 +158,7 @@ const Gallery = () => {
             <li>You must link to a public code repository for your project.</li>
             <li>
               The project should be entirely built during the hackathon hours
-              xcept for the hack which is built under the Old Hacks Track).
+              (except for the hack which is built under the Old Hacks Track).
             </li>
           </ul>
         </Container>
