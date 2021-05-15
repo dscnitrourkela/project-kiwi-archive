@@ -37,7 +37,7 @@ const PastSponsorsSection = () => {
               bg: 'rgb(255, 212, 64)'
             }}
           >
-            Past Sponsors
+            HackNITR 1.0 Sponsors
           </Text>
         </Heading>
         <Grid
@@ -52,14 +52,22 @@ const PastSponsorsSection = () => {
             span: { color: 'white' }
           }}
         >
-        <Link href="https://challengerocket.com/" target="_blank" rel="noreferrer">
+          <Link
+            href="https://challengerocket.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/crocket.png"
               alt="Challenge Rocket logo"
-              sx={{ maxHeight: '9rem'}}
+              sx={{ maxHeight: '9rem' }}
             />
           </Link>
-          <Link href="https://www.creative-tim.com/" target="_blank" rel="noreferrer">
+          <Link
+            href="https://www.creative-tim.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/CT.png"
               alt="creative-tim logo"
@@ -73,7 +81,11 @@ const PastSponsorsSection = () => {
               // width={512}
             />
           </Link>
-          <Link href="https://www.digitalocean.com/" target="_blank" rel="noreferrer">
+          <Link
+            href="https://www.digitalocean.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src="https://cdn.worldvectorlogo.com/logos/digitalocean-2.svg"
               alt="DigitalOcean logo"
@@ -85,7 +97,7 @@ const PastSponsorsSection = () => {
               src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/dotTECH.png"
               alt="dotTECH logo"
               sx={{
-                width: "95%"
+                width: '95%'
               }}
             />
           </Link>
@@ -94,7 +106,7 @@ const PastSponsorsSection = () => {
               src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/past5.png"
               alt="fold logo"
               sx={{
-                width: "90%"
+                width: '90%'
               }}
             />
           </Link>
@@ -102,24 +114,36 @@ const PastSponsorsSection = () => {
             <Image
               src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/github.png"
               alt="GitHub logo"
-              sx={{ maxHeight: '9rem'}}
+              sx={{ maxHeight: '9rem' }}
             />
           </Link>
-          <Link href="https://www.hackerearth.com/" target="_blank" rel="noreferrer">
+          <Link
+            href="https://www.hackerearth.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/hackerearth.png"
               alt="Hackerearth logo"
               // width={512}
             />
           </Link>
-          <Link href="https://www.invisionapp.com/" target="_blank" rel="noreferrer">
+          <Link
+            href="https://www.invisionapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/invision.png"
               alt="Invision logo"
               // width={512}
             />
           </Link>
-          <Link href="https://www.jetbrains.com/" target="_blank" rel="noreferrer">
+          <Link
+            href="https://www.jetbrains.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/past1.png"
               alt="Jetbrains logo"
@@ -132,7 +156,11 @@ const PastSponsorsSection = () => {
               alt="Matic Logo"
             />
           </Link>
-          <Link href="https://www.noticebard.com/" target="_blank" rel="noreferrer">
+          <Link
+            href="https://www.noticebard.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/NB.png"
               sx={{ maxHeight: '8rem' }}
@@ -154,14 +182,22 @@ const PastSponsorsSection = () => {
             span: { color: 'white' }
           }}
         >
-          <Link href="https://unitechindia.com/" target="_blank" rel="noreferrer">
+          <Link
+            href="https://unitechindia.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/unitech.png"
               alt="Unitech logo"
               sx={{ maxWidth: '10rem' }}
             />
           </Link>
-          <Link href="https://www.wolfram.com/language/" target="_blank" rel="noreferrer">
+          <Link
+            href="https://www.wolfram.com/language/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/wolfram.png"
               alt="Wolfram logo"
