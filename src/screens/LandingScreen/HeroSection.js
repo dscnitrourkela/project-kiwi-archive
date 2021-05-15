@@ -74,10 +74,10 @@ const HeroSection = () => {
             filter: `drop-shadow(0 0 1px ${color}) drop-shadow(0 0 2px ${color}) drop-shadow(0 0 6px ${color})`
           }}
         >
-          HACKNITR 2.0
+          HACKNITR 3.0
         </Heading>
         <Text
-          as="p"
+          as="h6"
           variant="subtitle"
           mt={2}
           mb={[4, 3]}
@@ -86,10 +86,22 @@ const HeroSection = () => {
             fontWeight: 'bold'
           }}
         >
-          19 - 21 MARCH, 2021
+          COMING SOON
+        </Text>
+        <Text
+          as="p"
+          variant="subtitle"
+          mt={1}
+          mb={[2, 1]}
+          sx={{
+            fontSize: [2, 2],
+            fontWeight: 'bold'
+          }}
+        >
+          (HackNITR 2.0 was held during 19-21 March, 2021)
         </Text>
 
-        <Grid
+        {/* <Grid
           gap={[2, 3]}
           columns={[1, 2]}
           sx={{
@@ -129,7 +141,7 @@ const HeroSection = () => {
               />
             </a>
           </Box>
-        </Grid>
+        </Grid> */}
       </SlideDown>
 
       <Container
