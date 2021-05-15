@@ -6,7 +6,7 @@ import theme from '../lib/theme';
 import Icon from './icon';
 import Flag from './flag';
 import ScrollLock from 'react-scrolllock';
-import NavLink from 'next/link'
+import NavLink from 'next/link';
 import { Link as ScrollLink } from 'react-scroll';
 import Music from './music';
 
@@ -145,36 +145,43 @@ const NavBar = styled(Box)`
 
 const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
   <NavBar role="navigation" {...props}>
-
-    <Container sx={{display: 'flex', flexDirection: ['column', 'row'], alignItems: 'center'}}>
-      <Box className="navLink" sx={{mb: [4, 0], mt: [4, 0]}}>
-        <Link href='/'>
+    <Container
+      sx={{
+        display: 'flex',
+        flexDirection: ['column', 'row'],
+        alignItems: 'center'
+      }}
+    >
+      <Box className="navLink" sx={{ mb: [4, 0], mt: [4, 0] }}>
+        <Link href="/">
           <a>Home</a>
         </Link>
       </Box>
 
-      <Box className="navLink" sx={{mb: [4, 0]}}>
-        <Link href='/sponsors'>
+      <Box className="navLink" sx={{ mb: [4, 0] }}>
+        <Link href="/sponsors">
           <a>Sponsors</a>
         </Link>
       </Box>
 
-      <Box className="navLink" sx={{mb: [4, 0]}}>
-        <Link href='/timeline'>
+      <Box className="navLink" sx={{ mb: [4, 0] }}>
+        <Link href="/timeline">
           <a>Timeline</a>
         </Link>
       </Box>
-      
-      <Box className="navLink" sx={{mb: [4, 0]}}>
-        <Link href='/guide'>
+
+      <Box className="navLink" sx={{ mb: [4, 0] }}>
+        <Link href="/guide">
           <a>Guide</a>
         </Link>
       </Box>
 
       <Box className="navLink">
-       <Link>
-       <a href="https://frame.dscnitrourkela.org" target="_blank">Frame</a>
-       </Link>
+        <Link>
+          <a href="https://frame.dscnitrourkela.org" target="_blank">
+            Frame
+          </a>
+        </Link>
       </Box>
     </Container>
 
