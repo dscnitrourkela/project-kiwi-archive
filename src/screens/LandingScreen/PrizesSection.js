@@ -38,7 +38,7 @@ const PrizesSection = () => {
               bg: 'rgb(255, 212, 64)'
             }}
           >
-            Prizes
+            Past Prizes
           </Text>
         </Heading>
 
@@ -63,7 +63,6 @@ const PrizesSection = () => {
             src="/images/women.svg"
             name="All women team get prizes worth $2200"
           />
-
         </Grid>
 
         <Grid
@@ -78,10 +77,26 @@ const PrizesSection = () => {
             mt: [3]
           }}
         >
-          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/social.png" heading="Social Good" description="Winner in this track gets prizes worth $1600" />
-          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/entertainment.jpg" heading="Fun & Entertainment" description="Winner in this track gets prizes worth $1600" />
-          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/oldhacks.jpg" heading="Old Hacks" description="Winner in this track gets prizes worth $1600" />
-          <CategoryPrize src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/innovation.jpg" heading="Open Innovation" description="Winner in this track gets prizes worth $1600" />
+          <CategoryPrize
+            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/social.png"
+            heading="Social Good"
+            description="Winner in this track gets prizes worth $1600"
+          />
+          <CategoryPrize
+            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/entertainment.jpg"
+            heading="Fun & Entertainment"
+            description="Winner in this track gets prizes worth $1600"
+          />
+          <CategoryPrize
+            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/oldhacks.jpg"
+            heading="Old Hacks"
+            description="Winner in this track gets prizes worth $1600"
+          />
+          <CategoryPrize
+            src="https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/innovation.jpg"
+            heading="Open Innovation"
+            description="Winner in this track gets prizes worth $1600"
+          />
         </Grid>
 
         <Grid
