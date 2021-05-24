@@ -1,5 +1,5 @@
 import ReactAudioPlayer from 'react-audio-player';
-import { Box, } from 'theme-ui';
+import { Box } from 'theme-ui';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faVolumeMute, faVolumeUp } from '@fortawesome/free-solid-svg-icons';
@@ -23,7 +23,7 @@ const Music = ({ muted, handleMute }) => {
         <ReactAudioPlayer
           src="https://github.com/dscnitrourkela/project-kiwi/blob/dev/public/music/score.mp3?raw=true"
           controls
-          autoPlay
+          // autoPlay
           muted={muted}
         />
       </Box>

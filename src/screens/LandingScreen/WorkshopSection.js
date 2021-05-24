@@ -24,7 +24,7 @@ const WorkshopSection = () => {
           variant="title"
           sx={{ my: [0, 4], textAlign: 'center' }}
         >
-          Workshops
+          Past Workshops
         </Heading>
 
         <Grid

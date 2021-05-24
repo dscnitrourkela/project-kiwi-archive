@@ -25,7 +25,7 @@ const ThemesSection = () => {
           variant="title"
           sx={{ my: [0, 4], textAlign: 'center' }}
         >
-          Why Participate in HackNITR 2.0 ?
+          Why Participate in HackNITR 3.0 ?
         </Heading>
         <Grid
           pt={[3, 4]}
@@ -48,15 +48,15 @@ const ThemesSection = () => {
             svg: { fill: 'currentColor' }
           }}
         >
-        <Card
-          variant="interactive"
-          sx={{
-            background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
-            color: 'white',
-            svg: { color: '#fb558e' },
-            minHeight: '20rem'
-          }}
-        >
+          <Card
+            variant="interactive"
+            sx={{
+              background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
+              color: 'white',
+              svg: { color: '#fb558e' },
+              minHeight: '20rem'
+            }}
+          >
             <Feature
               icon="code"
               color="white"
@@ -68,14 +68,14 @@ const ThemesSection = () => {
           <Card
             variant="interactive"
             sx={{
-              backgroundImage: 'url("https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/image1.jpg")',
+              backgroundImage:
+                'url("https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/image1.jpg")',
               backgroundSize: 'cover',
               color: '#5d114c',
               svg: { color: 'rgb(255,88,88)' },
               minHeight: '20rem'
             }}
-          >
-          </Card>
+          ></Card>
 
           <Card
             variant="interactive"
@@ -98,14 +98,14 @@ const ThemesSection = () => {
             variant="interactive"
             sx={{
               // background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
-              backgroundImage: 'url("https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/image2.jpg")',
+              backgroundImage:
+                'url("https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/image2.jpg")',
               backgroundSize: 'cover',
               color: 'white',
               svg: { color: '#fb558e' },
               minHeight: '20rem'
             }}
-          >
-          </Card>
+          ></Card>
 
           <Card
             variant="interactive"
@@ -127,16 +127,15 @@ const ThemesSection = () => {
           <Card
             variant="interactive"
             sx={{
-              backgroundImage: 'url("https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/schwags.jpg")',
+              backgroundImage:
+                'url("https://raw.githubusercontent.com/dscnitrourkela/project-kiwi/dev/public/images/schwags.jpg")',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               color: 'white',
               svg: { color: '#fb558e' },
               minHeight: '20rem'
             }}
-          >
-
-          </Card>
+          ></Card>
         </Grid>
       </Container>
     </Box>

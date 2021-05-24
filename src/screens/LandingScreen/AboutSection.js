@@ -21,7 +21,7 @@ const AboutSection = () => {
     >
       <Container>
         <Text as="p" variant="eyebrow" sx={{ textAlign: ['center', 'center'] }}>
-          HackNITR 2.0
+          HackNITR 3.0
         </Text>
         <Heading
           as="h2"
@@ -53,19 +53,25 @@ const AboutSection = () => {
           sx={{ maxWidth: 'copyUltra', mx: 'auto' }}
         >
           <Text as="p" variant="lead" sx={{ mt: 0, textAlign: 'center' }}>
-            HackNITR 2.0 is one of a kind hackathon brought to you by{' '}
-            <Link
-              rel="noreferrer"
-              sx={{ cursor: 'pointer' }}
-            >
-              <a href="https://opencodenitr.herokuapp.com/" target="_blank" style={{textDecoration: 'none'}}>OpenCode</a>
+            HackNITR 3.0 is one of a kind hackathon brought to you by{' '}
+            <Link rel="noreferrer" sx={{ cursor: 'pointer' }}>
+              <a
+                href="https://opencodenitr.herokuapp.com/"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                OpenCode
+              </a>
             </Link>{' '}
             and{' '}
-            <Link
-              rel="noreferrer"
-              sx={{ cursor: 'pointer' }}
-            >
-              <a href="https://dscnitrourkela.org/" target="_blank" style={{textDecoration: 'none'}}>DSC NIT Rourkela</a>
+            <Link rel="noreferrer" sx={{ cursor: 'pointer' }}>
+              <a
+                href="https://dscnitrourkela.org/"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                DSC NIT Rourkela
+              </a>
             </Link>
             . A unique opportunity to bring out your ideas and technological
             skills to win awesome prizes and swags.
