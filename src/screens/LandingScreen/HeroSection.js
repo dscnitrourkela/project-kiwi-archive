@@ -108,7 +108,7 @@ const HeroSection = () => {
           position: 'relative',
           width: '100%',
           maxWidth: 256,
-          minHeight: 256,
+          minHeight: '90vh',
           mx: 'auto',
           mt: [4, 3],
           img: {
