@@ -1,10 +1,4 @@
-import {
-  Box,
-  Container,
-  Grid,
-  Heading,
-  Image
-} from 'theme-ui';
+import { Box, Container, Grid, Heading, Image } from 'theme-ui';
 import theme from '../../lib/theme';
 import Feature from '../../components/feature';
 import Accordion from '../../components/accordion';
@@ -16,7 +10,7 @@ let data = [
   },
   {
     title: 'How to register?',
-    content: `Scroll up to the beginning of this page and find the "Apply with Devfolio" button. Alternatively head over to hacknitr2.devfolio.co. You can register for HackNITR 2.0 all the way till March 18, 2021`
+    content: `Scroll up to the beginning of this page and find the "Apply with Devfolio" button. Alternatively head over to hacknitr2.devfolio.co. You can register for HackNITR 3.0 all the way till March 18, 2021`
   },
   {
     title: 'Who can participate?',
@@ -86,7 +80,9 @@ const FAQSection = () => {
           desc={
             <>
               Feel free to reach out to us at{' '}
-              <a href="mailto:organiser@hacknitr.tech">organiser@hacknitr.tech</a>
+              <a href="mailto:organiser@hacknitr.tech">
+                organiser@hacknitr.tech
+              </a>
             </>
           }
           as="aside"
