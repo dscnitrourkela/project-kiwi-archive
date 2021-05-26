@@ -1,12 +1,12 @@
 import Head from 'next/head';
-import LandingScreen from '../src/screens/LandingScreen/index';
+import InductionScreen from '../src/screens/InductionScreen/index';
 
-export default function LandingPage() {
+export default function SponsorPage() {
   return (
     <>
       <Head>
         <title>HackNITR 3.0 | Virtual Edition</title>
-        <meta name="title" content="HackNITR 3.0 | Virtual Edition" />
+        <meta name="title" content="HackNITR 2.0 | Virtual Edition" />
         <meta
           name="description"
           content="Annual Hackathon at NIT Rourkela aiming to provide student developers, a platform to transform their ideas into prototypes, alongside amazing workshops, sessions and fun mini-events.  Awaiting awesome hackers like you!"
@@ -14,7 +14,7 @@ export default function LandingPage() {
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://hacknitr.tech/" />
-        <meta property="og:title" content="HackNITR 3.0 | Virtual Edition" />
+        <meta property="og:title" content="HackNITR 2.0 | Virtual Edition" />
         <meta
           property="og:description"
           content="Annual Hackathon at NIT Rourkela aiming to provide student developers, a platform to transform their ideas into prototypes, alongside amazing workshops, sessions and fun mini-events.  Awaiting awesome hackers like you!"
@@ -25,7 +25,7 @@ export default function LandingPage() {
         <meta property="twitter:url" content="https://hacknitr.tech/" />
         <meta
           property="twitter:title"
-          content="HackNITR 3.0 | Virtual Edition"
+          content="HackNITR 2.0 | Virtual Edition"
         />
         <meta
           property="twitter:description"
@@ -86,7 +86,7 @@ export default function LandingPage() {
         src="//js.hs-scripts.com/8898157.js"
       ></script>
 
-      <LandingScreen />
+      <InductionScreen />
     </>
   );
 }

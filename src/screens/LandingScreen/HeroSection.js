@@ -64,7 +64,7 @@ const HeroSection = () => {
         <Heading
           as="h1"
           variant="ultratitle"
-          mt={[3, 0]}
+          mt={[3, 5]}
           sx={{
             color,
             textTransform: 'uppercase',
@@ -86,7 +86,7 @@ const HeroSection = () => {
             fontWeight: 'bold'
           }}
         >
-          COMING IN OCTOBER'21
+          28 - 31 October, 2021
         </Text>
         <Text
           as="p"
@@ -123,7 +123,7 @@ const HeroSection = () => {
         <Image
           src="/images/diamond-jubilee.png"
           alt="Hackathon Cover"
-          width={384}
+          width={500}
           sx={{
             zIndex: 1,
             animation: `${floating} cubic-bezier(.55,.03,.43,.98) 8s infinite alternate`,
