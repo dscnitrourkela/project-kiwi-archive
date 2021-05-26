@@ -5,7 +5,7 @@ export default function SponsorPage() {
   return (
     <>
       <Head>
-        <title>HackNITR 2.0 | Virtual Edition</title>
+        <title>HackNITR 3.0 | Virtual Edition</title>
         <meta name="title" content="HackNITR 2.0 | Virtual Edition" />
         <meta
           name="description"
