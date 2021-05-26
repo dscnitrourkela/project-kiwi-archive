@@ -123,7 +123,7 @@ const HeroSection = () => {
         <Image
           src="/images/diamond-jubilee.png"
           alt="Hackathon Cover"
-          width={500}
+          width={400}
           sx={{
             zIndex: 1,
             animation: `${floating} cubic-bezier(.55,.03,.43,.98) 8s infinite alternate`,
