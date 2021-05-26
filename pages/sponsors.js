@@ -6,7 +6,7 @@ export default function SponsorPage() {
     <>
       <Head>
         <title>HackNITR 3.0 | Virtual Edition</title>
-        <meta name="title" content="HackNITR 2.0 | Virtual Edition" />
+        <meta name="title" content="HackNITR 3.0 | Virtual Edition" />
         <meta
           name="description"
           content="Annual Hackathon at NIT Rourkela aiming to provide student developers, a platform to transform their ideas into prototypes, alongside amazing workshops, sessions and fun mini-events.  Awaiting awesome hackers like you!"
@@ -14,7 +14,7 @@ export default function SponsorPage() {
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://hacknitr.tech/" />
-        <meta property="og:title" content="HackNITR 2.0 | Virtual Edition" />
+        <meta property="og:title" content="HackNITR 3.0 | Virtual Edition" />
         <meta
           property="og:description"
           content="Annual Hackathon at NIT Rourkela aiming to provide student developers, a platform to transform their ideas into prototypes, alongside amazing workshops, sessions and fun mini-events.  Awaiting awesome hackers like you!"
@@ -25,7 +25,7 @@ export default function SponsorPage() {
         <meta property="twitter:url" content="https://hacknitr.tech/" />
         <meta
           property="twitter:title"
-          content="HackNITR 2.0 | Virtual Edition"
+          content="HackNITR 3.0 | Virtual Edition"
         />
         <meta
           property="twitter:description"
