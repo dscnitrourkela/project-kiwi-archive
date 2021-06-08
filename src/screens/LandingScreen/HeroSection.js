@@ -88,18 +88,6 @@ const HeroSection = () => {
         >
           28 - 31 October, 2021
         </Text>
-        <Text
-          as="p"
-          variant="subtitle"
-          mt={1}
-          mb={[2, 1]}
-          sx={{
-            fontSize: [2, 2],
-            fontWeight: 'bold'
-          }}
-        >
-          (HackNITR 2.0 was held during 19-21 March, 2021)
-        </Text>
       </SlideDown>
 
       <Container
