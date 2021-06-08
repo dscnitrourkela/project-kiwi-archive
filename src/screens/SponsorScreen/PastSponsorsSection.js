@@ -37,7 +37,7 @@ const PastSponsorsSection = () => {
               bg: 'rgb(255, 212, 64)'
             }}
           >
-            HackNITR 1.0 Sponsors
+            1.0 Sponsors
           </Text>
         </Heading>
         <Grid
