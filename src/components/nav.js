@@ -6,9 +6,9 @@ import theme from '../lib/theme';
 import Icon from './icon';
 import Flag from './flag';
 import ScrollLock from 'react-scrolllock';
-import NavLink from 'next/link';
-import { Link as ScrollLink } from 'react-scroll';
-import Music from './music';
+// import NavLink from 'next/link';
+// import { Link as ScrollLink } from 'react-scroll';
+// import Music from './music';
 
 const rgbaBgColor = (props, opacity) =>
   `rgba(
@@ -160,7 +160,7 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
 
       <Box className="navLink" sx={{ mb: [4, 0] }}>
         <Link href="/sponsors">
-          <a>Sponsors</a>
+          <a>2.0</a>
         </Link>
       </Box>
 
@@ -184,11 +184,19 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
 
       <Box className="navLink">
         <Link>
+          <a href="https://hacknitr.tech/discord" target="_blank">
+            Discord
+          </a>
+        </Link>
+      </Box>
+
+      {/* <Box className="navLink">
+        <Link>
           <a href="https://frame.dscnitrourkela.org" target="_blank">
             Frame
           </a>
         </Link>
-      </Box>
+      </Box> */}
     </Container>
 
     {/* {props.music && (
