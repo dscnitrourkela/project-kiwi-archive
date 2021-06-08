@@ -23,6 +23,8 @@ const Service = ({ href, title, icon, size, ...props }) => (
   />
 );
 
+const color = theme.colors.primary;
+
 const SpeakerSection = () => {
   return (
     <Box
@@ -38,10 +40,48 @@ const SpeakerSection = () => {
       }}
     >
       <Container>
+        <Container
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            mt: [5, 5]
+          }}
+        >
+          <Heading
+            as="h1"
+            variant="ultratitle"
+            mt={[3, 5]}
+            sx={{
+              color,
+              textAlign: 'center',
+              textTransform: 'uppercase',
+              WebkitTextStroke: 'white',
+              WebkitTextStrokeWidth: '2px',
+              WebkitTextFillColor: 'transparent',
+              filter: `drop-shadow(0 0 1px ${color}) drop-shadow(0 0 2px ${color}) drop-shadow(0 0 6px ${color})`
+            }}
+          >
+            HACKNITR 2.0
+          </Heading>
+          <Text
+            as="h6"
+            variant="subtitle"
+            mt={2}
+            mb={[4, 3]}
+            sx={{
+              fontSize: [2, 4],
+              fontWeight: 'bold',
+              textAlign: 'center'
+            }}
+          >
+            19 - 21 March, 2021
+          </Text>
+        </Container>
         <Heading
           as="h2"
           variant="title"
-          sx={{ textAlign: 'center', mb: [5, 5], mt: [5, 5] }}
+          sx={{ textAlign: 'center', mb: [5, 5], mt: [2, 5] }}
         >
           <Text
             as="span"

@@ -35,7 +35,7 @@ const SponsorsSection = () => {
               bg: 'rgb(255, 212, 64)'
             }}
           >
-            HackNITR 2.0 Sponsors
+            2.0 Sponsors
           </Text>
         </Heading>
 
