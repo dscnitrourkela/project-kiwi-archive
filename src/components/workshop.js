@@ -184,6 +184,7 @@ export default function workshop(props) {
                 }}
               >
                 <a
+                  rel="noreferrer"
                   style={{
                     textDecoration: 'none',
                     display: 'flex',
