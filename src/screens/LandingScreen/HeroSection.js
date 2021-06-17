@@ -86,8 +86,21 @@ const HeroSection = () => {
             fontWeight: 'bold'
           }}
         >
-          28 - 31 October, 2021
+          29 - 31 October, 2021
         </Text>
+
+        <div
+          className="apply-button"
+          data-hackathon-slug="hacknitr3"
+          data-button-theme="dark-inverted"
+          style={{ height: '44px', width: '312px' }}
+        >
+          <script
+            defer
+            async
+            src="https://apply.devfolio.co/v2/sdk.js"
+          ></script>
+        </div>
       </SlideDown>
 
       <Container
