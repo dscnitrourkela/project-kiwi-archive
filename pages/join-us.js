@@ -86,7 +86,7 @@ export default function SponsorPage() {
         src="//js.hs-scripts.com/8898157.js"
       ></script>
 
-      <InductionScreen code="EEJYFQTZ" />
+      <InductionScreen code="o2X7YSNf" />
     </>
   );
 }

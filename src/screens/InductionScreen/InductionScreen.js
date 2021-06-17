@@ -2,7 +2,7 @@ import { Box, Button, Container, Grid, Heading, Text, Link } from 'theme-ui';
 import theme from '../../lib/theme';
 import TypeformEmbed from './TypeformEmbed';
 
-const InductionScreen = () => {
+const InductionScreen = ({ code }) => {
   return (
     <Box
       as="section"
@@ -19,39 +19,8 @@ const InductionScreen = () => {
         backgroundColor: theme.colors.darker
       }}
     >
-      {/* <div
-        style={{
-          margin: 0,
-          padding: 0,
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center'
-        }}
-        className="timeline"
-      >
-        <Heading
-          as="h2"
-          variant="title"
-          sx={{ textAlign: 'center', marginBottom: '1rem' }}
-        >
-          <Text
-            as="span"
-            sx={{
-              borderRadius: 'default',
-              px: 2,
-              mx: [-2, 0],
-              whiteSpace: 'nowrap',
-              color: '#5d114c',
-              bg: 'rgb(255, 212, 64)'
-            }}
-          >
-            HackNITR 3.0 Inductions
-          </Text>
-        </Heading>
-      </div> */}
-
       <div>
-        <TypeformEmbed />
+        <TypeformEmbed code={code} />
       </div>
     </Box>
   );

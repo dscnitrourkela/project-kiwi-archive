@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from '@emotion/styled';
 import { css, keyframes } from '@emotion/core';
-import { Box, Container, Flex, Text, Link } from 'theme-ui';
+import { Box, Container, Flex, Text, Link, Grid } from 'theme-ui';
 import theme from '../lib/theme';
 import Icon from './icon';
 import Flag from './flag';
@@ -149,7 +149,8 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       sx={{
         display: 'flex',
         flexDirection: ['column', 'row'],
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'space-around'
       }}
     >
       <Box className="navLink" sx={{ mb: [4, 0], mt: [4, 0] }}>
@@ -164,40 +165,44 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
         </Link>
       </Box>
 
-      {/* <Box className="navLink" sx={{ mb: [4, 0] }}>
-        <Link href="/timeline">
-          <a>Timeline</a>
-        </Link>
-      </Box> */}
-
-      {/* <Box className="navLink" sx={{ mb: [4, 0] }}>
-        <Link href="/guide">
-          <a>Guide</a>
-        </Link>
-      </Box> */}
-
       <Box className="navLink" sx={{ mb: [4, 0] }}>
         <Link href="/inductions">
           <a>Inductions</a>
         </Link>
       </Box>
 
-      <Box className="navLink">
-        <Link>
-          <a href="https://hacknitr.tech/discord" target="_blank">
-            Discord
-          </a>
+      <Box className="navLink" sx={{ mb: [4, 0] }}>
+        <Link href="/join-us">
+          <a>Join_Us</a>
         </Link>
       </Box>
 
-      {/* <Box className="navLink">
+      <Box className="navLink" sx={{ mb: [4, 0] }}>
+        <Link href="/sponsor-us">
+          <a style={{ width: 'fit-content' }}>Sponsor_Us</a>
+        </Link>
+      </Box>
+    </Container>
+
+    {/* <Box className="navLink" sx={{ mb: [4, 0] }}>
+        <Link href="/timeline">
+          <a>Timeline</a>
+        </Link>
+      </Box> */}
+
+    {/* <Box className="navLink" sx={{ mb: [4, 0] }}>
+        <Link href="/guide">
+          <a>Guide</a>
+        </Link>
+      </Box> */}
+
+    {/* <Box className="navLink">
         <Link>
           <a href="https://frame.dscnitrourkela.org" target="_blank">
             Frame
           </a>
         </Link>
       </Box> */}
-    </Container>
 
     {/* {props.music && (
       <Link style={{ cursor: 'pointer' }}>
