@@ -4,12 +4,12 @@ import InductionScreen from './InductionScreen';
 
 // const color = '#f6f6f6';
 
-const Inductions = () => {
+const Inductions = ({ code }) => {
   return (
     <>
       {/* <Nav color={color} dark /> */}
 
-      <InductionScreen />
+      <InductionScreen code={code} />
 
       {/* <Footer dark /> */}
     </>

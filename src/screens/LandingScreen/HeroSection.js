@@ -89,18 +89,47 @@ const HeroSection = () => {
           29 - 31 October, 2021
         </Text>
 
-        <div
-          className="apply-button"
-          data-hackathon-slug="hacknitr3"
-          data-button-theme="dark-inverted"
-          style={{ height: '44px', width: '312px' }}
+        <Grid
+          gap={[2, 3]}
+          columns={[1, 1]}
+          sx={{
+            display: 'flex',
+            flexDirection: ['column', 'column']
+          }}
         >
-          <script
-            defer
-            async
-            src="https://apply.devfolio.co/v2/sdk.js"
-          ></script>
-        </div>
+          <Box>
+            <a href="https://hacknitr.tech/discord" target="_blank">
+              <Image
+                sx={{
+                  maxHeight: '50px',
+                  backgroundColor: '#fff',
+                  pl: '4rem',
+                  pr: '4rem',
+                  pt: '0.3rem',
+                  pb: '0.3rem',
+                  borderRadius: '3px'
+                }}
+                src="/images/discordblack.png"
+                alt="Discord Button"
+              />
+            </a>
+          </Box>
+
+          <Box>
+            <div
+              className="apply-button"
+              data-hackathon-slug="hacknitr3"
+              data-button-theme="dark-inverted"
+              style={{ height: '44px', width: '312px' }}
+            >
+              <script
+                defer
+                async
+                src="https://apply.devfolio.co/v2/sdk.js"
+              ></script>
+            </div>
+          </Box>
+        </Grid>
       </SlideDown>
 
       <Container
@@ -124,7 +153,7 @@ const HeroSection = () => {
         <Image
           src="/images/diamond-jubilee.png"
           alt="Hackathon Cover"
-          width={400}
+          width={380}
           sx={{
             zIndex: 1,
             animation: `${floating} cubic-bezier(.55,.03,.43,.98) 8s infinite alternate`,
