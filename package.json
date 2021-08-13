@@ -23,7 +23,7 @@
     "bootstrap": "^4.5.3",
     "firebase": "^8.2.6",
     "lodash": "^4.17.21",
-    "next": "^10.0.4",
+    "next": "^11.1.0",
     "next-pwa": "^5.0.2",
     "react": "^17.0.1",
     "react-audio-player": "^0.14.0",
